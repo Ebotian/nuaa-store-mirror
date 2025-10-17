@@ -8,6 +8,7 @@ $~~~~$ こんにちは、ここではすべてが無料です。
 # nuaa.store的一个镜像
 ### 内容均来自nuaa.store
 ### 仅供学习使用，相关教程书籍著作权属于相关作者，试卷著作权属于学校，请勿用于商业行为
+### 相关文章中内容均为原作者观点，与搬运者无关
 
 #### 课程部分的其他资料见百度网盘 [https://pan.baidu.com/s/1eXGHSilhRTqRpj5DGfFY4Q?pwd=nuaa 提取码: nuaa](https://pan.baidu.com/s/1eXGHSilhRTqRpj5DGfFY4Q?pwd=nuaa)
 
@@ -16,7 +17,7 @@ $~~~~$ こんにちは、ここではすべてが無料です。
 - [ ] 南京航空航天大学 / NUAA ( 2 )
 - [ ] 新生荐读 ( 2 )
 - [ ] 通识 / General ( 5 )
-- [ ] 资源 / Resource ( 7 )
+- [x] 资源 / Resource ( 7 )
 - [ ] 网站 / Website ( 11 )
 - [x] 教程 / Guide ( 8 )
 - [x] 网课 / Online course ( 6 )
