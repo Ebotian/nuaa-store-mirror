@@ -1,0 +1,12 @@
+# 网站
+## [沙漠东诊疗手册-MSDManuals](https://www.msdmanuals.cn/)
+## [中国医药信息查询平台-China Medical Information Platform](https://www.dayi.org.cn/)
+## [KnowSex-性教育站](https://knowsex.net/)
+## [LKs 网站推荐合集-LKs Site Collection](https://lkssite.vip/)
+## [CS 自学指南-CS Self Learning](https://csdiy.wiki/)
+## [中国色-Chinese Colors](https://www.zhongguose.com/)
+## [Iconify Design-开源图标库](https://iconify.design/)
+## [Wormhole-简单，私密的文件分享](https://wormhole.app/)
+## [帮小忙-腾讯QQ浏览器在线工具箱](https://tool.browser.qq.com/)
+## [iFixit-免费维修手册](https://zh.ifixit.com/)
+## [大学生活质量指北](https://colleges.chat/)
