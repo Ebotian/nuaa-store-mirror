@@ -2,32 +2,17 @@ export type ThemeMode = "light" | "dark" | "contrast";
 
 type Palette = {
 	colors: {
-		surface: {
-			base: string;
-			elevated: string;
-			divider: string;
-		};
+		surface: { base: string; elevated: string; divider: string };
 		foreground: {
 			primary: string;
 			subtle: string;
 			muted: string;
 			inverted: string;
 		};
-		accent: {
-			glow: string;
-			focus: string;
-		};
-		status: {
-			danger: string;
-			warning: string;
-			success: string;
-		};
+		accent: { glow: string; focus: string };
+		status: { danger: string; warning: string; success: string };
 	};
-	shadows: {
-		card: string;
-		glow: string;
-		vignette: string;
-	};
+	shadows: { card: string; glow: string; vignette: string };
 };
 
 const motion = {
@@ -51,10 +36,7 @@ const palettes: Record<Exclude<ThemeMode, "contrast">, Palette> = {
 				muted: "28 24% 55%",
 				inverted: "216 48% 92%",
 			},
-			accent: {
-				glow: "32 96% 70%",
-				focus: "22 80% 56%",
-			},
+			accent: { glow: "32 96% 70%", focus: "22 80% 56%" },
 			status: {
 				danger: "0 70% 46%",
 				warning: "35 100% 56%",
@@ -80,10 +62,7 @@ const palettes: Record<Exclude<ThemeMode, "contrast">, Palette> = {
 				muted: "222 28% 58%",
 				inverted: "36 42% 94%",
 			},
-			accent: {
-				glow: "141 100% 74%",
-				focus: "39 100% 70%",
-			},
+			accent: { glow: "141 100% 74%", focus: "39 100% 70%" },
 			status: {
 				danger: "350 100% 65%",
 				warning: "35 100% 60%",
@@ -111,7 +90,7 @@ const MODE_FALLBACK: Record<ThemeMode, keyof typeof palettes> = {
 	contrast: "light",
 };
 
-export function tokensToCssVariables(mode: ThemeMode) {
+export function tokensToCssVariables(mode: ThemeMode): Record<string, string> {
 	const resolvedMode = MODE_FALLBACK[mode];
 	const palette = palettes[resolvedMode];
 
@@ -135,5 +114,7 @@ export function tokensToCssVariables(mode: ThemeMode) {
 		"--motion-medium": motion.medium,
 		"--motion-slow": motion.slow,
 		"--motion-easing-fluent": motion.easing,
-	} as const;
+	} as Record<string, string>;
 }
+
+export default themeTokens;

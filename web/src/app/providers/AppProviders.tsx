@@ -6,10 +6,12 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { composeProviders } from "./composeProviders";
 import { MotionProvider, useMotion } from "./MotionProvider";
 import { ThemeProvider, useTheme } from "./ThemeProvider";
+import { AdaptersProvider } from "./AdaptersProvider";
 
 const Providers = composeProviders(
 	ThemeProvider,
 	MotionProvider,
+	AdaptersProvider,
 	QueryProvider
 );
 

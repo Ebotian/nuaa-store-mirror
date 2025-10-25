@@ -2,10 +2,11 @@ import { createBrowserRouter, type RouteObject } from "react-router-dom";
 
 import { CategoriesPlaceholder } from "./placeholders/CategoriesPlaceholder";
 import { FileDetailPlaceholder } from "./placeholders/FileDetailPlaceholder";
-import { HomePlaceholder } from "./placeholders/HomePlaceholder";
+import HomePlaceholder from "./placeholders/HomePlaceholder";
 import { SearchPlaceholder } from "./placeholders/SearchPlaceholder";
 import { ErrorBoundary } from "./ErrorBoundary";
 import { RootRoute } from "./RootRoute";
+import FilesPlaceholder from "./placeholders/FilesPlaceholder";
 
 const routes: RouteObject[] = [
 	{
@@ -15,6 +16,7 @@ const routes: RouteObject[] = [
 		children: [
 			{ index: true, element: <HomePlaceholder /> },
 			{ path: "categories", element: <CategoriesPlaceholder /> },
+			{ path: "files", element: <FilesPlaceholder /> },
 			{ path: "search", element: <SearchPlaceholder /> },
 			{ path: "files/:fileId", element: <FileDetailPlaceholder /> },
 		],

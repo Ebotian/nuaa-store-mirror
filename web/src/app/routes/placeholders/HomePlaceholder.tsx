@@ -1,14 +1,18 @@
-import { memo } from "react";
+import RecentFiles from "@/modules/content/RecentFiles";
 
-export const HomePlaceholder = memo(function HomePlaceholder() {
+export default function HomePlaceholder() {
 	return (
-		<section className="flex h-full flex-col items-center justify-center gap-4 text-center">
-			<h1 className="text-3xl font-semibold tracking-tight">
-				NUAA Store Mirror
-			</h1>
-			<p className="max-w-xl text-base text-foreground-subtle">
-				欢迎来到新版界面。后续将在此展示精选内容、快速入口与动态通知。
-			</p>
-		</section>
+		<main className="space-y-6 p-4">
+			<section className="rounded-2xl border border-surface-divider bg-surface-elevated/80 p-6">
+				<h1 className="text-2xl font-bold text-foreground-primary">
+					NUAA Store Mirror
+				</h1>
+				<p className="mt-2 text-sm text-foreground-subtle">
+					欢迎来到新版界面。下方显示仓库中最近索引的文件，您可以浏览、预览或下载原始文件。
+				</p>
+			</section>
+
+			<RecentFiles />
+		</main>
 	);
-});
+}

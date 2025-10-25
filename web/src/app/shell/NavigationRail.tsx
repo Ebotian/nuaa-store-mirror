@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 const navItems = [
 	{ to: "/", label: "首页", description: "推荐与快捷入口", exact: true },
 	{ to: "/categories", label: "分类", description: "浏览分类树" },
+	{ to: "/files", label: "文件", description: "查看文件列表" },
 	{ to: "/search", label: "搜索", description: "全局检索" },
 ];
 

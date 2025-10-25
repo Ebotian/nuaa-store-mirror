@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite --host",
     "build": "tsc -b && vite build",
+    "update-mock-data": "bash ../scripts/update-mock-data.sh",
     "lint": "eslint .",
     "preview": "vite preview --host",
     "typecheck": "tsc --noEmit",

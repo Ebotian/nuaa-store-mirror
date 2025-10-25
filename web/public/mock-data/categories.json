@@ -1,0 +1,4133 @@
+[
+  {
+    "id": ".gitattributes",
+    "name": ".gitattributes",
+    "path": ".gitattributes",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "后端接口实现设计.md",
+    "name": "后端接口实现设计.md",
+    "path": "后端接口实现设计.md",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "教程Guide",
+    "name": "教程Guide",
+    "path": "教程Guide",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 6,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course",
+    "name": "课程Course",
+    "path": "课程Course",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 139,
+    "fileCount": 0
+  },
+  {
+    "id": "南京航空航天大学NUAA",
+    "name": "南京航空航天大学NUAA",
+    "path": "南京航空航天大学NUAA",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "其它Other",
+    "name": "其它Other",
+    "path": "其它Other",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 10,
+    "fileCount": 0
+  },
+  {
+    "id": "前端ui设计.md",
+    "name": "前端ui设计.md",
+    "path": "前端ui设计.md",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "前端ui实现方案.md",
+    "name": "前端ui实现方案.md",
+    "path": "前端ui实现方案.md",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "设计文档.md",
+    "name": "设计文档.md",
+    "path": "设计文档.md",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "通识General",
+    "name": "通识General",
+    "path": "通识General",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 5,
+    "fileCount": 1
+  },
+  {
+    "id": "网课OnlineCourse",
+    "name": "网课OnlineCourse",
+    "path": "网课OnlineCourse",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 5,
+    "fileCount": 1
+  },
+  {
+    "id": "网站Website",
+    "name": "网站Website",
+    "path": "网站Website",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "文件索引与元数据提取.md",
+    "name": "文件索引与元数据提取.md",
+    "path": "文件索引与元数据提取.md",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "新生荐读",
+    "name": "新生荐读",
+    "path": "新生荐读",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "资源Resource",
+    "name": "资源Resource",
+    "path": "资源Resource",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 7,
+    "fileCount": 1
+  },
+  {
+    "id": "api",
+    "name": "api",
+    "path": "api",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 2,
+    "fileCount": 9
+  },
+  {
+    "id": "README.md",
+    "name": "README.md",
+    "path": "README.md",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "scripts",
+    "name": "scripts",
+    "path": "scripts",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "tools",
+    "name": "tools",
+    "path": "tools",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 4,
+    "fileCount": 4
+  },
+  {
+    "id": "web",
+    "name": "web",
+    "path": "web",
+    "parentId": null,
+    "depth": 0,
+    "childrenCount": 3,
+    "fileCount": 12
+  },
+  {
+    "id": "教程Guide/开通、报停校园网",
+    "name": "开通、报停校园网",
+    "path": "教程Guide/开通、报停校园网",
+    "parentId": "教程Guide",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "教程Guide/屏蔽CSDN网站",
+    "name": "屏蔽CSDN网站",
+    "path": "教程Guide/屏蔽CSDN网站",
+    "parentId": "教程Guide",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "教程Guide/设置有线网络、宽带、拨号上网",
+    "name": "设置有线网络、宽带、拨号上网",
+    "path": "教程Guide/设置有线网络、宽带、拨号上网",
+    "parentId": "教程Guide",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "教程Guide/校外访问知网",
+    "name": "校外访问知网",
+    "path": "教程Guide/校外访问知网",
+    "parentId": "教程Guide",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "教程Guide/校外人员进校",
+    "name": "校外人员进校",
+    "path": "教程Guide/校外人员进校",
+    "parentId": "教程Guide",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "教程Guide/学习通倍速",
+    "name": "学习通倍速",
+    "path": "教程Guide/学习通倍速",
+    "parentId": "教程Guide",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/钣金成形原理与工艺",
+    "name": "钣金成形原理与工艺",
+    "path": "课程Course/钣金成形原理与工艺",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/编译原理",
+    "name": "编译原理",
+    "path": "课程Course/编译原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/变分原理与有限元",
+    "name": "变分原理与有限元",
+    "path": "课程Course/变分原理与有限元",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/材料力学",
+    "name": "材料力学",
+    "path": "课程Course/材料力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 3,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/操作系统",
+    "name": "操作系统",
+    "path": "课程Course/操作系统",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/测试技术",
+    "name": "测试技术",
+    "path": "课程Course/测试技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/常微分方程",
+    "name": "常微分方程",
+    "path": "课程Course/常微分方程",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/程序设计",
+    "name": "程序设计",
+    "path": "课程Course/程序设计",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/传感器原理",
+    "name": "传感器原理",
+    "path": "课程Course/传感器原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/传热学",
+    "name": "传热学",
+    "path": "课程Course/传热学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/创业基础",
+    "name": "创业基础",
+    "path": "课程Course/创业基础",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/大学物理",
+    "name": "大学物理",
+    "path": "课程Course/大学物理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/弹性力学",
+    "name": "弹性力学",
+    "path": "课程Course/弹性力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电磁场理论",
+    "name": "电磁场理论",
+    "path": "课程Course/电磁场理论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电工与电子技术",
+    "name": "电工与电子技术",
+    "path": "课程Course/电工与电子技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电机学",
+    "name": "电机学",
+    "path": "课程Course/电机学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电机与控制元件",
+    "name": "电机与控制元件",
+    "path": "课程Course/电机与控制元件",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电力电子技术",
+    "name": "电力电子技术",
+    "path": "课程Course/电力电子技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电力电子数字控制技术",
+    "name": "电力电子数字控制技术",
+    "path": "课程Course/电力电子数字控制技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电力电子应用技术",
+    "name": "电力电子应用技术",
+    "path": "课程Course/电力电子应用技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电力工程",
+    "name": "电力工程",
+    "path": "课程Course/电力工程",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电路",
+    "name": "电路",
+    "path": "课程Course/电路",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电路分析基础",
+    "name": "电路分析基础",
+    "path": "课程Course/电路分析基础",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电器原理及应用",
+    "name": "电器原理及应用",
+    "path": "课程Course/电器原理及应用",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电子线路",
+    "name": "电子线路",
+    "path": "课程Course/电子线路",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/飞行器结构力学",
+    "name": "飞行器结构力学",
+    "path": "课程Course/飞行器结构力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/飞行器结构设计",
+    "name": "飞行器结构设计",
+    "path": "课程Course/飞行器结构设计",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/飞行器结构试验技术",
+    "name": "飞行器结构试验技术",
+    "path": "课程Course/飞行器结构试验技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/飞行器适航技术专业导论",
+    "name": "飞行器适航技术专业导论",
+    "path": "课程Course/飞行器适航技术专业导论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/分析力学",
+    "name": "分析力学",
+    "path": "课程Course/分析力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/复变函数",
+    "name": "复变函数",
+    "path": "课程Course/复变函数",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/复合材料力学",
+    "name": "复合材料力学",
+    "path": "课程Course/复合材料力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/概率论与数理统计",
+    "name": "概率论与数理统计",
+    "path": "课程Course/概率论与数理统计",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/高等代数",
+    "name": "高等代数",
+    "path": "课程Course/高等代数",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/高等工程数学 矩阵论",
+    "name": "高等工程数学 矩阵论",
+    "path": "课程Course/高等工程数学 矩阵论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/高等数学",
+    "name": "高等数学",
+    "path": "课程Course/高等数学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工程材料学",
+    "name": "工程材料学",
+    "path": "课程Course/工程材料学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工程光学",
+    "name": "工程光学",
+    "path": "课程Course/工程光学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工程经济学",
+    "name": "工程经济学",
+    "path": "课程Course/工程经济学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工程流体力学",
+    "name": "工程流体力学",
+    "path": "课程Course/工程流体力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工程热力学",
+    "name": "工程热力学",
+    "path": "课程Course/工程热力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工程热力学基础",
+    "name": "工程热力学基础",
+    "path": "课程Course/工程热力学基础",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工程图学",
+    "name": "工程图学",
+    "path": "课程Course/工程图学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工科数学分析",
+    "name": "工科数学分析",
+    "path": "课程Course/工科数学分析",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/功率变换器计算机仿真与设计",
+    "name": "功率变换器计算机仿真与设计",
+    "path": "课程Course/功率变换器计算机仿真与设计",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/管理学",
+    "name": "管理学",
+    "path": "课程Course/管理学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/航空航天概论",
+    "name": "航空航天概论",
+    "path": "课程Course/航空航天概论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/航空航天类专业导论",
+    "name": "航空航天类专业导论",
+    "path": "课程Course/航空航天类专业导论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/宏观经济学",
+    "name": "宏观经济学",
+    "path": "课程Course/宏观经济学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/互换性与技术测量",
+    "name": "互换性与技术测量",
+    "path": "课程Course/互换性与技术测量",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/汇编语言",
+    "name": "汇编语言",
+    "path": "课程Course/汇编语言",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机床数控技术",
+    "name": "机床数控技术",
+    "path": "课程Course/机床数控技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械设计",
+    "name": "机械设计",
+    "path": "课程Course/机械设计",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械设计基础",
+    "name": "机械设计基础",
+    "path": "课程Course/机械设计基础",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械原理",
+    "name": "机械原理",
+    "path": "课程Course/机械原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 4,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械振动基础及应用",
+    "name": "机械振动基础及应用",
+    "path": "课程Course/机械振动基础及应用",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械制造工艺与装备",
+    "name": "机械制造工艺与装备",
+    "path": "课程Course/机械制造工艺与装备",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械制造技术",
+    "name": "机械制造技术",
+    "path": "课程Course/机械制造技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/基础会计学",
+    "name": "基础会计学",
+    "path": "课程Course/基础会计学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计量经济学",
+    "name": "计量经济学",
+    "path": "课程Course/计量经济学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算方法",
+    "name": "计算方法",
+    "path": "课程Course/计算方法",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 3,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算机软件技术基础",
+    "name": "计算机软件技术基础",
+    "path": "课程Course/计算机软件技术基础",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算机硬件技术基础",
+    "name": "计算机硬件技术基础",
+    "path": "课程Course/计算机硬件技术基础",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算机组成原理",
+    "name": "计算机组成原理",
+    "path": "课程Course/计算机组成原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算力学",
+    "name": "计算力学",
+    "path": "课程Course/计算力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算思维",
+    "name": "计算思维",
+    "path": "课程Course/计算思维",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算思维导论",
+    "name": "计算思维导论",
+    "path": "课程Course/计算思维导论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/检测技术与传感原理",
+    "name": "检测技术与传感原理",
+    "path": "课程Course/检测技术与传感原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/交通工程基础",
+    "name": "交通工程基础",
+    "path": "课程Course/交通工程基础",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构动力学基础",
+    "name": "结构动力学基础",
+    "path": "课程Course/结构动力学基础",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构化学",
+    "name": "结构化学",
+    "path": "课程Course/结构化学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构力学",
+    "name": "结构力学",
+    "path": "课程Course/结构力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构力学及有限元",
+    "name": "结构力学及有限元",
+    "path": "课程Course/结构力学及有限元",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构振动分析与测试",
+    "name": "结构振动分析与测试",
+    "path": "课程Course/结构振动分析与测试",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/解析几何与线性代数",
+    "name": "解析几何与线性代数",
+    "path": "课程Course/解析几何与线性代数",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/金属材料",
+    "name": "金属材料",
+    "path": "课程Course/金属材料",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/军事理论",
+    "name": "军事理论",
+    "path": "课程Course/军事理论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/可靠性工程",
+    "name": "可靠性工程",
+    "path": "课程Course/可靠性工程",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/空气调节",
+    "name": "空气调节",
+    "path": "课程Course/空气调节",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/控制系统工程",
+    "name": "控制系统工程",
+    "path": "课程Course/控制系统工程",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/离散数学",
+    "name": "离散数学",
+    "path": "课程Course/离散数学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/理工基础化学",
+    "name": "理工基础化学",
+    "path": "课程Course/理工基础化学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/理论力学",
+    "name": "理论力学",
+    "path": "课程Course/理论力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/流体力学",
+    "name": "流体力学",
+    "path": "课程Course/流体力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/马克思主义基本原理",
+    "name": "马克思主义基本原理",
+    "path": "课程Course/马克思主义基本原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/毛泽东思想和中国特色社会主义理论体系概论",
+    "name": "毛泽东思想和中国特色社会主义理论体系概论",
+    "path": "课程Course/毛泽东思想和中国特色社会主义理论体系概论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/密码学",
+    "name": "密码学",
+    "path": "课程Course/密码学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/民航概论",
+    "name": "民航概论",
+    "path": "课程Course/民航概论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/民航机载电子设备与系统",
+    "name": "民航机载电子设备与系统",
+    "path": "课程Course/民航机载电子设备与系统",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/民用航空法",
+    "name": "民用航空法",
+    "path": "课程Course/民用航空法",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/模拟电子技术",
+    "name": "模拟电子技术",
+    "path": "课程Course/模拟电子技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/燃烧室原理",
+    "name": "燃烧室原理",
+    "path": "课程Course/燃烧室原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/人工智能",
+    "name": "人工智能",
+    "path": "课程Course/人工智能",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/软件技术基础",
+    "name": "软件技术基础",
+    "path": "课程Course/软件技术基础",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/生物化学",
+    "name": "生物化学",
+    "path": "课程Course/生物化学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/实验力学",
+    "name": "实验力学",
+    "path": "课程Course/实验力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数据结构",
+    "name": "数据结构",
+    "path": "课程Course/数据结构",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数据结构与数据库",
+    "name": "数据结构与数据库",
+    "path": "课程Course/数据结构与数据库",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数据结构C#",
+    "name": "数据结构C#",
+    "path": "课程Course/数据结构C#",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数据库原理",
+    "name": "数据库原理",
+    "path": "课程Course/数据库原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数学分析",
+    "name": "数学分析",
+    "path": "课程Course/数学分析",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数学物理方法",
+    "name": "数学物理方法",
+    "path": "课程Course/数学物理方法",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数值逼近",
+    "name": "数值逼近",
+    "path": "课程Course/数值逼近",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数字电路与逻辑设计",
+    "name": "数字电路与逻辑设计",
+    "path": "课程Course/数字电路与逻辑设计",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数字电子技术",
+    "name": "数字电子技术",
+    "path": "课程Course/数字电子技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数字系统设计与PLD应用",
+    "name": "数字系统设计与PLD应用",
+    "path": "课程Course/数字系统设计与PLD应用",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数字信号处理",
+    "name": "数字信号处理",
+    "path": "课程Course/数字信号处理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/塑性力学",
+    "name": "塑性力学",
+    "path": "课程Course/塑性力学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/算法设计与分析",
+    "name": "算法设计与分析",
+    "path": "课程Course/算法设计与分析",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/随机信号分析",
+    "name": "随机信号分析",
+    "path": "课程Course/随机信号分析",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/特种电机及其控制",
+    "name": "特种电机及其控制",
+    "path": "课程Course/特种电机及其控制",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/天线原理",
+    "name": "天线原理",
+    "path": "课程Course/天线原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/通信电子电路",
+    "name": "通信电子电路",
+    "path": "课程Course/通信电子电路",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/通信原理",
+    "name": "通信原理",
+    "path": "课程Course/通信原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/微波技术",
+    "name": "微波技术",
+    "path": "课程Course/微波技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/微波技术与天线",
+    "name": "微波技术与天线",
+    "path": "课程Course/微波技术与天线",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/微观经济学",
+    "name": "微观经济学",
+    "path": "课程Course/微观经济学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/微机原理及应用",
+    "name": "微机原理及应用",
+    "path": "课程Course/微机原理及应用",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/微机原理与接口技术",
+    "name": "微机原理与接口技术",
+    "path": "课程Course/微机原理与接口技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/微机原理与应用",
+    "name": "微机原理与应用",
+    "path": "课程Course/微机原理与应用",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/习近平新时代中国特色社会主义思想概论",
+    "name": "习近平新时代中国特色社会主义思想概论",
+    "path": "课程Course/习近平新时代中国特色社会主义思想概论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/系统工程导论",
+    "name": "系统工程导论",
+    "path": "课程Course/系统工程导论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/系统可靠性设计分析技术",
+    "name": "系统可靠性设计分析技术",
+    "path": "课程Course/系统可靠性设计分析技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/现代控制理论",
+    "name": "现代控制理论",
+    "path": "课程Course/现代控制理论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/线性代数",
+    "name": "线性代数",
+    "path": "课程Course/线性代数",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/项目管理",
+    "name": "项目管理",
+    "path": "课程Course/项目管理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/信号与系统",
+    "name": "信号与系统",
+    "path": "课程Course/信号与系统",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/信号与线性系统",
+    "name": "信号与线性系统",
+    "path": "课程Course/信号与线性系统",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/液压与气压传动",
+    "name": "液压与气压传动",
+    "path": "课程Course/液压与气压传动",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/应用统计学",
+    "name": "应用统计学",
+    "path": "课程Course/应用统计学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/英国文学概况",
+    "name": "英国文学概况",
+    "path": "课程Course/英国文学概况",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/英美概况",
+    "name": "英美概况",
+    "path": "课程Course/英美概况",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/有限元",
+    "name": "有限元",
+    "path": "课程Course/有限元",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/运筹学",
+    "name": "运筹学",
+    "path": "课程Course/运筹学",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/振动理论",
+    "name": "振动理论",
+    "path": "课程Course/振动理论",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/中国文化（英语）",
+    "name": "中国文化（英语）",
+    "path": "课程Course/中国文化（英语）",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/自动控制原理",
+    "name": "自动控制原理",
+    "path": "课程Course/自动控制原理",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/C  C++语言课程设计",
+    "name": "C  C++语言课程设计",
+    "path": "课程Course/C  C++语言课程设计",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 3,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/Python 语言程序设计",
+    "name": "Python 语言程序设计",
+    "path": "课程Course/Python 语言程序设计",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 1
+  },
+  {
+    "id": "南京航空航天大学NUAA/2025-2026学年校历",
+    "name": "2025-2026学年校历",
+    "path": "南京航空航天大学NUAA/2025-2026学年校历",
+    "parentId": "南京航空航天大学NUAA",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "南京航空航天大学NUAA/交通班车时刻表",
+    "name": "交通班车时刻表",
+    "path": "南京航空航天大学NUAA/交通班车时刻表",
+    "parentId": "南京航空航天大学NUAA",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "其它Other/大学物理实验",
+    "name": "大学物理实验",
+    "path": "其它Other/大学物理实验",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "其它Other/国家安全教育",
+    "name": "国家安全教育",
+    "path": "其它Other/国家安全教育",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 13
+  },
+  {
+    "id": "其它Other/金工实习",
+    "name": "金工实习",
+    "path": "其它Other/金工实习",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 2
+  },
+  {
+    "id": "其它Other/入党积极分子",
+    "name": "入党积极分子",
+    "path": "其它Other/入党积极分子",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 20
+  },
+  {
+    "id": "其它Other/实验室安全考试",
+    "name": "实验室安全考试",
+    "path": "其它Other/实验室安全考试",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "其它Other/数字时钟课设",
+    "name": "数字时钟课设",
+    "path": "其它Other/数字时钟课设",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 3,
+    "fileCount": 1
+  },
+  {
+    "id": "其它Other/四六级",
+    "name": "四六级",
+    "path": "其它Other/四六级",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "其它Other/形势与政策",
+    "name": "形势与政策",
+    "path": "其它Other/形势与政策",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 2
+  },
+  {
+    "id": "其它Other/英语",
+    "name": "英语",
+    "path": "其它Other/英语",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "其它Other/自动控制原理实验",
+    "name": "自动控制原理实验",
+    "path": "其它Other/自动控制原理实验",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "通识General/部门办公室电话",
+    "name": "部门办公室电话",
+    "path": "通识General/部门办公室电话",
+    "parentId": "通识General",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "通识General/校园地图",
+    "name": "校园地图",
+    "path": "通识General/校园地图",
+    "parentId": "通识General",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "通识General/校园网站指北",
+    "name": "校园网站指北",
+    "path": "通识General/校园网站指北",
+    "parentId": "通识General",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "通识General/学院专业总览表",
+    "name": "学院专业总览表",
+    "path": "通识General/学院专业总览表",
+    "parentId": "通识General",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "通识General/自习场所",
+    "name": "自习场所",
+    "path": "通识General/自习场所",
+    "parentId": "通识General",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "网课OnlineCourse/高数叔",
+    "name": "高数叔",
+    "path": "网课OnlineCourse/高数叔",
+    "parentId": "网课OnlineCourse",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "网课OnlineCourse/高斯课堂",
+    "name": "高斯课堂",
+    "path": "网课OnlineCourse/高斯课堂",
+    "parentId": "网课OnlineCourse",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "网课OnlineCourse/猴博士",
+    "name": "猴博士",
+    "path": "网课OnlineCourse/猴博士",
+    "parentId": "网课OnlineCourse",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "网课OnlineCourse/框框老师课堂",
+    "name": "框框老师课堂",
+    "path": "网课OnlineCourse/框框老师课堂",
+    "parentId": "网课OnlineCourse",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "网课OnlineCourse/其他在线网课",
+    "name": "其他在线网课",
+    "path": "网课OnlineCourse/其他在线网课",
+    "parentId": "网课OnlineCourse",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "新生荐读/办流量卡须谨慎",
+    "name": "办流量卡须谨慎",
+    "path": "新生荐读/办流量卡须谨慎",
+    "parentId": "新生荐读",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "新生荐读/本科四年，你想要做什么",
+    "name": "本科四年，你想要做什么",
+    "path": "新生荐读/本科四年，你想要做什么",
+    "parentId": "新生荐读",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "资源Resource/幻灯片资源",
+    "name": "幻灯片资源",
+    "path": "资源Resource/幻灯片资源",
+    "parentId": "资源Resource",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 1
+  },
+  {
+    "id": "资源Resource/软件资源",
+    "name": "软件资源",
+    "path": "资源Resource/软件资源",
+    "parentId": "资源Resource",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "资源Resource/文献资料",
+    "name": "文献资料",
+    "path": "资源Resource/文献资料",
+    "parentId": "资源Resource",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "资源Resource/校园形象素材",
+    "name": "校园形象素材",
+    "path": "资源Resource/校园形象素材",
+    "parentId": "资源Resource",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "资源Resource/校园正版资源",
+    "name": "校园正版资源",
+    "path": "资源Resource/校园正版资源",
+    "parentId": "资源Resource",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "资源Resource/新电脑常用工具",
+    "name": "新电脑常用工具",
+    "path": "资源Resource/新电脑常用工具",
+    "parentId": "资源Resource",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "资源Resource/影视资源",
+    "name": "影视资源",
+    "path": "资源Resource/影视资源",
+    "parentId": "资源Resource",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "api/src",
+    "name": "src",
+    "path": "api/src",
+    "parentId": "api",
+    "depth": 1,
+    "childrenCount": 3,
+    "fileCount": 3
+  },
+  {
+    "id": "api/tests",
+    "name": "tests",
+    "path": "api/tests",
+    "parentId": "api",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "tools/dist",
+    "name": "dist",
+    "path": "tools/dist",
+    "parentId": "tools",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 0
+  },
+  {
+    "id": "tools/indexer",
+    "name": "indexer",
+    "path": "tools/indexer",
+    "parentId": "tools",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 8
+  },
+  {
+    "id": "tools/node_modules",
+    "name": "node_modules",
+    "path": "tools/node_modules",
+    "parentId": "tools",
+    "depth": 1,
+    "childrenCount": 11,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/web",
+    "name": "web",
+    "path": "tools/web",
+    "parentId": "tools",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 0
+  },
+  {
+    "id": "web/docs",
+    "name": "docs",
+    "path": "web/docs",
+    "parentId": "web",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "web/public",
+    "name": "public",
+    "path": "web/public",
+    "parentId": "web",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 3
+  },
+  {
+    "id": "web/src",
+    "name": "src",
+    "path": "web/src",
+    "parentId": "web",
+    "depth": 1,
+    "childrenCount": 7,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/钣金成形原理与工艺/试卷",
+    "name": "试卷",
+    "path": "课程Course/钣金成形原理与工艺/试卷",
+    "parentId": "课程Course/钣金成形原理与工艺",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/钣金成形原理与工艺/资料",
+    "name": "资料",
+    "path": "课程Course/钣金成形原理与工艺/资料",
+    "parentId": "课程Course/钣金成形原理与工艺",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/编译原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/编译原理/试卷",
+    "parentId": "课程Course/编译原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/变分原理与有限元/试卷",
+    "name": "试卷",
+    "path": "课程Course/变分原理与有限元/试卷",
+    "parentId": "课程Course/变分原理与有限元",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/材料力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/材料力学/试卷",
+    "parentId": "课程Course/材料力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 8
+  },
+  {
+    "id": "课程Course/材料力学/资料",
+    "name": "资料",
+    "path": "课程Course/材料力学/资料",
+    "parentId": "课程Course/材料力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/材料力学/作业",
+    "name": "作业",
+    "path": "课程Course/材料力学/作业",
+    "parentId": "课程Course/材料力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/操作系统/试卷",
+    "name": "试卷",
+    "path": "课程Course/操作系统/试卷",
+    "parentId": "课程Course/操作系统",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/测试技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/测试技术/试卷",
+    "parentId": "课程Course/测试技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/常微分方程/试卷",
+    "name": "试卷",
+    "path": "课程Course/常微分方程/试卷",
+    "parentId": "课程Course/常微分方程",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "课程Course/程序设计/试卷",
+    "name": "试卷",
+    "path": "课程Course/程序设计/试卷",
+    "parentId": "课程Course/程序设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/传感器原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/传感器原理/试卷",
+    "parentId": "课程Course/传感器原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/传热学/试卷",
+    "name": "试卷",
+    "path": "课程Course/传热学/试卷",
+    "parentId": "课程Course/传热学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/创业基础/试卷",
+    "name": "试卷",
+    "path": "课程Course/创业基础/试卷",
+    "parentId": "课程Course/创业基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/大学物理/答案",
+    "name": "答案",
+    "path": "课程Course/大学物理/答案",
+    "parentId": "课程Course/大学物理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/大学物理/试卷",
+    "name": "试卷",
+    "path": "课程Course/大学物理/试卷",
+    "parentId": "课程Course/大学物理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 17
+  },
+  {
+    "id": "课程Course/弹性力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/弹性力学/试卷",
+    "parentId": "课程Course/弹性力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/弹性力学/资料",
+    "name": "资料",
+    "path": "课程Course/弹性力学/资料",
+    "parentId": "课程Course/弹性力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电磁场理论/试卷",
+    "name": "试卷",
+    "path": "课程Course/电磁场理论/试卷",
+    "parentId": "课程Course/电磁场理论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/电工与电子技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/电工与电子技术/试卷",
+    "parentId": "课程Course/电工与电子技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 13
+  },
+  {
+    "id": "课程Course/电工与电子技术/习题",
+    "name": "习题",
+    "path": "课程Course/电工与电子技术/习题",
+    "parentId": "课程Course/电工与电子技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/电机学/课设",
+    "name": "课设",
+    "path": "课程Course/电机学/课设",
+    "parentId": "课程Course/电机学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电机学/试卷",
+    "name": "试卷",
+    "path": "课程Course/电机学/试卷",
+    "parentId": "课程Course/电机学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/电机与控制元件/试卷",
+    "name": "试卷",
+    "path": "课程Course/电机与控制元件/试卷",
+    "parentId": "课程Course/电机与控制元件",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/电力电子技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/电力电子技术/试卷",
+    "parentId": "课程Course/电力电子技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/电力电子数字控制技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/电力电子数字控制技术/试卷",
+    "parentId": "课程Course/电力电子数字控制技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电力电子应用技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/电力电子应用技术/试卷",
+    "parentId": "课程Course/电力电子应用技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电力工程/试卷",
+    "name": "试卷",
+    "path": "课程Course/电力工程/试卷",
+    "parentId": "课程Course/电力工程",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/电路/试卷",
+    "name": "试卷",
+    "path": "课程Course/电路/试卷",
+    "parentId": "课程Course/电路",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "课程Course/电路分析基础/试卷",
+    "name": "试卷",
+    "path": "课程Course/电路分析基础/试卷",
+    "parentId": "课程Course/电路分析基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/电器原理及应用/试卷",
+    "name": "试卷",
+    "path": "课程Course/电器原理及应用/试卷",
+    "parentId": "课程Course/电器原理及应用",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/电子线路/试卷",
+    "name": "试卷",
+    "path": "课程Course/电子线路/试卷",
+    "parentId": "课程Course/电子线路",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "课程Course/飞行器结构力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/飞行器结构力学/试卷",
+    "parentId": "课程Course/飞行器结构力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/飞行器结构设计/试卷",
+    "name": "试卷",
+    "path": "课程Course/飞行器结构设计/试卷",
+    "parentId": "课程Course/飞行器结构设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/飞行器结构试验技术/资料",
+    "name": "资料",
+    "path": "课程Course/飞行器结构试验技术/资料",
+    "parentId": "课程Course/飞行器结构试验技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/飞行器适航技术专业导论/资料",
+    "name": "资料",
+    "path": "课程Course/飞行器适航技术专业导论/资料",
+    "parentId": "课程Course/飞行器适航技术专业导论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/分析力学/资料",
+    "name": "资料",
+    "path": "课程Course/分析力学/资料",
+    "parentId": "课程Course/分析力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/复变函数/试卷",
+    "name": "试卷",
+    "path": "课程Course/复变函数/试卷",
+    "parentId": "课程Course/复变函数",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/复变函数/资料",
+    "name": "资料",
+    "path": "课程Course/复变函数/资料",
+    "parentId": "课程Course/复变函数",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/复合材料力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/复合材料力学/试卷",
+    "parentId": "课程Course/复合材料力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/概率论与数理统计/试卷",
+    "name": "试卷",
+    "path": "课程Course/概率论与数理统计/试卷",
+    "parentId": "课程Course/概率论与数理统计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 9
+  },
+  {
+    "id": "课程Course/概率论与数理统计/习题",
+    "name": "习题",
+    "path": "课程Course/概率论与数理统计/习题",
+    "parentId": "课程Course/概率论与数理统计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/高等代数/试卷",
+    "name": "试卷",
+    "path": "课程Course/高等代数/试卷",
+    "parentId": "课程Course/高等代数",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/高等工程数学 矩阵论/试卷",
+    "name": "试卷",
+    "path": "课程Course/高等工程数学 矩阵论/试卷",
+    "parentId": "课程Course/高等工程数学 矩阵论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 18
+  },
+  {
+    "id": "课程Course/高等数学/竞赛",
+    "name": "竞赛",
+    "path": "课程Course/高等数学/竞赛",
+    "parentId": "课程Course/高等数学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/高等数学/试卷",
+    "name": "试卷",
+    "path": "课程Course/高等数学/试卷",
+    "parentId": "课程Course/高等数学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 33
+  },
+  {
+    "id": "课程Course/工程材料学/试卷",
+    "name": "试卷",
+    "path": "课程Course/工程材料学/试卷",
+    "parentId": "课程Course/工程材料学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/工程光学/试卷",
+    "name": "试卷",
+    "path": "课程Course/工程光学/试卷",
+    "parentId": "课程Course/工程光学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工程经济学/试卷",
+    "name": "试卷",
+    "path": "课程Course/工程经济学/试卷",
+    "parentId": "课程Course/工程经济学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/工程流体力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/工程流体力学/试卷",
+    "parentId": "课程Course/工程流体力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "课程Course/工程热力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/工程热力学/试卷",
+    "parentId": "课程Course/工程热力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/工程热力学/作业",
+    "name": "作业",
+    "path": "课程Course/工程热力学/作业",
+    "parentId": "课程Course/工程热力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/工程热力学基础/试卷",
+    "name": "试卷",
+    "path": "课程Course/工程热力学基础/试卷",
+    "parentId": "课程Course/工程热力学基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/工程图学/试卷",
+    "name": "试卷",
+    "path": "课程Course/工程图学/试卷",
+    "parentId": "课程Course/工程图学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "课程Course/工科数学分析/试卷",
+    "name": "试卷",
+    "path": "课程Course/工科数学分析/试卷",
+    "parentId": "课程Course/工科数学分析",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/功率变换器计算机仿真与设计/试卷",
+    "name": "试卷",
+    "path": "课程Course/功率变换器计算机仿真与设计/试卷",
+    "parentId": "课程Course/功率变换器计算机仿真与设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/管理学/试卷",
+    "name": "试卷",
+    "path": "课程Course/管理学/试卷",
+    "parentId": "课程Course/管理学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/航空航天概论/试卷",
+    "name": "试卷",
+    "path": "课程Course/航空航天概论/试卷",
+    "parentId": "课程Course/航空航天概论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/航空航天概论/资料",
+    "name": "资料",
+    "path": "课程Course/航空航天概论/资料",
+    "parentId": "课程Course/航空航天概论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/航空航天类专业导论/资料",
+    "name": "资料",
+    "path": "课程Course/航空航天类专业导论/资料",
+    "parentId": "课程Course/航空航天类专业导论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/宏观经济学/试卷",
+    "name": "试卷",
+    "path": "课程Course/宏观经济学/试卷",
+    "parentId": "课程Course/宏观经济学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/互换性与技术测量/试卷",
+    "name": "试卷",
+    "path": "课程Course/互换性与技术测量/试卷",
+    "parentId": "课程Course/互换性与技术测量",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "课程Course/汇编语言/试卷",
+    "name": "试卷",
+    "path": "课程Course/汇编语言/试卷",
+    "parentId": "课程Course/汇编语言",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/机床数控技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/机床数控技术/试卷",
+    "parentId": "课程Course/机床数控技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机床数控技术/资料",
+    "name": "资料",
+    "path": "课程Course/机床数控技术/资料",
+    "parentId": "课程Course/机床数控技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械设计/试卷",
+    "name": "试卷",
+    "path": "课程Course/机械设计/试卷",
+    "parentId": "课程Course/机械设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/机械设计基础/试卷",
+    "name": "试卷",
+    "path": "课程Course/机械设计基础/试卷",
+    "parentId": "课程Course/机械设计基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/机械设计基础/资料",
+    "name": "资料",
+    "path": "课程Course/机械设计基础/资料",
+    "parentId": "课程Course/机械设计基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/机械原理/实验报告",
+    "name": "实验报告",
+    "path": "课程Course/机械原理/实验报告",
+    "parentId": "课程Course/机械原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/机械原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/机械原理/试卷",
+    "parentId": "课程Course/机械原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/机械原理/资料",
+    "name": "资料",
+    "path": "课程Course/机械原理/资料",
+    "parentId": "课程Course/机械原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械原理/作业",
+    "name": "作业",
+    "path": "课程Course/机械原理/作业",
+    "parentId": "课程Course/机械原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械振动基础及应用/试卷",
+    "name": "试卷",
+    "path": "课程Course/机械振动基础及应用/试卷",
+    "parentId": "课程Course/机械振动基础及应用",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/机械振动基础及应用/习题",
+    "name": "习题",
+    "path": "课程Course/机械振动基础及应用/习题",
+    "parentId": "课程Course/机械振动基础及应用",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械制造工艺与装备/试卷",
+    "name": "试卷",
+    "path": "课程Course/机械制造工艺与装备/试卷",
+    "parentId": "课程Course/机械制造工艺与装备",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/机械制造工艺与装备/资料",
+    "name": "资料",
+    "path": "课程Course/机械制造工艺与装备/资料",
+    "parentId": "课程Course/机械制造工艺与装备",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/机械制造技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/机械制造技术/试卷",
+    "parentId": "课程Course/机械制造技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/基础会计学/试卷",
+    "name": "试卷",
+    "path": "课程Course/基础会计学/试卷",
+    "parentId": "课程Course/基础会计学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/计量经济学/试卷",
+    "name": "试卷",
+    "path": "课程Course/计量经济学/试卷",
+    "parentId": "课程Course/计量经济学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算方法/大作业",
+    "name": "大作业",
+    "path": "课程Course/计算方法/大作业",
+    "parentId": "课程Course/计算方法",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算方法/试卷",
+    "name": "试卷",
+    "path": "课程Course/计算方法/试卷",
+    "parentId": "课程Course/计算方法",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "课程Course/计算方法/资料",
+    "name": "资料",
+    "path": "课程Course/计算方法/资料",
+    "parentId": "课程Course/计算方法",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/计算机软件技术基础/试卷",
+    "name": "试卷",
+    "path": "课程Course/计算机软件技术基础/试卷",
+    "parentId": "课程Course/计算机软件技术基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算机硬件技术基础/试卷",
+    "name": "试卷",
+    "path": "课程Course/计算机硬件技术基础/试卷",
+    "parentId": "课程Course/计算机硬件技术基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/计算机组成原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/计算机组成原理/试卷",
+    "parentId": "课程Course/计算机组成原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/计算力学/资料",
+    "name": "资料",
+    "path": "课程Course/计算力学/资料",
+    "parentId": "课程Course/计算力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/计算思维/资料",
+    "name": "资料",
+    "path": "课程Course/计算思维/资料",
+    "parentId": "课程Course/计算思维",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/计算思维导论/资料",
+    "name": "资料",
+    "path": "课程Course/计算思维导论/资料",
+    "parentId": "课程Course/计算思维导论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/检测技术与传感原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/检测技术与传感原理/试卷",
+    "parentId": "课程Course/检测技术与传感原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/交通工程基础/试卷",
+    "name": "试卷",
+    "path": "课程Course/交通工程基础/试卷",
+    "parentId": "课程Course/交通工程基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构动力学基础/试卷",
+    "name": "试卷",
+    "path": "课程Course/结构动力学基础/试卷",
+    "parentId": "课程Course/结构动力学基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/结构动力学基础/习题",
+    "name": "习题",
+    "path": "课程Course/结构动力学基础/习题",
+    "parentId": "课程Course/结构动力学基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构化学/试卷",
+    "name": "试卷",
+    "path": "课程Course/结构化学/试卷",
+    "parentId": "课程Course/结构化学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/结构力学/试卷",
+    "parentId": "课程Course/结构力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构力学及有限元/试卷",
+    "name": "试卷",
+    "path": "课程Course/结构力学及有限元/试卷",
+    "parentId": "课程Course/结构力学及有限元",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/结构振动分析与测试/试卷",
+    "name": "试卷",
+    "path": "课程Course/结构振动分析与测试/试卷",
+    "parentId": "课程Course/结构振动分析与测试",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/解析几何与线性代数/试卷",
+    "name": "试卷",
+    "path": "课程Course/解析几何与线性代数/试卷",
+    "parentId": "课程Course/解析几何与线性代数",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/金属材料/试卷",
+    "name": "试卷",
+    "path": "课程Course/金属材料/试卷",
+    "parentId": "课程Course/金属材料",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/军事理论/试卷",
+    "name": "试卷",
+    "path": "课程Course/军事理论/试卷",
+    "parentId": "课程Course/军事理论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/军事理论/资料",
+    "name": "资料",
+    "path": "课程Course/军事理论/资料",
+    "parentId": "课程Course/军事理论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/可靠性工程/试卷",
+    "name": "试卷",
+    "path": "课程Course/可靠性工程/试卷",
+    "parentId": "课程Course/可靠性工程",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/空气调节/试卷",
+    "name": "试卷",
+    "path": "课程Course/空气调节/试卷",
+    "parentId": "课程Course/空气调节",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/控制系统工程/试卷",
+    "name": "试卷",
+    "path": "课程Course/控制系统工程/试卷",
+    "parentId": "课程Course/控制系统工程",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 8
+  },
+  {
+    "id": "课程Course/离散数学/试卷",
+    "name": "试卷",
+    "path": "课程Course/离散数学/试卷",
+    "parentId": "课程Course/离散数学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "课程Course/理工基础化学/试卷",
+    "name": "试卷",
+    "path": "课程Course/理工基础化学/试卷",
+    "parentId": "课程Course/理工基础化学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/理工基础化学/资料",
+    "name": "资料",
+    "path": "课程Course/理工基础化学/资料",
+    "parentId": "课程Course/理工基础化学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/理论力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/理论力学/试卷",
+    "parentId": "课程Course/理论力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 12
+  },
+  {
+    "id": "课程Course/流体力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/流体力学/试卷",
+    "parentId": "课程Course/流体力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/流体力学/习题",
+    "name": "习题",
+    "path": "课程Course/流体力学/习题",
+    "parentId": "课程Course/流体力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/马克思主义基本原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/马克思主义基本原理/试卷",
+    "parentId": "课程Course/马克思主义基本原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/马克思主义基本原理/资料",
+    "name": "资料",
+    "path": "课程Course/马克思主义基本原理/资料",
+    "parentId": "课程Course/马克思主义基本原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 13
+  },
+  {
+    "id": "课程Course/毛泽东思想和中国特色社会主义理论体系概论/试卷",
+    "name": "试卷",
+    "path": "课程Course/毛泽东思想和中国特色社会主义理论体系概论/试卷",
+    "parentId": "课程Course/毛泽东思想和中国特色社会主义理论体系概论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "课程Course/毛泽东思想和中国特色社会主义理论体系概论/资料",
+    "name": "资料",
+    "path": "课程Course/毛泽东思想和中国特色社会主义理论体系概论/资料",
+    "parentId": "课程Course/毛泽东思想和中国特色社会主义理论体系概论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 7
+  },
+  {
+    "id": "课程Course/密码学/试卷",
+    "name": "试卷",
+    "path": "课程Course/密码学/试卷",
+    "parentId": "课程Course/密码学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/民航概论/试卷",
+    "name": "试卷",
+    "path": "课程Course/民航概论/试卷",
+    "parentId": "课程Course/民航概论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/民航机载电子设备与系统/试卷",
+    "name": "试卷",
+    "path": "课程Course/民航机载电子设备与系统/试卷",
+    "parentId": "课程Course/民航机载电子设备与系统",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/民用航空法/试卷",
+    "name": "试卷",
+    "path": "课程Course/民用航空法/试卷",
+    "parentId": "课程Course/民用航空法",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/模拟电子技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/模拟电子技术/试卷",
+    "parentId": "课程Course/模拟电子技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/燃烧室原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/燃烧室原理/试卷",
+    "parentId": "课程Course/燃烧室原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/人工智能/试卷",
+    "name": "试卷",
+    "path": "课程Course/人工智能/试卷",
+    "parentId": "课程Course/人工智能",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/软件技术基础/试卷",
+    "name": "试卷",
+    "path": "课程Course/软件技术基础/试卷",
+    "parentId": "课程Course/软件技术基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/生物化学/试卷",
+    "name": "试卷",
+    "path": "课程Course/生物化学/试卷",
+    "parentId": "课程Course/生物化学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/实验力学/资料",
+    "name": "资料",
+    "path": "课程Course/实验力学/资料",
+    "parentId": "课程Course/实验力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数据结构/试卷",
+    "name": "试卷",
+    "path": "课程Course/数据结构/试卷",
+    "parentId": "课程Course/数据结构",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 7
+  },
+  {
+    "id": "课程Course/数据结构与数据库/试卷",
+    "name": "试卷",
+    "path": "课程Course/数据结构与数据库/试卷",
+    "parentId": "课程Course/数据结构与数据库",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数据结构C#/试卷",
+    "name": "试卷",
+    "path": "课程Course/数据结构C#/试卷",
+    "parentId": "课程Course/数据结构C#",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/数据库原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/数据库原理/试卷",
+    "parentId": "课程Course/数据库原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/数学分析/课本",
+    "name": "课本",
+    "path": "课程Course/数学分析/课本",
+    "parentId": "课程Course/数学分析",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/数学分析/试卷",
+    "name": "试卷",
+    "path": "课程Course/数学分析/试卷",
+    "parentId": "课程Course/数学分析",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数学物理方法/试卷",
+    "name": "试卷",
+    "path": "课程Course/数学物理方法/试卷",
+    "parentId": "课程Course/数学物理方法",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数值逼近/试卷",
+    "name": "试卷",
+    "path": "课程Course/数值逼近/试卷",
+    "parentId": "课程Course/数值逼近",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/数字电路与逻辑设计/试卷",
+    "name": "试卷",
+    "path": "课程Course/数字电路与逻辑设计/试卷",
+    "parentId": "课程Course/数字电路与逻辑设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/数字电子技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/数字电子技术/试卷",
+    "parentId": "课程Course/数字电子技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数字系统设计与PLD应用/试卷",
+    "name": "试卷",
+    "path": "课程Course/数字系统设计与PLD应用/试卷",
+    "parentId": "课程Course/数字系统设计与PLD应用",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/数字信号处理/试卷",
+    "name": "试卷",
+    "path": "课程Course/数字信号处理/试卷",
+    "parentId": "课程Course/数字信号处理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/塑性力学/试卷",
+    "name": "试卷",
+    "path": "课程Course/塑性力学/试卷",
+    "parentId": "课程Course/塑性力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/塑性力学/资料",
+    "name": "资料",
+    "path": "课程Course/塑性力学/资料",
+    "parentId": "课程Course/塑性力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/算法设计与分析/试卷",
+    "name": "试卷",
+    "path": "课程Course/算法设计与分析/试卷",
+    "parentId": "课程Course/算法设计与分析",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "课程Course/随机信号分析/试卷",
+    "name": "试卷",
+    "path": "课程Course/随机信号分析/试卷",
+    "parentId": "课程Course/随机信号分析",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/特种电机及其控制/试卷",
+    "name": "试卷",
+    "path": "课程Course/特种电机及其控制/试卷",
+    "parentId": "课程Course/特种电机及其控制",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/天线原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/天线原理/试卷",
+    "parentId": "课程Course/天线原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/通信电子电路/试卷",
+    "name": "试卷",
+    "path": "课程Course/通信电子电路/试卷",
+    "parentId": "课程Course/通信电子电路",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/通信原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/通信原理/试卷",
+    "parentId": "课程Course/通信原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/微波技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/微波技术/试卷",
+    "parentId": "课程Course/微波技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/微波技术与天线/试卷",
+    "name": "试卷",
+    "path": "课程Course/微波技术与天线/试卷",
+    "parentId": "课程Course/微波技术与天线",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/微观经济学/试卷",
+    "name": "试卷",
+    "path": "课程Course/微观经济学/试卷",
+    "parentId": "课程Course/微观经济学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/微机原理及应用/试卷",
+    "name": "试卷",
+    "path": "课程Course/微机原理及应用/试卷",
+    "parentId": "课程Course/微机原理及应用",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/微机原理与接口技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/微机原理与接口技术/试卷",
+    "parentId": "课程Course/微机原理与接口技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/微机原理与应用/试卷",
+    "name": "试卷",
+    "path": "课程Course/微机原理与应用/试卷",
+    "parentId": "课程Course/微机原理与应用",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/习近平新时代中国特色社会主义思想概论/试卷",
+    "name": "试卷",
+    "path": "课程Course/习近平新时代中国特色社会主义思想概论/试卷",
+    "parentId": "课程Course/习近平新时代中国特色社会主义思想概论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/系统工程导论/试卷",
+    "name": "试卷",
+    "path": "课程Course/系统工程导论/试卷",
+    "parentId": "课程Course/系统工程导论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/系统可靠性设计分析技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/系统可靠性设计分析技术/试卷",
+    "parentId": "课程Course/系统可靠性设计分析技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/现代控制理论/试卷",
+    "name": "试卷",
+    "path": "课程Course/现代控制理论/试卷",
+    "parentId": "课程Course/现代控制理论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "课程Course/线性代数/试卷",
+    "name": "试卷",
+    "path": "课程Course/线性代数/试卷",
+    "parentId": "课程Course/线性代数",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 7
+  },
+  {
+    "id": "课程Course/项目管理/试卷",
+    "name": "试卷",
+    "path": "课程Course/项目管理/试卷",
+    "parentId": "课程Course/项目管理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/信号与系统/试卷",
+    "name": "试卷",
+    "path": "课程Course/信号与系统/试卷",
+    "parentId": "课程Course/信号与系统",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "课程Course/信号与系统/资料",
+    "name": "资料",
+    "path": "课程Course/信号与系统/资料",
+    "parentId": "课程Course/信号与系统",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/信号与线性系统/试卷",
+    "name": "试卷",
+    "path": "课程Course/信号与线性系统/试卷",
+    "parentId": "课程Course/信号与线性系统",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/液压与气压传动/试卷",
+    "name": "试卷",
+    "path": "课程Course/液压与气压传动/试卷",
+    "parentId": "课程Course/液压与气压传动",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/应用统计学/试卷",
+    "name": "试卷",
+    "path": "课程Course/应用统计学/试卷",
+    "parentId": "课程Course/应用统计学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/英国文学概况/试卷",
+    "name": "试卷",
+    "path": "课程Course/英国文学概况/试卷",
+    "parentId": "课程Course/英国文学概况",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/英美概况/试卷",
+    "name": "试卷",
+    "path": "课程Course/英美概况/试卷",
+    "parentId": "课程Course/英美概况",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/英美概况/资料",
+    "name": "资料",
+    "path": "课程Course/英美概况/资料",
+    "parentId": "课程Course/英美概况",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/有限元/试卷",
+    "name": "试卷",
+    "path": "课程Course/有限元/试卷",
+    "parentId": "课程Course/有限元",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/运筹学/试卷",
+    "name": "试卷",
+    "path": "课程Course/运筹学/试卷",
+    "parentId": "课程Course/运筹学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/振动理论/试卷",
+    "name": "试卷",
+    "path": "课程Course/振动理论/试卷",
+    "parentId": "课程Course/振动理论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/振动理论/习题",
+    "name": "习题",
+    "path": "课程Course/振动理论/习题",
+    "parentId": "课程Course/振动理论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/中国文化（英语）/试卷",
+    "name": "试卷",
+    "path": "课程Course/中国文化（英语）/试卷",
+    "parentId": "课程Course/中国文化（英语）",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/自动控制原理/试卷",
+    "name": "试卷",
+    "path": "课程Course/自动控制原理/试卷",
+    "parentId": "课程Course/自动控制原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 10
+  },
+  {
+    "id": "课程Course/C  C++语言课程设计/课设",
+    "name": "课设",
+    "path": "课程Course/C  C++语言课程设计/课设",
+    "parentId": "课程Course/C  C++语言课程设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "课程Course/C  C++语言课程设计/试卷",
+    "name": "试卷",
+    "path": "课程Course/C  C++语言课程设计/试卷",
+    "parentId": "课程Course/C  C++语言课程设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/C  C++语言课程设计/习题",
+    "name": "习题",
+    "path": "课程Course/C  C++语言课程设计/习题",
+    "parentId": "课程Course/C  C++语言课程设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/Python 语言程序设计/课设",
+    "name": "课设",
+    "path": "课程Course/Python 语言程序设计/课设",
+    "parentId": "课程Course/Python 语言程序设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/Python 语言程序设计/试卷",
+    "name": "试卷",
+    "path": "课程Course/Python 语言程序设计/试卷",
+    "parentId": "课程Course/Python 语言程序设计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "其它Other/大学物理实验/资料",
+    "name": "资料",
+    "path": "其它Other/大学物理实验/资料",
+    "parentId": "其它Other/大学物理实验",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 10
+  },
+  {
+    "id": "其它Other/金工实习/资料",
+    "name": "资料",
+    "path": "其它Other/金工实习/资料",
+    "parentId": "其它Other/金工实习",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "其它Other/数字时钟课设/18院",
+    "name": "18院",
+    "path": "其它Other/数字时钟课设/18院",
+    "parentId": "其它Other/数字时钟课设",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "其它Other/数字时钟课设/4院",
+    "name": "4院",
+    "path": "其它Other/数字时钟课设/4院",
+    "parentId": "其它Other/数字时钟课设",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "其它Other/数字时钟课设/其他学院",
+    "name": "其他学院",
+    "path": "其它Other/数字时钟课设/其他学院",
+    "parentId": "其它Other/数字时钟课设",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "其它Other/形势与政策/考试答案",
+    "name": "考试答案",
+    "path": "其它Other/形势与政策/考试答案",
+    "parentId": "其它Other/形势与政策",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "其它Other/形势与政策/章节测答案",
+    "name": "章节测答案",
+    "path": "其它Other/形势与政策/章节测答案",
+    "parentId": "其它Other/形势与政策",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "其它Other/自动控制原理实验/资料",
+    "name": "资料",
+    "path": "其它Other/自动控制原理实验/资料",
+    "parentId": "其它Other/自动控制原理实验",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "网课OnlineCourse/框框老师课堂/讲义",
+    "name": "讲义",
+    "path": "网课OnlineCourse/框框老师课堂/讲义",
+    "parentId": "网课OnlineCourse/框框老师课堂",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "资源Resource/幻灯片资源/南航PPT模板",
+    "name": "南航PPT模板",
+    "path": "资源Resource/幻灯片资源/南航PPT模板",
+    "parentId": "资源Resource/幻灯片资源",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 9
+  },
+  {
+    "id": "api/src/loaders",
+    "name": "loaders",
+    "path": "api/src/loaders",
+    "parentId": "api/src",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "api/src/routes",
+    "name": "routes",
+    "path": "api/src/routes",
+    "parentId": "api/src",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "api/src/services",
+    "name": "services",
+    "path": "api/src/services",
+    "parentId": "api/src",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "tools/dist/indexer",
+    "name": "indexer",
+    "path": "tools/dist/indexer",
+    "parentId": "tools/dist",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 32
+  },
+  {
+    "id": "tools/indexer/web",
+    "name": "web",
+    "path": "tools/indexer/web",
+    "parentId": "tools/indexer",
+    "depth": 2,
+    "childrenCount": 1,
+    "fileCount": 0
+  },
+  {
+    "id": "tools/node_modules/.bin",
+    "name": ".bin",
+    "path": "tools/node_modules/.bin",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "tools/node_modules/@esbuild",
+    "name": "@esbuild",
+    "path": "tools/node_modules/@esbuild",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 1,
+    "fileCount": 0
+  },
+  {
+    "id": "tools/node_modules/@types",
+    "name": "@types",
+    "path": "tools/node_modules/@types",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 2,
+    "fileCount": 0
+  },
+  {
+    "id": "tools/node_modules/esbuild",
+    "name": "esbuild",
+    "path": "tools/node_modules/esbuild",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 2,
+    "fileCount": 4
+  },
+  {
+    "id": "tools/node_modules/get-tsconfig",
+    "name": "get-tsconfig",
+    "path": "tools/node_modules/get-tsconfig",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 1,
+    "fileCount": 3
+  },
+  {
+    "id": "tools/node_modules/mime-db",
+    "name": "mime-db",
+    "path": "tools/node_modules/mime-db",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "tools/node_modules/mime-types",
+    "name": "mime-types",
+    "path": "tools/node_modules/mime-types",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "tools/node_modules/resolve-pkg-maps",
+    "name": "resolve-pkg-maps",
+    "path": "tools/node_modules/resolve-pkg-maps",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 1,
+    "fileCount": 3
+  },
+  {
+    "id": "tools/node_modules/tsx",
+    "name": "tsx",
+    "path": "tools/node_modules/tsx",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 1,
+    "fileCount": 3
+  },
+  {
+    "id": "tools/node_modules/typescript",
+    "name": "typescript",
+    "path": "tools/node_modules/typescript",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 2,
+    "fileCount": 5
+  },
+  {
+    "id": "tools/node_modules/undici-types",
+    "name": "undici-types",
+    "path": "tools/node_modules/undici-types",
+    "parentId": "tools/node_modules",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 41
+  },
+  {
+    "id": "tools/web/public",
+    "name": "public",
+    "path": "tools/web/public",
+    "parentId": "tools/web",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "web/public/mock-data",
+    "name": "mock-data",
+    "path": "web/public/mock-data",
+    "parentId": "web/public",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "web/src/app",
+    "name": "app",
+    "path": "web/src/app",
+    "parentId": "web/src",
+    "depth": 2,
+    "childrenCount": 3,
+    "fileCount": 0
+  },
+  {
+    "id": "web/src/assets",
+    "name": "assets",
+    "path": "web/src/assets",
+    "parentId": "web/src",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "web/src/hooks",
+    "name": "hooks",
+    "path": "web/src/hooks",
+    "parentId": "web/src",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "web/src/modules",
+    "name": "modules",
+    "path": "web/src/modules",
+    "parentId": "web/src",
+    "depth": 2,
+    "childrenCount": 2,
+    "fileCount": 0
+  },
+  {
+    "id": "web/src/services",
+    "name": "services",
+    "path": "web/src/services",
+    "parentId": "web/src",
+    "depth": 2,
+    "childrenCount": 1,
+    "fileCount": 0
+  },
+  {
+    "id": "web/src/styles",
+    "name": "styles",
+    "path": "web/src/styles",
+    "parentId": "web/src",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "web/src/themes",
+    "name": "themes",
+    "path": "web/src/themes",
+    "parentId": "web/src",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "tools/indexer/web/public",
+    "name": "public",
+    "path": "tools/indexer/web/public",
+    "parentId": "tools/indexer/web",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "tools/node_modules/@esbuild/linux-x64",
+    "name": "linux-x64",
+    "path": "tools/node_modules/@esbuild/linux-x64",
+    "parentId": "tools/node_modules/@esbuild",
+    "depth": 3,
+    "childrenCount": 1,
+    "fileCount": 2
+  },
+  {
+    "id": "tools/node_modules/@types/mime-types",
+    "name": "mime-types",
+    "path": "tools/node_modules/@types/mime-types",
+    "parentId": "tools/node_modules/@types",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "tools/node_modules/@types/node",
+    "name": "node",
+    "path": "tools/node_modules/@types/node",
+    "parentId": "tools/node_modules/@types",
+    "depth": 3,
+    "childrenCount": 9,
+    "fileCount": 50
+  },
+  {
+    "id": "tools/node_modules/esbuild/bin",
+    "name": "bin",
+    "path": "tools/node_modules/esbuild/bin",
+    "parentId": "tools/node_modules/esbuild",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/esbuild/lib",
+    "name": "lib",
+    "path": "tools/node_modules/esbuild/lib",
+    "parentId": "tools/node_modules/esbuild",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "tools/node_modules/get-tsconfig/dist",
+    "name": "dist",
+    "path": "tools/node_modules/get-tsconfig/dist",
+    "parentId": "tools/node_modules/get-tsconfig",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "tools/node_modules/resolve-pkg-maps/dist",
+    "name": "dist",
+    "path": "tools/node_modules/resolve-pkg-maps/dist",
+    "parentId": "tools/node_modules/resolve-pkg-maps",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "tools/node_modules/tsx/dist",
+    "name": "dist",
+    "path": "tools/node_modules/tsx/dist",
+    "parentId": "tools/node_modules/tsx",
+    "depth": 3,
+    "childrenCount": 2,
+    "fileCount": 35
+  },
+  {
+    "id": "tools/node_modules/typescript/bin",
+    "name": "bin",
+    "path": "tools/node_modules/typescript/bin",
+    "parentId": "tools/node_modules/typescript",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
+    "id": "tools/node_modules/typescript/lib",
+    "name": "lib",
+    "path": "tools/node_modules/typescript/lib",
+    "parentId": "tools/node_modules/typescript",
+    "depth": 3,
+    "childrenCount": 13,
+    "fileCount": 112
+  },
+  {
+    "id": "web/src/app/providers",
+    "name": "providers",
+    "path": "web/src/app/providers",
+    "parentId": "web/src/app",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "web/src/app/routes",
+    "name": "routes",
+    "path": "web/src/app/routes",
+    "parentId": "web/src/app",
+    "depth": 3,
+    "childrenCount": 1,
+    "fileCount": 3
+  },
+  {
+    "id": "web/src/app/shell",
+    "name": "shell",
+    "path": "web/src/app/shell",
+    "parentId": "web/src/app",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "web/src/modules/content",
+    "name": "content",
+    "path": "web/src/modules/content",
+    "parentId": "web/src/modules",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 6
+  },
+  {
+    "id": "web/src/modules/layout",
+    "name": "layout",
+    "path": "web/src/modules/layout",
+    "parentId": "web/src/modules",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "web/src/services/adapters",
+    "name": "adapters",
+    "path": "web/src/services/adapters",
+    "parentId": "web/src/services",
+    "depth": 3,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/@esbuild/linux-x64/bin",
+    "name": "bin",
+    "path": "tools/node_modules/@esbuild/linux-x64/bin",
+    "parentId": "tools/node_modules/@esbuild/linux-x64",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/@types/node/assert",
+    "name": "assert",
+    "path": "tools/node_modules/@types/node/assert",
+    "parentId": "tools/node_modules/@types/node",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/@types/node/compatibility",
+    "name": "compatibility",
+    "path": "tools/node_modules/@types/node/compatibility",
+    "parentId": "tools/node_modules/@types/node",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "tools/node_modules/@types/node/dns",
+    "name": "dns",
+    "path": "tools/node_modules/@types/node/dns",
+    "parentId": "tools/node_modules/@types/node",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/@types/node/fs",
+    "name": "fs",
+    "path": "tools/node_modules/@types/node/fs",
+    "parentId": "tools/node_modules/@types/node",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/@types/node/readline",
+    "name": "readline",
+    "path": "tools/node_modules/@types/node/readline",
+    "parentId": "tools/node_modules/@types/node",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/@types/node/stream",
+    "name": "stream",
+    "path": "tools/node_modules/@types/node/stream",
+    "parentId": "tools/node_modules/@types/node",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "tools/node_modules/@types/node/timers",
+    "name": "timers",
+    "path": "tools/node_modules/@types/node/timers",
+    "parentId": "tools/node_modules/@types/node",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/@types/node/ts5.6",
+    "name": "ts5.6",
+    "path": "tools/node_modules/@types/node/ts5.6",
+    "parentId": "tools/node_modules/@types/node",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "tools/node_modules/@types/node/web-globals",
+    "name": "web-globals",
+    "path": "tools/node_modules/@types/node/web-globals",
+    "parentId": "tools/node_modules/@types/node",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "tools/node_modules/tsx/dist/cjs",
+    "name": "cjs",
+    "path": "tools/node_modules/tsx/dist/cjs",
+    "parentId": "tools/node_modules/tsx/dist",
+    "depth": 4,
+    "childrenCount": 1,
+    "fileCount": 2
+  },
+  {
+    "id": "tools/node_modules/tsx/dist/esm",
+    "name": "esm",
+    "path": "tools/node_modules/tsx/dist/esm",
+    "parentId": "tools/node_modules/tsx/dist",
+    "depth": 4,
+    "childrenCount": 1,
+    "fileCount": 2
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/cs",
+    "name": "cs",
+    "path": "tools/node_modules/typescript/lib/cs",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/de",
+    "name": "de",
+    "path": "tools/node_modules/typescript/lib/de",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/es",
+    "name": "es",
+    "path": "tools/node_modules/typescript/lib/es",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/fr",
+    "name": "fr",
+    "path": "tools/node_modules/typescript/lib/fr",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/it",
+    "name": "it",
+    "path": "tools/node_modules/typescript/lib/it",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/ja",
+    "name": "ja",
+    "path": "tools/node_modules/typescript/lib/ja",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/ko",
+    "name": "ko",
+    "path": "tools/node_modules/typescript/lib/ko",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/pl",
+    "name": "pl",
+    "path": "tools/node_modules/typescript/lib/pl",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/pt-br",
+    "name": "pt-br",
+    "path": "tools/node_modules/typescript/lib/pt-br",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/ru",
+    "name": "ru",
+    "path": "tools/node_modules/typescript/lib/ru",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/tr",
+    "name": "tr",
+    "path": "tools/node_modules/typescript/lib/tr",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/zh-cn",
+    "name": "zh-cn",
+    "path": "tools/node_modules/typescript/lib/zh-cn",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "tools/node_modules/typescript/lib/zh-tw",
+    "name": "zh-tw",
+    "path": "tools/node_modules/typescript/lib/zh-tw",
+    "parentId": "tools/node_modules/typescript/lib",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "web/src/app/routes/placeholders",
+    "name": "placeholders",
+    "path": "web/src/app/routes/placeholders",
+    "parentId": "web/src/app/routes",
+    "depth": 4,
+    "childrenCount": 0,
+    "fileCount": 5
+  },
+  {
+    "id": "tools/node_modules/tsx/dist/cjs/api",
+    "name": "api",
+    "path": "tools/node_modules/tsx/dist/cjs/api",
+    "parentId": "tools/node_modules/tsx/dist/cjs",
+    "depth": 5,
+    "childrenCount": 0,
+    "fileCount": 4
+  },
+  {
+    "id": "tools/node_modules/tsx/dist/esm/api",
+    "name": "api",
+    "path": "tools/node_modules/tsx/dist/esm/api",
+    "parentId": "tools/node_modules/tsx/dist/esm",
+    "depth": 5,
+    "childrenCount": 0,
+    "fileCount": 4
+  }
+]

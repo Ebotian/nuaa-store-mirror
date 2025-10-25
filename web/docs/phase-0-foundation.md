@@ -191,3 +191,60 @@ src/
 | 2025-10-25 | Copilot | 新增亮色主题、暖色调色板与模式切换        | `npm run typecheck`, `npm run lint`, `npm run build` |
 
 > 完成实施后务必填写本表，并在 commit message 中引用 `Phase0` 关键字。
+
+## 9. 实施验证记录（详细）
+
+下列为本次 Phase 0 实施的可复现验证步骤与运行结果。所有命令均在项目根目录下执行，使用 `--prefix web` 运行 workspace 内的 web 包任务以便在 monorepo 或多包结构中定位。
+
+验证命令与结果（摘要）
+
+```bash
+# Type-check (strict TS)
+npm --prefix web run typecheck
+# => PASSED (tsc --noEmit completed with no errors)
+
+# Lint
+npm --prefix web run lint
+# => PASSED (eslint . reported no errors)
+
+# Start dev server (used briefly for visual smoke-check; HMR active)
+npm --prefix web run dev
+# => Vite dev server started (visited locally during dev checks)
+```
+
+注：`npm run build`（生产构建）在本阶段未做完整 CI 级别构建；建议在 CI 环境中执行并验证构建产物。
+
+按需求项的逐条验证状态
+
+- Vite & TypeScript 配置 — Done
+
+  - 说明：路径别名、tsconfig 路径、`vite` dev 脚本已验证；`tsc --noEmit` 通过。
+
+- 路由骨架（Router + AppShell） — Done
+
+  - 说明：`AppShell` 已切换为基于 `modules/layout/LayoutShell`，主路由使用 `RouterProvider`（占位页面存在以供后续填充）。
+
+- Tailwind & Tokens — Done
+
+  - 说明：`src/themes/tokens.ts` 已实现 `themeTokens` 与 `tokensToCssVariables(mode)`，`globals.css` 包含默认变量以避免 FOUC；Tailwind 配置使用 CSS 变量映射（`hsl(var(--token) / <alpha-value>)`）。
+
+- ThemeProvider — Done
+
+  - 说明：`ThemeProvider` 在首次渲染时注入 CSS 变量并设置 `data-theme` 与 `color-scheme`；localStorage 持久化有效，亮色默认。
+
+- Layout Shell / TopBar / Sidebar — Done
+
+  - 说明：`TopBar` 与 `LayoutShell` 已添加，`Sidebar` 支持可访问折叠（localStorage 持久化）并使用 `mockAdapter()` 加载示例分类。
+
+- Data adapters / QueryClient — Done
+  - 说明：`services/adapters/index.ts` 包含 `createAdapter` 与 `mockAdapter`；`AppProviders` 已初始化 `QueryClient` 并注入 `AdaptersProvider`（通过 `useAdapters()` 获取 adapter）。
+
+总体结论
+
+本次 Phase 0 的核心基础设施（构建配置、主题 token、Provider 栈、基础布局与数据适配器）已经实现并通过静态校验（typecheck + lint）。后续工作建议：
+
+1. 在 CI 中运行 `npm --prefix web run build` 并验证生产构建产物。
+2. 补充一组小型集成/单元测试（tokens -> CSS variables 转换，adapters mock、createAdapter 行为）。
+3. 将 `mockAdapter` 示例替换为真实后端适配器并在 staging 环境中做 end-to-end 验证。
+
+已将上述验证结果添加到本文件，并在仓库中保留了用于复现的命令与说明。
