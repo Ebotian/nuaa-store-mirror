@@ -1,4 +1,7 @@
 import { useCallback, useMemo } from "react";
+import ReactMarkdown from "react-markdown";
+import type { Components } from "react-markdown";
+import remarkGfm from "remark-gfm";
 const RAW_CONTENT_FALLBACK_BASE = (() => {
 	if (typeof import.meta === "undefined") return null;
 	const rawBase = import.meta.env?.VITE_FILES_RAW_BASE_URL;
@@ -49,25 +52,37 @@ const formatDateTime = (iso?: string | null) => {
 };
 
 const derivePreviewKind = (
-	previewKind?: "image" | "text",
+	previewKind?: "image" | "text" | "markdown",
 	mime?: string | null,
 	extension?: string | null
 ) => {
-	if (previewKind) return previewKind;
+	if (previewKind === "markdown") return "markdown" as const;
+	if (previewKind === "image") return "image" as const;
+	if (previewKind === "text") {
+		if (mime?.includes("markdown")) {
+			return "markdown" as const;
+		}
+		if (extension && ["md", "markdown"].includes(extension.toLowerCase())) {
+			return "markdown" as const;
+		}
+		return "text" as const;
+	}
 	if (!mime && !extension) return null;
 	if (mime?.startsWith("image/")) return "image" as const;
-	if (mime?.startsWith("text/")) return "text" as const;
+	if (mime?.includes("markdown")) return "markdown" as const;
 	if (mime === "application/json") return "text" as const;
-	const lowered = extension?.toLowerCase();
+	if (mime?.startsWith("text/")) return "text" as const;
+	const lowered = extension ? extension.toLowerCase() : undefined;
 	if (!lowered) return null;
+	if (["md", "markdown"].includes(lowered)) {
+		return "markdown" as const;
+	}
 	if (["png", "jpg", "jpeg", "gif", "bmp", "webp", "svg"].includes(lowered)) {
 		return "image" as const;
 	}
 	if (
 		[
 			"txt",
-			"md",
-			"markdown",
 			"json",
 			"csv",
 			"tsv",
@@ -126,11 +141,23 @@ export function FileDetailPlaceholder() {
 		() => derivePreviewKind(file?.previewKind, file?.mime, file?.extension),
 		[file]
 	);
+	const isTextualPreview = previewKind === "text" || previewKind === "markdown";
+	const isMarkdownPreview = previewKind === "markdown";
 	const previewUrl = useMemo(() => {
 		if (!file || !file.supportsPreview) return null;
 		return file.previewUrl ?? file.downloadUrl ?? null;
 	}, [file]);
 	const supportsPreview = !!file && !!previewUrl && !!previewKind;
+	const markdownComponents = useMemo(
+		() =>
+			({
+				a: ({ node: _node, ...props }) => (
+					<a {...props} target="_blank" rel="noreferrer" />
+				),
+				img: ({ node: _node, ...props }) => <img loading="lazy" {...props} />,
+			} satisfies Components),
+		[]
+	);
 
 	const triggerDownload = useCallback(() => {
 		if (typeof window === "undefined") return;
@@ -155,6 +182,7 @@ export function FileDetailPlaceholder() {
 			"file-preview-content",
 			file?.id,
 			previewUrl,
+			previewKind,
 			file?.downloadUrl,
 			file?.path,
 		],
@@ -211,7 +239,7 @@ export function FileDetailPlaceholder() {
 
 			throw lastError ?? new Error("暂无可用的文件预览，请尝试下载查看");
 		},
-		enabled: supportsPreview && previewKind === "text" && !!previewUrl,
+		enabled: supportsPreview && isTextualPreview && !!previewUrl,
 		staleTime: 0,
 		refetchOnWindowFocus: false,
 	});
@@ -311,7 +339,7 @@ export function FileDetailPlaceholder() {
 						</div>
 					) : (
 						<div className="min-h-full bg-surface-base/5">
-							{previewKind === "text" && textPreviewQuery.isLoading ? (
+							{isTextualPreview && textPreviewQuery.isLoading ? (
 								<div className="flex h-full items-center justify-center p-6 text-sm text-foreground-muted">
 									正在加载文本预览…
 								</div>
@@ -330,6 +358,15 @@ export function FileDetailPlaceholder() {
 										重试加载
 									</button>
 								</div>
+							) : isMarkdownPreview ? (
+								<article className="markdown-body px-6 py-6">
+									<ReactMarkdown
+										remarkPlugins={[remarkGfm]}
+										components={markdownComponents}
+									>
+										{textPreviewQuery.data ?? ""}
+									</ReactMarkdown>
+								</article>
 							) : (
 								<pre className="whitespace-pre-wrap break-words px-6 py-6 font-mono text-[0.85rem] leading-relaxed text-foreground-primary/90">
 									{textPreviewQuery.data ?? ""}

@@ -6,6 +6,7 @@ import { AppProviders } from "@app/providers/AppProviders";
 import "@styles/reset.css";
 import "@styles/tailwind.css";
 import "@styles/globals.css";
+import "@styles/markdown.css";
 
 createRoot(document.getElementById("root")!).render(
 	<StrictMode>
