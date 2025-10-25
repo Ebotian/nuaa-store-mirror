@@ -8,7 +8,7 @@ export default function HomePlaceholder() {
 					NUAA Store Mirror
 				</h1>
 				<p className="mt-2 text-sm text-foreground-subtle">
-					欢迎来到新版界面。下方显示仓库中最近索引的文件，您可以浏览、预览或下载原始文件。
+					这是南京航空航天大学的一个非官方镜像站点, 旨在为广大师生提供便捷的资源访问服务. 您可以在左方浏览和索引文件, 查看或者下载.
 				</p>
 			</section>
 

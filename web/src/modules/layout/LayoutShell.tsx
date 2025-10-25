@@ -1,18 +1,96 @@
-import type { PropsWithChildren } from "react";
-import { useMemo } from "react";
-import { useLocation, useNavigation } from "react-router-dom";
+import type { PropsWithChildren, ReactNode } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { useLocation } from "react-router-dom";
 import { TopBar } from "./TopBar";
 import { Sidebar } from "./Sidebar";
 
+type LayerState = "entering" | "entered" | "exiting";
+
+type Layer = {
+	key: string;
+	node: ReactNode;
+	state: LayerState;
+};
+
 export function LayoutShell({ children }: PropsWithChildren) {
-	const navigation = useNavigation();
 	const location = useLocation();
-	const fadeState = useMemo(() => {
-		const navState = navigation.state;
-		return navState === "loading" || navState === "submitting"
-			? "content-fade--out"
-			: "content-fade--in";
-	}, [navigation.state]);
+	const FADE_DURATION_MS = 1000;
+	const [layers, setLayers] = useState<Layer[]>(() => [
+		{ key: location.key, node: children, state: "entered" },
+	]);
+	const enteringRefs = useRef<Map<string, number>>(new Map());
+	const exitingRefs = useRef<Map<string, ReturnType<typeof setTimeout>>>(
+		new Map()
+	);
+
+	useEffect(() => {
+		return () => {
+			enteringRefs.current.forEach((rafId) => cancelAnimationFrame(rafId));
+			exitingRefs.current.forEach((timerId) => clearTimeout(timerId));
+		};
+	}, []);
+
+	useEffect(() => {
+		setLayers((prev) => {
+			const existing = prev.find((layer) => layer.key === location.key);
+			if (existing) {
+				return prev.map((layer) =>
+					layer.key === location.key ? { ...layer, node: children } : layer
+				);
+			}
+			const updated = prev.map((layer, idx) =>
+				idx === prev.length - 1
+					? {
+							...layer,
+							state: layer.state === "exiting" ? layer.state : "exiting",
+					  }
+					: layer
+			);
+			return [
+				...updated,
+				{ key: location.key, node: children, state: "entering" },
+			];
+		});
+	}, [location.key, children]);
+
+	useEffect(() => {
+		const latestLayers = layers;
+		const activeKey = latestLayers[latestLayers.length - 1]?.key;
+		latestLayers.forEach((layer) => {
+			if (layer.state === "entering" && !enteringRefs.current.has(layer.key)) {
+				const rafId = requestAnimationFrame(() => {
+					setLayers((prev) =>
+						prev.map((prevLayer) =>
+							prevLayer.key === layer.key
+								? { ...prevLayer, state: "entered" }
+								: prevLayer
+						)
+					);
+					enteringRefs.current.delete(layer.key);
+				});
+				enteringRefs.current.set(layer.key, rafId);
+			}
+
+			if (
+				layer.state === "exiting" &&
+				!exitingRefs.current.has(layer.key) &&
+				layer.key !== activeKey
+			) {
+				const timerId = setTimeout(() => {
+					setLayers((prev) =>
+						prev.filter((prevLayer) => prevLayer.key !== layer.key)
+					);
+					exitingRefs.current.delete(layer.key);
+				}, FADE_DURATION_MS);
+				exitingRefs.current.set(layer.key, timerId);
+			}
+		});
+	}, [layers, FADE_DURATION_MS]);
+
+	const activeKey = useMemo(
+		() => layers[layers.length - 1]?.key ?? location.key,
+		[layers, location.key]
+	);
 
 	return (
 		<div className="relative flex h-screen flex-col overflow-hidden bg-surface-base text-foreground-primary transition-colors duration-[var(--motion-medium)]">
@@ -41,12 +119,29 @@ export function LayoutShell({ children }: PropsWithChildren) {
 					/>
 					<div className="relative z-10 flex h-full min-h-0 flex-col">
 						<div className="app-scroll flex-1 overflow-y-auto px-8 py-10 pr-9">
-							<div
-								key={location.key}
-								className={`content-fade ${fadeState}`}
-								data-fade-state={fadeState}
-							>
-								<div className="min-h-full">{children}</div>
+							<div className="content-stack">
+								{layers.map((layer) => {
+									const isActive = layer.key === activeKey;
+									const positionClass =
+										isActive && layer.state === "entered"
+											? "content-layer--relative"
+											: "content-layer--absolute";
+									const stateClass =
+										layer.state === "entering"
+											? "content-layer--entering"
+											: layer.state === "entered"
+											? "content-layer--entered"
+											: "content-layer--exiting";
+									return (
+										<div
+											key={layer.key}
+											className={`content-layer ${positionClass} ${stateClass}`.trim()}
+											data-page-key={layer.key}
+										>
+											<div className="min-h-full">{layer.node}</div>
+										</div>
+									);
+								})}
 							</div>
 						</div>
 					</div>

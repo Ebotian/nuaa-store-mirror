@@ -303,24 +303,42 @@ body {
   animation: theme-transition-ripple 1500ms var(--motion-easing-fluent) forwards;
 }
 
-.content-fade {
+.content-stack {
   position: relative;
-  height: 100%;
-  width: 100%;
-  opacity: 1;
+  min-height: 100%;
+}
+
+.content-layer {
+  opacity: 0;
+  pointer-events: none;
   transition: opacity 1000ms var(--motion-easing-fluent);
 }
 
-.content-fade--out {
+.content-layer--relative {
+  position: relative;
+  min-height: 100%;
+}
+
+.content-layer--absolute {
+  position: absolute;
+  inset: 0;
+}
+
+.content-layer--entering {
   opacity: 0;
 }
 
-.content-fade--in {
+.content-layer--entered {
   opacity: 1;
+  pointer-events: auto;
+}
+
+.content-layer--exiting {
+  opacity: 0;
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .content-fade {
+  .content-layer {
     transition-duration: 0ms;
   }
 }
