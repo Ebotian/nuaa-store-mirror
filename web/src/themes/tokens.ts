@@ -62,7 +62,7 @@ const palettes: Record<Exclude<ThemeMode, "contrast">, Palette> = {
 				muted: "222 28% 58%",
 				inverted: "34 46% 92%",
 			},
-			accent: { glow: "28 92% 70%", focus: "18 88% 62%" },
+			accent: { glow: "204 92% 72%", focus: "202 88% 66%" },
 			status: {
 				danger: "350 100% 65%",
 				warning: "34 100% 58%",
@@ -71,7 +71,7 @@ const palettes: Record<Exclude<ThemeMode, "contrast">, Palette> = {
 		},
 		shadows: {
 			card: "0 20px 45px -25px rgba(11, 22, 35, 0.7)",
-			glow: "0 0 28px rgba(255, 176, 120, 0.42)",
+			glow: "0 0 32px rgba(88, 176, 255, 0.45)",
 			vignette: "inset 0 0 120px rgba(15, 23, 41, 0.75)",
 		},
 	},

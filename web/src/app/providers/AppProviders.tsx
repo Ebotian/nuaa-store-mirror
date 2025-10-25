@@ -1,11 +1,11 @@
 import type { PropsWithChildren, ReactNode } from "react";
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 
 import { composeProviders } from "./composeProviders";
-import { MotionProvider, useMotion } from "./MotionProvider";
-import { ThemeProvider, useTheme } from "./ThemeProvider";
+import { MotionProvider } from "./MotionProvider";
+import { ThemeProvider } from "./ThemeProvider";
 import { AdaptersProvider } from "./AdaptersProvider";
 
 const Providers = composeProviders(
@@ -22,14 +22,6 @@ export function AppProviders({ children }: PropsWithChildren) {
 // eslint-disable-next-line react-refresh/only-export-components
 export function withAppProviders(node: ReactNode) {
 	return <AppProviders>{node}</AppProviders>;
-}
-
-// eslint-disable-next-line react-refresh/only-export-components
-export function useAppProviders() {
-	const theme = useTheme();
-	const motion = useMotion();
-
-	return useMemo(() => ({ theme, motion }), [theme, motion]);
 }
 
 function QueryProvider({ children }: PropsWithChildren) {

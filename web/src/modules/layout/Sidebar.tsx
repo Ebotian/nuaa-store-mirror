@@ -267,6 +267,7 @@ export function Sidebar() {
 	const goHome = useCallback(() => {
 		navigate("/");
 		setDrawerOpen(false);
+		setExpanded({});
 	}, [navigate]);
 
 	const closeDrawer = useCallback(() => setDrawerOpen(false), []);
@@ -473,6 +474,15 @@ export function Sidebar() {
 					document.body
 			  )
 			: null;
+
+	useEffect(() => {
+		if (location.pathname === "/") {
+			setExpanded((prev) => {
+				if (Object.keys(prev).length === 0) return prev;
+				return {};
+			});
+		}
+	}, [location.pathname]);
 
 	return (
 		<>

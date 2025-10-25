@@ -1,4 +1,20 @@
 import { useCallback, useMemo } from "react";
+const RAW_CONTENT_FALLBACK_BASE = (() => {
+	if (typeof import.meta === "undefined") return null;
+	const rawBase = import.meta.env?.VITE_FILES_RAW_BASE_URL;
+	if (typeof rawBase === "string" && rawBase.trim().length > 0) {
+		return rawBase.replace(/\/+$/, "");
+	}
+	return "/files";
+})();
+
+const encodePathSegments = (path: string) =>
+	path
+		.split(/[\\/]+/)
+		.filter(Boolean)
+		.map((segment) => encodeURIComponent(segment))
+		.join("/");
+
 import { useQuery } from "@tanstack/react-query";
 import { useNavigate, useParams } from "react-router-dom";
 
@@ -135,14 +151,65 @@ export function FileDetailPlaceholder() {
 	}, [file]);
 
 	const textPreviewQuery = useQuery({
-		queryKey: ["file-preview-content", file?.id, previewUrl],
+		queryKey: [
+			"file-preview-content",
+			file?.id,
+			previewUrl,
+			file?.downloadUrl,
+			file?.path,
+		],
 		queryFn: async () => {
-			if (!previewUrl) throw new Error("缺少预览链接");
-			const response = await fetch(previewUrl);
-			if (!response.ok) {
-				throw new Error("加载预览内容失败");
+			const candidates: string[] = [];
+			if (RAW_CONTENT_FALLBACK_BASE && file?.path) {
+				candidates.push(
+					`${RAW_CONTENT_FALLBACK_BASE}/${encodePathSegments(file.path)}`
+				);
 			}
-			return response.text();
+			if (previewUrl) candidates.push(previewUrl);
+			if (file?.downloadUrl && file.downloadUrl !== previewUrl) {
+				candidates.push(file.downloadUrl);
+			}
+
+			const seen = new Set<string>();
+			const allowHtmlPreview = Boolean(
+				file?.mime?.includes("html") ||
+					file?.extension?.toLowerCase().includes("htm")
+			);
+			let lastError: Error | null = null;
+
+			for (const candidate of candidates) {
+				if (!candidate || seen.has(candidate)) continue;
+				seen.add(candidate);
+				try {
+					const response = await fetch(candidate, {
+						headers: {
+							Accept: "text/plain, text/*, application/json",
+						},
+						cache: "no-store",
+					});
+					if (!response.ok) {
+						lastError = new Error(`加载预览内容失败 (HTTP ${response.status})`);
+						continue;
+					}
+					const contentType = response.headers.get("content-type") ?? "";
+					const rawText = await response.text();
+					const trimmed = rawText.trimStart();
+					const looksHtml =
+						/content\/html/i.test(contentType) ||
+						trimmed.toLowerCase().startsWith("<!doctype html") ||
+						trimmed.toLowerCase().startsWith("<html");
+					if (looksHtml && !allowHtmlPreview) {
+						lastError = new Error("预览源返回 HTML 页面，尝试其他镜像...");
+						continue;
+					}
+					return rawText;
+				} catch (error) {
+					lastError =
+						error instanceof Error ? error : new Error("加载预览内容失败");
+				}
+			}
+
+			throw lastError ?? new Error("暂无可用的文件预览，请尝试下载查看");
 		},
 		enabled: supportsPreview && previewKind === "text" && !!previewUrl,
 		staleTime: 0,
@@ -250,7 +317,11 @@ export function FileDetailPlaceholder() {
 								</div>
 							) : textPreviewQuery.isError ? (
 								<div className="flex h-full flex-col items-center justify-center gap-3 p-6 text-center text-sm text-foreground-muted">
-									<p>无法加载文本预览内容。</p>
+									<p>
+										{textPreviewQuery.error instanceof Error
+											? textPreviewQuery.error.message
+											: "无法加载文本预览内容。"}
+									</p>
 									<button
 										type="button"
 										onClick={() => textPreviewQuery.refetch()}

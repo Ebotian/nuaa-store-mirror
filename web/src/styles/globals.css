@@ -160,13 +160,33 @@ body {
   opacity: 0.3;
 }
 
-.card-scan-bar {
+.card-top-strip {
+  background-image: linear-gradient(90deg,
+      hsl(var(--accent-focus) / 0.25) 0%,
+      hsl(var(--accent-glow) / 0.45) 50%,
+      hsl(var(--accent-focus) / 0.25) 100%);
+}
+
+[data-theme='dark'] .card-top-strip {
+  background-image: linear-gradient(90deg,
+      rgba(64, 156, 255, 0.3) 0%,
+      rgba(105, 198, 255, 0.55) 50%,
+      rgba(64, 156, 255, 0.3) 100%);
+}
+
+[data-theme='dark'] .bg-linear-scan {
+  background-image: linear-gradient(90deg,
+      transparent,
+      rgba(105, 198, 255, 0.55) 50%,
+      transparent);
+}
+
+[data-theme='dark'] .skeleton-scan-bar {
   background-image: linear-gradient(270deg,
-      hsl(var(--accent-focus) / 0) 0%,
-      hsl(var(--accent-focus) / 0.4) 55%,
-      hsl(var(--accent-glow) / 0.45) 75%,
-      hsl(var(--accent-focus) / 0) 100%);
-  animation: card-scan 6s linear infinite;
+      rgba(64, 156, 255, 0) 0%,
+      rgba(64, 156, 255, 0.3) 45%,
+      rgba(105, 198, 255, 0.35) 70%,
+      rgba(64, 156, 255, 0) 100%);
 }
 
 .skeleton-scan-bar {
@@ -229,7 +249,7 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
 
-  .card-scan-bar,
+  .card-top-strip,
   .skeleton-scan-bar,
   .skeleton-bar::after,
   .skeleton-sheen {

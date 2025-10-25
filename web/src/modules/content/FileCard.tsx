@@ -22,7 +22,6 @@ export const FileCard = memo(function FileCard({
 		id,
 		name,
 		title,
-		path,
 		extension,
 		mime,
 		sizeBytes,
@@ -89,11 +88,7 @@ export const FileCard = memo(function FileCard({
 				aria-hidden
 			/>
 			<div
-				className="pointer-events-none absolute inset-x-0 top-0 h-[6px] card-scan-bar"
-				aria-hidden
-			/>
-			<div
-				className="pointer-events-none absolute inset-x-[18%] top-5 h-[1px] bg-linear-scan opacity-60"
+				className="pointer-events-none absolute inset-x-0 top-0 h-[6px] card-top-strip"
 				aria-hidden
 			/>
 			<div className="relative z-10 flex w-full items-stretch gap-5">
@@ -105,10 +100,6 @@ export const FileCard = memo(function FileCard({
 					<span>{updatedLabel}</span>
 					<div
 						className="pointer-events-none absolute inset-0 card-noise"
-						aria-hidden
-					/>
-					<span
-						className="pointer-events-none absolute inset-x-0 top-0 h-[1px] bg-linear-scan"
 						aria-hidden
 					/>
 				</div>
@@ -123,11 +114,6 @@ export const FileCard = memo(function FileCard({
 						<span>{previewBadge}</span>
 						{mimeLabel ? (
 							<span className="tracking-[0.18em]">{mimeLabel}</span>
-						) : null}
-						{path ? (
-							<span className="font-mono text-[0.6rem] tracking-[0.2em] text-foreground-muted/70">
-								{path}
-							</span>
 						) : null}
 					</div>
 					<div className="mt-auto flex items-center justify-end gap-2 opacity-0 transition-opacity duration-[var(--motion-medium)] group-hover:opacity-100 group-focus-within:opacity-100">
