@@ -19,7 +19,7 @@ export function LayoutShell({ children }: PropsWithChildren) {
 			<TopBar />
 			<div className="relative mx-auto flex w-full max-w-6xl flex-1 gap-6 px-6 py-8 min-h-0">
 				<Sidebar />
-				<main className="relative flex flex-1 flex-col overflow-hidden border border-surface-divider/70 bg-surface-elevated/75 px-8 py-10 shadow-vignette backdrop-blur-2xl">
+				<main className="relative flex flex-1 flex-col overflow-hidden border border-surface-divider/70 bg-surface-elevated/75 shadow-vignette backdrop-blur-2xl">
 					<div
 						className="pointer-events-none absolute inset-0 border border-accent-glow/12 mix-blend-screen"
 						aria-hidden
@@ -28,7 +28,11 @@ export function LayoutShell({ children }: PropsWithChildren) {
 						className="pointer-events-none absolute inset-0 layout-grid-overlay opacity-20"
 						aria-hidden
 					/>
-					<div className="relative z-10 flex h-full flex-col">{children}</div>
+					<div className="relative z-10 flex h-full min-h-0 flex-col">
+						<div className="app-scroll flex-1 overflow-y-auto px-8 py-10 pr-9">
+							<div className="min-h-full">{children}</div>
+						</div>
+					</div>
 				</main>
 			</div>
 		</div>

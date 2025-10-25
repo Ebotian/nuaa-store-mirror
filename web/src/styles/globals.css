@@ -256,3 +256,66 @@ body {
     animation: none;
   }
 }
+
+.app-scroll {
+  scrollbar-width: none;
+  scrollbar-gutter: stable;
+  scrollbar-color: transparent transparent;
+  transition: scrollbar-color var(--motion-medium),
+    color var(--motion-medium);
+}
+
+.app-scroll::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+
+.app-scroll::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 999px;
+  border: 2px solid transparent;
+}
+
+.app-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.app-scroll:hover,
+.app-scroll:focus-visible,
+.app-scroll:focus-within,
+.app-scroll:active {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--foreground-muted) / 0.45) transparent;
+}
+
+.app-scroll:hover::-webkit-scrollbar,
+.app-scroll:focus-visible::-webkit-scrollbar,
+.app-scroll:focus-within::-webkit-scrollbar,
+.app-scroll:active::-webkit-scrollbar {
+  width: 0.65rem;
+  height: 0.65rem;
+}
+
+.app-scroll:hover::-webkit-scrollbar-thumb,
+.app-scroll:focus-visible::-webkit-scrollbar-thumb,
+.app-scroll:focus-within::-webkit-scrollbar-thumb,
+.app-scroll:active::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--foreground-muted) / 0.55);
+  border-color: hsl(var(--surface-elevated) / 0.6);
+}
+
+[data-theme='dark'] .app-scroll:hover,
+[data-theme='dark'] .app-scroll:focus-visible,
+[data-theme='dark'] .app-scroll:focus-within,
+[data-theme='dark'] .app-scroll:active {
+  scrollbar-color: hsl(var(--accent-focus) / 0.55) transparent;
+}
+
+[data-theme='dark'] .app-scroll:hover::-webkit-scrollbar-thumb,
+[data-theme='dark'] .app-scroll:focus-visible::-webkit-scrollbar-thumb,
+[data-theme='dark'] .app-scroll:focus-within::-webkit-scrollbar-thumb,
+[data-theme='dark'] .app-scroll:active::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--accent-focus) / 0.55);
+  border-color: hsl(var(--surface-base) / 0.75);
+}
