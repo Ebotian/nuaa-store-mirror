@@ -22,14 +22,40 @@ const moonIcon = (
 	<svg
 		viewBox="0 0 24 24"
 		fill="none"
-		stroke="currentColor"
-		strokeWidth="1.6"
 		strokeLinecap="round"
 		strokeLinejoin="round"
 		className="h-5 w-5"
 		aria-hidden
 	>
-		<path d="M21 12.79A9 9 0 0 1 11.21 3 6.5 6.5 0 1 0 21 12.79z" />
+		<circle
+			cx="12"
+			cy="12"
+			r="5.4"
+			fill="currentColor"
+			stroke="currentColor"
+			strokeWidth="0.8"
+		/>
+		<path
+			d="M14.6 7.9a3.4 3.4 0 0 0-4.9 3.73"
+			fill="none"
+			stroke="currentColor"
+			strokeWidth="0.8"
+			strokeOpacity="0.35"
+		/>
+		<circle
+			cx="14.5"
+			cy="10.1"
+			r="0.9"
+			fill="currentColor"
+			fillOpacity="0.35"
+		/>
+		<circle
+			cx="10.2"
+			cy="14.3"
+			r="0.7"
+			fill="currentColor"
+			fillOpacity="0.25"
+		/>
 	</svg>
 );
 
