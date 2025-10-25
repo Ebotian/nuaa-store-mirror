@@ -1,0 +1,19 @@
+{
+  "name": "nuaa-indexer-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:index": "tsx indexer/build-index.ts",
+    "build:index:help": "tsx indexer/build-index.ts --help"
+  },
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "@types/mime-types": "^2.1.4",
+    "@types/node": "^20.16.10",
+    "tsx": "^4.20.6",
+    "typescript": "^5.6.3"
+  }
+}

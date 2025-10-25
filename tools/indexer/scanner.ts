@@ -1,6 +1,4 @@
-// @ts-expect-error 使用 Node.js 内置模块，在编译环境中忽略类型解析
 import fs from "fs/promises";
-// @ts-expect-error 使用 Node.js 内置模块，在编译环境中忽略类型解析
 import path from "path";
 
 import type {
