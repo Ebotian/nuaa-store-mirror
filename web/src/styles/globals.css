@@ -1,0 +1,71 @@
+:root {
+  color-scheme: light;
+  font-family: "Source Han Sans SC", "Noto Sans SC", system-ui, -apple-system, sans-serif;
+  background-color: hsl(var(--surface-base));
+  color: hsl(var(--foreground-primary));
+
+  --surface-base: 36 42% 94%;
+  --surface-elevated: 36 52% 99%;
+  --surface-divider: 30 24% 75%;
+  --foreground-primary: 27 32% 20%;
+  --foreground-subtle: 27 26% 40%;
+  --foreground-muted: 28 24% 55%;
+  --foreground-inverted: 216 48% 92%;
+  --accent-glow: 32 96% 70%;
+  --accent-focus: 22 80% 56%;
+  --status-danger: 0 70% 46%;
+  --status-warning: 35 100% 56%;
+  --status-success: 142 45% 45%;
+  --shadow-card: 0 25px 65px -35px rgba(68, 54, 38, 0.25);
+  --shadow-glow: 0 0 24px rgba(255, 184, 112, 0.45);
+  --shadow-vignette: inset 0 0 120px rgba(74, 54, 36, 0.18);
+  --motion-fast: 120ms;
+  --motion-medium: 240ms;
+  --motion-slow: 360ms;
+  --motion-easing-fluent: cubic-bezier(0.33, 1, 0.68, 1);
+
+  --app-noise: url('data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22%3E%3Cfilter id=%22n%22 x=%220%22 y=%220%22 width=%22100%25%22 height=%22100%25%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%222%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23n)%22 opacity=%220.07%22/%3E%3C/svg%3E');
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+[data-theme='contrast'] {
+  color-scheme: light;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(var(--surface-base));
+  background-image:
+    radial-gradient(circle at 18% 20%, hsl(var(--accent-glow) / 0.32), transparent 55%),
+    radial-gradient(circle at 80% 8%, hsl(var(--accent-focus) / 0.24), transparent 60%),
+    linear-gradient(180deg, hsl(var(--surface-elevated) / 0.75) 0%, hsl(var(--surface-base)) 60%),
+    var(--app-noise);
+  background-blend-mode: screen, soft-light, normal, normal;
+  color: inherit;
+  transition: background-color var(--motion-medium), color var(--motion-medium);
+}
+
+[data-theme='dark'] body {
+  background-color: hsl(var(--surface-base));
+  background-image:
+    radial-gradient(circle at 22% 18%, hsl(var(--accent-glow) / 0.18), transparent 45%),
+    radial-gradient(circle at 80% 12%, hsl(var(--accent-focus) / 0.16), transparent 55%),
+    linear-gradient(160deg, hsl(var(--surface-base) / 0.92) 0%, hsl(var(--surface-elevated) / 0.88) 35%, hsl(var(--surface-base)) 100%),
+    var(--app-noise);
+  background-blend-mode: screen, screen, normal, normal;
+}
+
+::selection {
+  background-color: hsl(var(--accent-glow) / 0.28);
+}
+
+[data-theme='dark'] ::selection {
+  background-color: hsl(var(--accent-focus) / 0.35);
+}
+
+.supports-backdrop .backdrop-surface {
+  backdrop-filter: blur(24px);
+}
