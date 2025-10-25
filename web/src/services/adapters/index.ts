@@ -40,7 +40,13 @@ export function mockAdapter(): Adapter {
 		category?: string;
 	};
 
-	type MockCategory = { id: string; name: string; path: string; parentId: string | null; fileCount: number };
+	type MockCategory = {
+		id: string;
+		name: string;
+		path: string;
+		parentId: string | null;
+		fileCount: number;
+	};
 	let cached: MockFile[] | null | undefined;
 	const loadData = async (): Promise<MockFile[] | null> => {
 		if (cached !== undefined) return cached;
@@ -61,30 +67,34 @@ export function mockAdapter(): Adapter {
 
 	return {
 		async fetchCategories() {
-				// Prefer a precomputed categories.json if present
-				try {
-					const res = await fetch('/mock-data/categories.json');
-					if (res.ok) {
-						const cats = (await res.json()) as MockCategory[] | unknown;
-						// return top-level categories (parentId === null)
-						return Array.isArray(cats)
-							? (cats as MockCategory[]).filter((c) => c.parentId === null).map((c) => ({ id: c.id, name: c.name }))
-							: [];
-					}
-				} catch {
-					// ignore and fall back
+			// Prefer a precomputed categories.json if present
+			try {
+				const res = await fetch("/mock-data/categories.json");
+				if (res.ok) {
+					const cats = (await res.json()) as MockCategory[] | unknown;
+					// return top-level categories (parentId === null)
+					return Array.isArray(cats)
+						? (cats as MockCategory[])
+								.filter((c) => c.parentId === null)
+								.map((c) => ({ id: c.id, name: c.name }))
+						: [];
 				}
+			} catch {
+				// ignore and fall back
+			}
 
-				const d = await loadData();
-				if (!d) {
-					return [
-						{ id: 'c-1', name: '课程' },
-						{ id: 'c-2', name: '资源' },
-					];
-				}
-				const cats = new Map<string, string>();
-				d.forEach((it: MockFile) => cats.set(it.category || 'root', it.category || 'root'));
-				return Array.from(cats.keys()).map((k) => ({ id: k, name: k }));
+			const d = await loadData();
+			if (!d) {
+				return [
+					{ id: "c-1", name: "课程" },
+					{ id: "c-2", name: "资源" },
+				];
+			}
+			const cats = new Map<string, string>();
+			d.forEach((it: MockFile) =>
+				cats.set(it.category || "root", it.category || "root")
+			);
+			return Array.from(cats.keys()).map((k) => ({ id: k, name: k }));
 		},
 		async fetchFiles(categoryId: string) {
 			const d = await loadData();

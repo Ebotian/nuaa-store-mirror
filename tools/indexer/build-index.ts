@@ -36,8 +36,28 @@ async function main() {
 		return;
 	}
 
-	const args = normalizeArgs(parsedArgs);
+	let args = normalizeArgs(parsedArgs);
 	const logger = createLogger(args.verbose);
+
+	// If the user placed all display files under a `files` directory inside the root,
+	// prefer scanning that directory automatically (unless an explicit --root was given).
+	// This makes the common workflow easier: put everything under ./files and run the indexer.
+	try {
+		const candidate = path.resolve(args.rootDir, "files");
+		const s = await fs.stat(candidate);
+		if (s.isDirectory()) {
+			// Recompute outputDir relative to the new root when the output was not absolute.
+			const newRoot = candidate;
+			const outputDir = path.isAbsolute(args.outputDir)
+				? args.outputDir
+				: path.resolve(newRoot, path.relative(args.rootDir, args.outputDir));
+			args = { ...args, rootDir: newRoot, outputDir };
+			logger.info("indexer:auto-root-detected", { using: newRoot });
+		}
+	} catch {
+		// ignore - no files/ directory present
+	}
+
 	const start = Date.now();
 	logger.info("indexer:start", {
 		root: args.rootDir,

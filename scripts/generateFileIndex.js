@@ -106,52 +106,82 @@ if (items.length === 0) {
 
 try {
 	fs.mkdirSync(OUT_DIR, { recursive: true });
-	fs.writeFileSync(OUT_FILE, JSON.stringify(items, null, 2), 'utf8');
-	console.log('Wrote', OUT_FILE, 'with', items.length, 'items');
+	fs.writeFileSync(OUT_FILE, JSON.stringify(items, null, 2), "utf8");
+	console.log("Wrote", OUT_FILE, "with", items.length, "items");
 
 	// Build categories.json (hierarchical metadata)
 	const categoriesMap = new Map();
 	// Count files per exact category id
 	for (const it of items) {
-		const cat = it.category || 'root';
+		const cat = it.category || "root";
 		categoriesMap.set(cat, (categoriesMap.get(cat) || 0) + 1);
 	}
 
 	// Ensure parent categories exist and compute aggregated counts later
 	const nodes = new Map();
 	for (const [catId, count] of categoriesMap.entries()) {
-		const parts = catId.split('/');
+		const parts = catId.split("/");
 		const name = parts[parts.length - 1] || catId;
-		const parentId = parts.length > 1 ? parts.slice(0, -1).join('/') : null;
-		nodes.set(catId, { id: catId, name, path: catId, parentId, fileCount: count });
+		const parentId = parts.length > 1 ? parts.slice(0, -1).join("/") : null;
+		nodes.set(catId, {
+			id: catId,
+			name,
+			path: catId,
+			parentId,
+			fileCount: count,
+		});
 		// ensure ancestor nodes exist
-		let acc = '';
+		let acc = "";
 		for (let i = 0; i < parts.length - 1; i++) {
-			acc = acc ? acc + '/' + parts[i + (acc ? 1 : 0)] : parts[0];
+			acc = acc ? acc + "/" + parts[i + (acc ? 1 : 0)] : parts[0];
 			if (!nodes.has(acc)) {
-				const pparts = acc.split('/');
-				nodes.set(acc, { id: acc, name: pparts[pparts.length - 1], path: acc, parentId: pparts.length > 1 ? pparts.slice(0, -1).join('/') : null, fileCount: 0 });
+				const pparts = acc.split("/");
+				nodes.set(acc, {
+					id: acc,
+					name: pparts[pparts.length - 1],
+					path: acc,
+					parentId: pparts.length > 1 ? pparts.slice(0, -1).join("/") : null,
+					fileCount: 0,
+				});
 			}
 		}
 	}
 
 	// Aggregate counts upward (child -> parent)
 	// Sort keys by depth desc so children are processed before parents
-	const sorted = Array.from(nodes.keys()).sort((a, b) => b.split('/').length - a.split('/').length);
+	const sorted = Array.from(nodes.keys()).sort(
+		(a, b) => b.split("/").length - a.split("/").length
+	);
 	for (const key of sorted) {
 		const node = nodes.get(key);
 		if (!node) continue;
 		if (node.parentId) {
 			const parent = nodes.get(node.parentId);
-			if (parent) parent.fileCount = (parent.fileCount || 0) + (node.fileCount || 0);
-			else nodes.set(node.parentId, { id: node.parentId, name: node.parentId.split('/').slice(-1)[0], path: node.parentId, parentId: node.parentId.includes('/') ? node.parentId.split('/').slice(0, -1).join('/') : null, fileCount: node.fileCount || 0 });
+			if (parent)
+				parent.fileCount = (parent.fileCount || 0) + (node.fileCount || 0);
+			else
+				nodes.set(node.parentId, {
+					id: node.parentId,
+					name: node.parentId.split("/").slice(-1)[0],
+					path: node.parentId,
+					parentId: node.parentId.includes("/")
+						? node.parentId.split("/").slice(0, -1).join("/")
+						: null,
+					fileCount: node.fileCount || 0,
+				});
 		}
 	}
 
-	const categories = Array.from(nodes.values()).map((n) => ({ id: n.id, name: n.name, path: n.path, parentId: n.parentId, fileCount: n.fileCount || 0 }));
-	const CAT_OUT = path.join(OUT_DIR, 'categories.json');
-	fs.writeFileSync(CAT_OUT, JSON.stringify(categories, null, 2), 'utf8');
-	console.log('Wrote', CAT_OUT, 'with', categories.length, 'categories');
+	const categories = Array.from(nodes.values()).map((n) => ({
+		id: n.id,
+		name: n.name,
+		path: n.path,
+		parentId: n.parentId,
+		fileCount: n.fileCount || 0,
+	}));
+	const CAT_OUT = path.join(OUT_DIR, "categories.json");
+	fs.writeFileSync(CAT_OUT, JSON.stringify(categories, null, 2), "utf8");
+	console.log("Wrote", CAT_OUT, "with", categories.length, "categories");
 } catch (err) {
 	console.error("Failed to write output", err);
 	process.exitCode = 1;
