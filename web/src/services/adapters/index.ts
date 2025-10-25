@@ -1,7 +1,212 @@
 // Lightweight adapters for API access (no direct dependency on QueryClient here)
 
+const RAW_FILES_BASE_URL =
+	typeof import.meta !== "undefined" &&
+	typeof import.meta.env?.VITE_FILES_BASE_URL === "string"
+		? (import.meta.env.VITE_FILES_BASE_URL as string)
+		: "/files";
+
+const normalizeAssetBase = (() => {
+	const trimmed = RAW_FILES_BASE_URL?.trim() ?? "";
+	if (!trimmed || trimmed === "/") return "";
+	return trimmed.replace(/\/+$/, "");
+})();
+
+const encodePathSegments = (input: string) =>
+	input
+		.split(/[\\/]+/)
+		.filter(Boolean)
+		.map((segment) => encodeURIComponent(segment))
+		.join("/");
+
+const toExtension = (value?: string | null) => {
+	if (!value) return null;
+	const trimmed = value.trim();
+	if (!trimmed) return null;
+	return trimmed.startsWith(".") ? trimmed.slice(1) : trimmed;
+};
+
+const extensionFromName = (name?: string | null) => {
+	if (!name) return null;
+	const parts = name.split(".");
+	if (parts.length <= 1) return null;
+	return toExtension(parts.pop() ?? null);
+};
+
+const guessMimeFromExtension = (extension?: string | null) => {
+	if (!extension) return null;
+	switch (extension.toLowerCase()) {
+		case "png":
+		case "jpg":
+		case "jpeg":
+		case "gif":
+		case "bmp":
+		case "webp":
+			return `image/${
+				extension.toLowerCase() === "jpg" ? "jpeg" : extension.toLowerCase()
+			}`;
+		case "svg":
+			return "image/svg+xml";
+		case "txt":
+		case "log":
+		case "md":
+		case "markdown":
+		case "csv":
+		case "tsv":
+		case "xml":
+		case "yml":
+		case "yaml":
+		case "ini":
+		case "cfg":
+		case "conf":
+			return "text/plain";
+		case "json":
+			return "application/json";
+		default:
+			return null;
+	}
+};
+
+const isTextExtension = (extension?: string | null) => {
+	if (!extension) return false;
+	return new Set([
+		"txt",
+		"log",
+		"md",
+		"markdown",
+		"csv",
+		"tsv",
+		"json",
+		"xml",
+		"yml",
+		"yaml",
+		"ini",
+		"cfg",
+		"conf",
+		"html",
+		"htm",
+		"css",
+		"scss",
+		"less",
+		"js",
+		"jsx",
+		"ts",
+		"tsx",
+		"java",
+		"c",
+		"cpp",
+		"py",
+		"go",
+		"rs",
+		"rb",
+		"sh",
+		"bat",
+		"ps1",
+	]).has(extension.toLowerCase());
+};
+
+const isImageExtension = (extension?: string | null) => {
+	if (!extension) return false;
+	return new Set(["png", "jpg", "jpeg", "gif", "bmp", "webp", "svg"]).has(
+		extension.toLowerCase()
+	);
+};
+
+const buildAssetUrl = (path?: string | null) => {
+	if (!path) return null;
+	const encoded = encodePathSegments(path);
+	if (!encoded) return null;
+	if (!normalizeAssetBase) {
+		return `/${encoded}`;
+	}
+	return `${normalizeAssetBase}/${encoded}`;
+};
+
+const determinePreviewKind = (
+	mime?: string | null,
+	extension?: string | null
+) => {
+	if (mime?.startsWith("image/")) return "image" as const;
+	if (mime?.startsWith("text/")) return "text" as const;
+	if (mime === "application/json") return "text" as const;
+	if (isImageExtension(extension)) return "image" as const;
+	if (isTextExtension(extension)) return "text" as const;
+	return null;
+};
+
 export type Category = { id: string; name: string };
-export type FileItem = { id: string; title: string; excerpt?: string };
+export type FileItem = {
+	id: string;
+	name?: string | null;
+	title?: string | null;
+	path?: string | null;
+	extension?: string | null;
+	mime?: string | null;
+	sizeBytes?: number | null;
+	modifiedAt?: string | null;
+	previewUrl?: string | null;
+	downloadUrl?: string | null;
+	supportsPreview?: boolean;
+	previewKind?: "image" | "text";
+};
+
+const normalizeFileItem = (raw: unknown): FileItem => {
+	if (!raw || typeof raw !== "object") {
+		throw new Error("Invalid file payload");
+	}
+	const record = raw as Record<string, unknown>;
+	const id = String(record.id ?? record.path ?? "");
+	const name = record.name ? String(record.name) : null;
+	const path = record.path ? String(record.path) : id;
+	const extension = record.extension
+		? toExtension(String(record.extension))
+		: record.ext
+		? toExtension(String(record.ext))
+		: extensionFromName(name ?? id);
+	const mime =
+		record.mime && typeof record.mime === "string"
+			? record.mime
+			: guessMimeFromExtension(extension);
+	const previewKind = determinePreviewKind(mime, extension);
+	const downloadUrl =
+		typeof record.downloadUrl === "string"
+			? (record.downloadUrl as string)
+			: buildAssetUrl(path);
+	const previewUrl = previewKind
+		? typeof record.previewUrl === "string"
+			? (record.previewUrl as string)
+			: downloadUrl
+		: null;
+	const sizeSource =
+		typeof record.size === "number"
+			? (record.size as number)
+			: typeof record.sizeBytes === "number"
+			? (record.sizeBytes as number)
+			: null;
+	const modifiedAt =
+		record.modifiedAt && typeof record.modifiedAt === "string"
+			? (record.modifiedAt as string)
+			: null;
+	return {
+		id,
+		name,
+		title:
+			record.title && typeof record.title === "string"
+				? (record.title as string)
+				: record.name && typeof record.name === "string"
+				? (record.name as string)
+				: null,
+		path,
+		extension,
+		mime: mime ?? null,
+		sizeBytes: sizeSource,
+		modifiedAt,
+		previewUrl,
+		downloadUrl,
+		supportsPreview: !!previewKind,
+		previewKind: previewKind ?? undefined,
+	};
+};
 
 export type CategoryRecord = {
 	id: string;
@@ -49,12 +254,34 @@ export function createAdapter(baseUrl = "/api"): Adapter {
 			return wrappedFetch<Category[]>("/categories");
 		},
 		async fetchFiles(categoryId: string) {
-			return wrappedFetch<FileItem[]>(
+			const payload = await wrappedFetch<unknown>(
 				`/files?category=${encodeURIComponent(categoryId)}`
 			);
+			if (Array.isArray(payload)) {
+				return payload.map((item) => normalizeFileItem(item));
+			}
+			if (payload && typeof payload === "object") {
+				const record = payload as Record<string, unknown>;
+				if (Array.isArray(record.data)) {
+					return record.data.map((item) => normalizeFileItem(item));
+				}
+				if (Array.isArray(record.files)) {
+					return record.files.map((item) => normalizeFileItem(item));
+				}
+			}
+			return [];
 		},
 		async fetchFileDetail(fileId: string) {
-			return wrappedFetch<FileItem>(`/files/${encodeURIComponent(fileId)}`);
+			const payload = await wrappedFetch<unknown>(
+				`/files/${encodeURIComponent(fileId)}`
+			);
+			if (payload && typeof payload === "object") {
+				const record = payload as Record<string, unknown>;
+				if (record.data) {
+					return normalizeFileItem(record.data);
+				}
+			}
+			return normalizeFileItem(payload);
 		},
 		async fetchCategoryDetail(categoryId: string) {
 			return wrappedFetch<CategoryDetail>(
@@ -67,10 +294,19 @@ export function createAdapter(baseUrl = "/api"): Adapter {
 export function mockAdapter(): Adapter {
 	type MockFile = {
 		id: string;
-		title: string;
-		excerpt?: string;
+		name?: string;
+		title?: string;
+		path?: string;
 		category?: string;
 		categoryId?: string;
+		ext?: string;
+		extension?: string;
+		mime?: string;
+		size?: number;
+		sizeBytes?: number;
+		modifiedAt?: string;
+		previewUrl?: string;
+		downloadUrl?: string;
 	};
 
 	type FilesIndex = {
@@ -258,17 +494,28 @@ export function mockAdapter(): Adapter {
 		async fetchFiles(categoryId: string) {
 			const index = await loadFilesIndex();
 			if (!index) {
+				const prefix = categoryId ? `${categoryId}/` : "";
 				return [
-					{
+					normalizeFileItem({
 						id: `${categoryId}-f-1`,
+						name: "示例文件 1",
 						title: "示例文件 1",
-						excerpt: "这是示例文件",
-					},
-					{
+						path: `${prefix}示例文件-1.txt`,
+						extension: "txt",
+						mime: "text/plain",
+						size: 0,
+						modifiedAt: new Date().toISOString(),
+					}),
+					normalizeFileItem({
 						id: `${categoryId}-f-2`,
+						name: "示例文件 2",
 						title: "示例文件 2",
-						excerpt: "这是示例文件",
-					},
+						path: `${prefix}示例文件-2.txt`,
+						extension: "txt",
+						mime: "text/plain",
+						size: 0,
+						modifiedAt: new Date().toISOString(),
+					}),
 				];
 			}
 			return index.files
@@ -277,17 +524,48 @@ export function mockAdapter(): Adapter {
 						? (it.categoryId ?? it.category ?? "") === categoryId
 						: true
 				)
-				.map((it: MockFile) => ({
-					id: it.id,
-					title: it.title || it.id,
-					excerpt: it.excerpt,
-				}));
+				.map((it: MockFile) =>
+					normalizeFileItem({
+						...it,
+						path: it.path ?? it.id,
+						extension: it.extension ?? it.ext,
+						size: typeof it.size === "number" ? it.size : undefined,
+						sizeBytes:
+							typeof it.sizeBytes === "number" ? it.sizeBytes : undefined,
+					})
+				);
 		},
 		async fetchFileDetail(fileId: string) {
 			const index = await loadFilesIndex();
-			if (!index) return { id: fileId, title: "示例详情", excerpt: "详情文本" };
+			if (!index) {
+				return normalizeFileItem({
+					id: fileId,
+					name: "示例详情",
+					title: "示例详情",
+					path: `${fileId}.txt`,
+					extension: "txt",
+					mime: "text/plain",
+					size: 0,
+					modifiedAt: new Date().toISOString(),
+				});
+			}
 			const found = index.files.find((it: MockFile) => it.id === fileId);
-			return found || { id: fileId, title: fileId, excerpt: undefined };
+			if (!found) {
+				return normalizeFileItem({
+					id: fileId,
+					name: fileId,
+					title: fileId,
+					path: fileId,
+				});
+			}
+			return normalizeFileItem({
+				...found,
+				path: found.path ?? found.id,
+				extension: found.extension ?? found.ext,
+				size: typeof found.size === "number" ? found.size : undefined,
+				sizeBytes:
+					typeof found.sizeBytes === "number" ? found.sizeBytes : undefined,
+			});
 		},
 		async fetchCategoryDetail(categoryId: string) {
 			return buildCategoryDetail(categoryId);

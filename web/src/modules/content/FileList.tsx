@@ -1,3 +1,7 @@
+import { useCallback } from "react";
+import { useNavigate } from "react-router-dom";
+
+import type { FileItem } from "@services/adapters";
 import { useFiles } from "@/hooks/useFiles";
 
 import { FileCard } from "./FileCard";
@@ -9,6 +13,52 @@ export default function FileList({ categoryId }: { categoryId?: string }) {
 	const hasData = !!(data && data.length > 0);
 	const showSkeleton = isLoading || (isFetching && !hasData);
 	const isEmpty = !showSkeleton && !isError && !hasData;
+	const navigate = useNavigate();
+
+	const triggerDownload = useCallback((file: FileItem) => {
+		if (typeof window === "undefined") return;
+		if (!file.downloadUrl) return;
+		const anchor = document.createElement("a");
+		anchor.href = file.downloadUrl;
+		anchor.download = file.name ?? file.title ?? file.id;
+		anchor.rel = "noopener";
+		anchor.target = "_blank";
+		anchor.style.display = "none";
+		document.body.appendChild(anchor);
+		anchor.click();
+		document.body.removeChild(anchor);
+	}, []);
+
+	const handleOpen = useCallback(
+		(file: FileItem) => {
+			if (file.supportsPreview && file.previewUrl) {
+				const encodedId = encodeURIComponent(file.id);
+				navigate(`/files/${encodedId}`);
+				return;
+			}
+			triggerDownload(file);
+		},
+		[navigate, triggerDownload]
+	);
+
+	const handlePreview = useCallback(
+		(file: FileItem) => {
+			if (file.supportsPreview && file.previewUrl) {
+				const encodedId = encodeURIComponent(file.id);
+				navigate(`/files/${encodedId}`);
+				return;
+			}
+			triggerDownload(file);
+		},
+		[navigate, triggerDownload]
+	);
+
+	const handleDownload = useCallback(
+		(file: FileItem) => {
+			triggerDownload(file);
+		},
+		[triggerDownload]
+	);
 
 	return (
 		<section
@@ -20,7 +70,7 @@ export default function FileList({ categoryId }: { categoryId?: string }) {
 				<div
 					role="status"
 					aria-label="正在装填内容"
-					className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+					className="flex flex-col gap-3"
 				>
 					<span className="sr-only">正在装填内容</span>
 					{Array.from({ length: 6 }).map((_, i) => (
@@ -94,13 +144,14 @@ export default function FileList({ categoryId }: { categoryId?: string }) {
 			) : null}
 
 			{!showSkeleton && !isError && hasData ? (
-				<div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+				<div className="flex flex-col gap-3">
 					{data!.map((file) => (
 						<FileCard
 							key={file.id}
-							id={file.id}
-							title={file.title}
-							excerpt={file.excerpt}
+							file={file}
+							onOpen={handleOpen}
+							onPreview={handlePreview}
+							onDownload={handleDownload}
 						/>
 					))}
 				</div>

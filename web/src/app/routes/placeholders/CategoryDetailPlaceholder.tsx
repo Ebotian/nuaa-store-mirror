@@ -295,10 +295,10 @@ export default function CategoryDetailRoute() {
 							</button>
 						) : null}
 						<Link
-							to="/categories"
+							to="/"
 							className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary"
 						>
-							返回总览
+							返回主页
 						</Link>
 					</div>
 					{filesSourceGeneratedAt ? (
