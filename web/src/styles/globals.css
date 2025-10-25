@@ -1,5 +1,8 @@
 :root {
   color-scheme: light;
+  /* stylelint-disable property-no-unknown */
+  text-autospace: normal;
+  /* stylelint-enable property-no-unknown */
   font-family: "Source Han Sans SC", "Noto Sans SC", system-ui, -apple-system, sans-serif;
   background-color: hsl(var(--surface-base));
   color: hsl(var(--foreground-primary));
