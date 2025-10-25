@@ -111,7 +111,7 @@ export default function CategoryDetailRoute() {
 					<div className="mt-4 flex justify-center">
 						<Link
 							to="/categories"
-							className="border border-status-danger/50 bg-status-danger/15 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-primary transition hover:bg-status-danger/25"
+							className="border border-status-danger/50 bg-status-danger/15 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-primary transition hover:bg-status-danger/25 rounded-[1.5rem]"
 						>
 							返回分类
 						</Link>
@@ -194,7 +194,7 @@ export default function CategoryDetailRoute() {
 							</button>
 							<Link
 								to="/categories"
-								className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary"
+								className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary rounded-[1.5rem]"
 							>
 								返回分类
 							</Link>
@@ -289,14 +289,14 @@ export default function CategoryDetailRoute() {
 								onClick={() =>
 									navigate(`/categories/${encodeURIComponent(parentId)}`)
 								}
-								className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary"
+								className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary rounded-[1.5rem]"
 							>
 								返回上一级
 							</button>
 						) : null}
 						<Link
 							to="/"
-							className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary"
+							className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary rounded-[1.5rem]"
 						>
 							返回主页
 						</Link>

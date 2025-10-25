@@ -2,10 +2,10 @@ import type { PropsWithChildren } from "react";
 import {
 	createContext,
 	useCallback,
-	useContext,
 	useEffect,
 	useMemo,
 	useState,
+	useRef,
 } from "react";
 
 import type { ThemeMode } from "@themes";
@@ -14,13 +14,12 @@ import { tokensToCssVariables } from "@themes";
 const STORAGE_KEY = "nuaa-theme-mode";
 const DEFAULT_MODE: ThemeMode = "light";
 
-type ThemeContextValue = {
+export type ThemeContextValue = {
 	mode: ThemeMode;
 	setMode: (mode: ThemeMode) => void;
 	toggleMode: () => void;
 };
-
-const ThemeContext = createContext<ThemeContextValue | null>(null);
+export const ThemeContext = createContext<ThemeContextValue | null>(null);
 
 function resolveInitialMode(): ThemeMode {
 	if (typeof window === "undefined") {
@@ -63,19 +62,51 @@ export function ThemeProvider({ children }: PropsWithChildren) {
 		applyTheme(initialMode);
 		return initialMode;
 	});
+	const [transitionState, setTransitionState] = useState<{
+		key: number;
+		nextMode: ThemeMode;
+	} | null>(null);
+	const transitionTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
 	useEffect(() => {
 		applyTheme(mode);
 		window.localStorage.setItem(STORAGE_KEY, mode);
 	}, [mode]);
 
+	const clearTransitionTimer = useCallback(() => {
+		if (transitionTimerRef.current !== null) {
+			clearTimeout(transitionTimerRef.current);
+			transitionTimerRef.current = null;
+		}
+	}, []);
+
 	const setMode = useCallback((next: ThemeMode) => {
-		setModeState(next);
+		setModeState((prev) => {
+			if (prev === next) {
+				return prev;
+			}
+			setTransitionState({ key: Date.now(), nextMode: next });
+			return next;
+		});
 	}, []);
 
 	const toggleMode = useCallback(() => {
-		setModeState((prev: ThemeMode) => (prev === "dark" ? "light" : "dark"));
+		setModeState((prev: ThemeMode) => {
+			const next = prev === "dark" ? "light" : "dark";
+			setTransitionState({ key: Date.now(), nextMode: next });
+			return next;
+		});
 	}, []);
+
+	useEffect(() => {
+		if (!transitionState) return undefined;
+		clearTransitionTimer();
+		transitionTimerRef.current = setTimeout(() => {
+			setTransitionState(null);
+			transitionTimerRef.current = null;
+		}, 1500);
+		return () => clearTransitionTimer();
+	}, [transitionState, clearTransitionTimer]);
 
 	const value = useMemo<ThemeContextValue>(
 		() => ({ mode, setMode, toggleMode }),
@@ -83,15 +114,18 @@ export function ThemeProvider({ children }: PropsWithChildren) {
 	);
 
 	return (
-		<ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
+		<ThemeContext.Provider value={value}>
+			{children}
+			{transitionState ? (
+				<div
+					key={transitionState.key}
+					className={`theme-transition-overlay ${
+						transitionState.nextMode === "dark"
+							? "theme-transition-overlay--dark"
+							: "theme-transition-overlay--light"
+					}`}
+				/>
+			) : null}
+		</ThemeContext.Provider>
 	);
-}
-
-// eslint-disable-next-line react-refresh/only-export-components
-export function useTheme() {
-	const ctx = useContext(ThemeContext);
-	if (!ctx) {
-		throw new Error("useTheme must be used within ThemeProvider");
-	}
-	return ctx;
 }

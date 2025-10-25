@@ -250,7 +250,7 @@ export function FileDetailPlaceholder() {
 					<button
 						type="button"
 						onClick={() => navigate(-1)}
-						className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary"
+						className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary rounded-[1.5rem]"
 					>
 						返回
 					</button>
@@ -285,7 +285,7 @@ export function FileDetailPlaceholder() {
 					<button
 						type="button"
 						onClick={() => navigate(-1)}
-						className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary"
+						className="border border-surface-divider/60 bg-surface-base/10 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary rounded-[1.5rem]"
 					>
 						返回
 					</button>
@@ -293,7 +293,7 @@ export function FileDetailPlaceholder() {
 						type="button"
 						onClick={triggerDownload}
 						disabled={!file.downloadUrl}
-						className="border border-accent-focus/40 bg-accent-focus/15 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-primary transition hover:bg-accent-focus/25 disabled:cursor-not-allowed disabled:opacity-40"
+						className="border border-accent-focus/40 bg-accent-focus/15 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-primary transition hover:bg-accent-focus/25 disabled:cursor-not-allowed disabled:opacity-40 rounded-[1.5rem]"
 					>
 						下载
 					</button>
@@ -346,7 +346,7 @@ export function FileDetailPlaceholder() {
 							type="button"
 							onClick={triggerDownload}
 							disabled={!file.downloadUrl}
-							className="border border-accent-focus/40 bg-accent-focus/15 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-primary transition hover:bg-accent-focus/25 disabled:cursor-not-allowed disabled:opacity-40"
+							className="border border-accent-focus/40 bg-accent-focus/15 px-4 py-2 text-xs uppercase tracking-[0.35em] text-foreground-primary transition hover:bg-accent-focus/25 disabled:cursor-not-allowed disabled:opacity-40 rounded-[1.5rem]"
 						>
 							立即下载
 						</button>

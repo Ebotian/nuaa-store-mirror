@@ -437,7 +437,7 @@ export function Sidebar() {
 							: "text-foreground-subtle"
 					}`}
 				>
-					<NavBadge label="HQ" />
+					<NavBadge label="NSM-HOME" />
 				</button>
 				{searchActive ? (
 					<div className="flex items-center justify-between gap-3 rounded-lg border border-accent-focus/35 bg-accent-focus/10 px-3 py-2 text-[0.6rem] uppercase tracking-[0.3em] text-foreground-primary">

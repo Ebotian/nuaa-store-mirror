@@ -150,7 +150,7 @@ export function TopBar() {
 								aria-hidden
 							/>
 							<span className="relative font-mono text-[0.65rem] text-accent-focus">
-								TAC-01
+								NUAA-0321
 							</span>
 						</div>
 						<div className="flex flex-col">
@@ -158,7 +158,7 @@ export function TopBar() {
 								nuaa store mirror
 							</span>
 							<span className="text-xl font-bold tracking-tight text-foreground-primary">
-								Knowledge Hub
+								Ur little helper here
 							</span>
 						</div>
 					</div>

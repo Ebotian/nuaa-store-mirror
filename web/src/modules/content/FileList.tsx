@@ -118,11 +118,7 @@ export default function FileList({ categoryId }: { categoryId?: string }) {
 			className="flex flex-col gap-6"
 		>
 			{showSkeleton ? (
-				<div
-					role="status"
-					aria-label="正在装填内容"
-					className="flex flex-col gap-3"
-				>
+				<div aria-label="正在装填内容" className="flex flex-col gap-3">
 					<span className="sr-only">正在装填内容</span>
 					{Array.from({ length: 6 }).map((_, i) => (
 						<SkeletonCard key={i} />
@@ -170,7 +166,7 @@ export default function FileList({ categoryId }: { categoryId?: string }) {
 											window.scrollTo({ top: 0, behavior: "smooth" });
 										}
 									}}
-									className="border border-surface-divider/50 bg-surface-base/15 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-foreground-muted transition-colors hover:border-accent-focus/40 hover:text-foreground-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-focus"
+									className="border border-surface-divider/50 bg-surface-base/15 px-4 py-2 text-xs font-semibold uppercase tracking-[0.35em] text-foreground-muted transition-colors hover:border-accent-focus/40 hover:text-foreground-primary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-focus rounded-[1.5rem]"
 								>
 									返回顶部
 								</button>

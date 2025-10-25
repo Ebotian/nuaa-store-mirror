@@ -21,10 +21,13 @@ export function AppProviders({ children }: PropsWithChildren) {
 	return <Providers>{children}</Providers>;
 }
 
-// eslint-disable-next-line react-refresh/only-export-components
-export function withAppProviders(node: ReactNode) {
-	return <AppProviders>{node}</AppProviders>;
+export function WithAppProviders({ children }: PropsWithChildren) {
+	return <AppProviders>{children}</AppProviders>;
 }
+
+export const withAppProviders = (node: ReactNode) => (
+	<AppProviders>{node}</AppProviders>
+);
 
 function QueryProvider({ children }: PropsWithChildren) {
 	const [client] = useState(

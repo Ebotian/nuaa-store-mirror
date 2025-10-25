@@ -121,7 +121,7 @@ export const FileCard = memo(function FileCard({
 							type="button"
 							onClick={handlePreview}
 							disabled={!hasPreviewAction}
-							className="border border-accent-glow/40 bg-accent-glow/15 px-2 py-1 text-[0.65rem] tracking-[0.25em] text-foreground-primary transition-colors hover:bg-accent-glow/25 disabled:cursor-not-allowed disabled:opacity-40"
+							className="border border-accent-glow/40 bg-accent-glow/15 px-2 py-1 text-[0.65rem] tracking-[0.25em] text-foreground-primary transition-colors hover:bg-accent-glow/25 disabled:cursor-not-allowed disabled:opacity-40 rounded-[1.5rem]"
 						>
 							预览
 						</button>
@@ -129,7 +129,7 @@ export const FileCard = memo(function FileCard({
 							type="button"
 							onClick={handleDownload}
 							disabled={!hasDownloadAction}
-							className="border border-accent-focus/40 bg-accent-focus/15 px-2 py-1 text-[0.65rem] tracking-[0.25em] text-foreground-primary transition-colors hover:bg-accent-focus/25 disabled:cursor-not-allowed disabled:opacity-40"
+							className="border border-accent-focus/40 bg-accent-focus/15 px-2 py-1 text-[0.65rem] tracking-[0.25em] text-foreground-primary transition-colors hover:bg-accent-focus/25 disabled:cursor-not-allowed disabled:opacity-40 rounded-[1.5rem]"
 						>
 							下载
 						</button>

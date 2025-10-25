@@ -1,8 +1,19 @@
 import type { PropsWithChildren } from "react";
+import { useMemo } from "react";
+import { useLocation, useNavigation } from "react-router-dom";
 import { TopBar } from "./TopBar";
 import { Sidebar } from "./Sidebar";
 
 export function LayoutShell({ children }: PropsWithChildren) {
+	const navigation = useNavigation();
+	const location = useLocation();
+	const fadeState = useMemo(() => {
+		const navState = navigation.state;
+		return navState === "loading" || navState === "submitting"
+			? "content-fade--out"
+			: "content-fade--in";
+	}, [navigation.state]);
+
 	return (
 		<div className="relative flex h-screen flex-col overflow-hidden bg-surface-base text-foreground-primary transition-colors duration-[var(--motion-medium)]">
 			<div
@@ -30,7 +41,13 @@ export function LayoutShell({ children }: PropsWithChildren) {
 					/>
 					<div className="relative z-10 flex h-full min-h-0 flex-col">
 						<div className="app-scroll flex-1 overflow-y-auto px-8 py-10 pr-9">
-							<div className="min-h-full">{children}</div>
+							<div
+								key={location.key}
+								className={`content-fade ${fadeState}`}
+								data-fade-state={fadeState}
+							>
+								<div className="min-h-full">{children}</div>
+							</div>
 						</div>
 					</div>
 				</main>
