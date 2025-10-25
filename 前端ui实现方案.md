@@ -7,12 +7,12 @@
 
 ## 1. 实现目标概述
 
-- **对齐视觉体验**：完全遵循《前端 UI/UX 设计文档》中定义的 Fluent × 赛博科技风基调，保留视差、亚克力材质、光照与粒子效果。
+- **对齐视觉体验**：完全遵循《前端 UI/UX 设计文档》中定义的硬核工业科幻基调，保留战术终端质感、装甲化面板、冷光描边与扫描动效。
 - **工程解耦**：通过模块化目录与独立状态管理，确保组件之间松耦合、易于维护。
-- **一致的交互语言**：统一处理 Light/Depth/Motion/Material/Scale 五个维度的实现方式，保证桌面与移动端一致性。
+- **一致的交互语言**：统一处理 Structure/Signal/Motion/Texture/Light 五个战术终端维度，保证桌面与移动端体验一致。
 - **可测试性**：数据流与动效统一抽象，支持 Storybook/Chromatic 截屏回归与组件单测。
 
-> **核心约束**：不以“简化视觉”为实现捷径；若需调整设计，仅用于提升一致性或编程落地性且保持质感。
+> **核心约束**：不以“简化视觉”为实现捷径；若需调整设计，仅用于提升一致性或编程落地性且保持质感。所有组件边角需保持 0 半径（直角切削）。
 
 ---
 
@@ -55,7 +55,7 @@ web/
 | ---------------------- | -------------------- | --------------------------------------- | ------------------------------ | ---------------- | ---------------- | ----------------------------------------------------------- |
 | `layout-shell`         | `modules/layout`     | 构建双栏布局、响应式断点、顶栏/底栏联动 | `docs/layout-shell.md`         | 主题、导航       | 所有页面         | 利用 CSS Grid + container query，实现导航缩放过渡           |
 | `navigation-discovery` | `modules/navigation` | 分类树、快捷入口、抽屉交互              | `docs/navigation-discovery.md` | 数据适配、动效   | 分类页、搜索页   | 折叠动画使用 Framer Motion，支持键盘导航                    |
-| `content-surfaces`     | `modules/content`    | 文件卡片、推荐位、详情 Drawer           | `docs/content-surfaces.md`     | 主题、动效、数据 | 分类页、详情页   | 亚克力材质通过 backdrop-filter + 粒子 Canvas                |
+| `content-surfaces`     | `modules/content`    | 文件卡片、推荐位、详情 Drawer           | `docs/content-surfaces.md`     | 主题、动效、数据 | 分类页、详情页   | 装甲化面板采用金属纹理叠加 HUD 网格，配冷光描边             |
 | `search-filter`        | `modules/search`     | 全局搜索条、结果页、过滤 Sidebar        | `docs/search-filter.md`        | 数据适配、动效   | 搜索页、TopBar   | 采用虚拟滚动优化大结果集，过滤器组件化                      |
 | `motion-system`        | `modules/motion`     | 动效曲线、视差、骨骼/粒子封装           | `docs/motion-system.md`        | 主题             | 所有视觉模块     | 建立 MotionProvider 注入 timeline；粒子基于 regl/three-lite |
 | `theming-tokens`       | `themes/`            | 颜色、字体、光照、高亮 Token 定义       | `docs/theming-tokens.md`       | 无               | 所有模块         | 使用 CSS Variables + Tailwind config 扩展                   |
@@ -105,16 +105,16 @@ web/
 
 ---
 
-## 6. 实现细节建议（保持设计深度）
+## 6. 实现细节建议（保持工业硬核质感）
 
-- **材质实现**：亚克力板使用 `background: linear-gradient(...) + rgba`，叠加噪点纹理 PNG；在 GPU 性能受限设备自动降级为纯色半透明。
-- **光照系统**：利用 `radial-gradient` 与动态 box-shadow 组合，借助鼠标位置或焦点状态调整光斑位置。
-- **粒子/网点**：`motion-system` 提供 `useParticleField` Hook，默认渲染 Canvas 粒子；在移动端自动切换至静态 SVG。
-- **Vignette 效果**：通过遮罩层实现，随滚动调整强度以突出当前内容区。
-- **焦距控制**：详情 Drawer 打开时，对背景容器应用 `filter: blur(6px)` 与暗角，前景保持高亮。
-- **动效时序**：定义 `--motion-fast (120ms)`、`--motion-medium (240ms)`、`--motion-slow (360ms)`，统一加速曲线（`cubic-bezier(0.33, 1, 0.68, 1)`）。
+- **材质实现**：使用 `linear-gradient` + 噪点贴图模拟拉丝金属，配合 `background-image: repeating-linear-gradient(...)` 输出拼缝；低性能设备降级为纯色+描边。
+- **灯带与描边**：通过 `box-shadow` + `before/after` 双层描边生成冷光条；Hover 状态加强外描边亮度并追加扫描线动画。
+- **HUD 网格**：在主容器添加 `background-image: linear-gradient` 生成 8px 网格线，使用 `mix-blend-mode: screen` 控制亮度。
+- **粒子/干扰线**：`motion-system` 暴露 `useHudNoise` Hook，默认渲染低频干扰线；移动端降级为伪元素动画。
+- **景深控制**：详情 Drawer 打开时，以 `backdrop-filter: brightness(0.6)` + 垂直渐变取代模糊，营造舱壁光路。
+- **动效时序**：统一采用 `--motion-fast (140ms)`、`--motion-medium (210ms)`、`--motion-slow (320ms)`，动画曲线 `cubic-bezier(0.3, 1, 0.4, 1)` 表现磁吸停靠。
 
-> 以上策略保持原有设计的质感，同时提供可控降级路径，便于工程落地。
+> 以上策略强化战术终端氛围，并提供降级路径以保证性能。
 
 ---
 

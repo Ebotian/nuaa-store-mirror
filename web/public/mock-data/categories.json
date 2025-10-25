@@ -59,7 +59,7 @@
     "path": "网站Website",
     "parentId": null,
     "depth": 0,
-    "childrenCount": 0,
+    "childrenCount": 1,
     "fileCount": 1
   },
   {
@@ -1579,6 +1579,15 @@
     "name": "其他在线网课",
     "path": "网课OnlineCourse/其他在线网课",
     "parentId": "网课OnlineCourse",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "网站Website/制作者",
+    "name": "制作者",
+    "path": "网站Website/制作者",
+    "parentId": "网站Website",
     "depth": 1,
     "childrenCount": 0,
     "fileCount": 1

@@ -9,7 +9,7 @@ const navItems = [
 ];
 
 const navLinkBase =
-	"group flex flex-col gap-1 rounded-2xl border border-transparent px-5 py-4 text-left transition-colors duration-200 hover:border-accent-glow/60 hover:bg-accent-glow/5";
+	"group flex flex-col gap-1 border border-transparent px-5 py-4 text-left transition-colors duration-200 hover:border-accent-glow/60 hover:bg-accent-glow/5";
 
 export const NavigationRail = memo(function NavigationRail() {
 	return (

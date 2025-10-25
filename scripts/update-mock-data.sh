@@ -18,4 +18,4 @@ npm --prefix "$TOOLS_DIR" run build:index -- --out "$OUT_DIR" --index-file files
 echo "[*] Done. Generated files:"
 ls -la "$OUT_DIR" || true
 
-echo "[*] Tip: start the web dev server (in web/) and open http://localhost:5173/mock-data/categories.json to verify."
+echo "[*] Tip: start the web dev server (in web/) and open http://localhost:4173/mock-data/categories.json to verify."

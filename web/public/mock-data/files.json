@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-25T16:04:57.163Z",
+  "generatedAt": "2025-10-25T17:55:51.749Z",
   "files": [
     {
       "id": "教程Guide/README.md",
@@ -7872,6 +7872,18 @@
       "digest": "# 网站 ## [沙漠东诊疗手册-MSDManuals](https://www.msdmanuals.cn/) ## [中国医药信息查询平台-China Medical Information Platform](https://www.dayi.org.cn/) ## [KnowSex-性教育站](https://knowsex.net/) ## [LKs 网站推荐合集-LKs Site Collection](https://lkssite.vip/) ## [CS …"
     },
     {
+      "id": "网站Website/制作者/ebotian.md",
+      "name": "ebotian.md",
+      "path": "网站Website/制作者/ebotian.md",
+      "categoryId": "网站Website/制作者",
+      "ext": ".md",
+      "mime": "text/markdown",
+      "size": 15,
+      "modifiedAt": "2025-10-25T17:55:13.049Z",
+      "title": "制作人: ebit",
+      "digest": "制作人: ebit"
+    },
+    {
       "id": "新生荐读/README.md",
       "name": "README.md",
       "path": "新生荐读/README.md",
@@ -8137,9 +8149,9 @@
     }
   ],
   "stats": {
-    "totalFiles": 805,
-    "totalCategories": 369,
-    "ignoredPaths": 369,
-    "processingTimeMs": 374
+    "totalFiles": 806,
+    "totalCategories": 370,
+    "ignoredPaths": 370,
+    "processingTimeMs": 333
   }
 }
