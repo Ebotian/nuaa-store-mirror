@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import { ThemeToggle } from "@app/shell/ThemeToggle";
+import { useSearch } from "@app/providers/SearchProvider";
 
 function fireNavigationOpenEvent() {
 	if (typeof document === "undefined") return;
@@ -9,6 +11,9 @@ function fireNavigationOpenEvent() {
 
 export function TopBar() {
 	const [scrolled, setScrolled] = useState(false);
+	const navigate = useNavigate();
+	const location = useLocation();
+	const search = useSearch();
 
 	useEffect(() => {
 		if (typeof window === "undefined") return undefined;
@@ -26,6 +31,40 @@ export function TopBar() {
 	);
 
 	const handleNavOpen = useCallback(() => fireNavigationOpenEvent(), []);
+
+	const handleSearchSubmit = useCallback(
+		(event: React.FormEvent<HTMLFormElement>) => {
+			event.preventDefault();
+			search.commitSearch();
+			if (location.pathname !== "/search") {
+				navigate("/search");
+			}
+		},
+		[location.pathname, navigate, search]
+	);
+
+	const handleSearchChange = useCallback(
+		(event: React.ChangeEvent<HTMLInputElement>) => {
+			search.setInputValue(event.target.value);
+		},
+		[search]
+	);
+
+	const handleSearchClear = useCallback(() => {
+		if (!search.inputValue) return;
+		search.clearSearch();
+	}, [search]);
+
+	useEffect(() => {
+		if (!search.isActive && location.pathname === "/search") {
+			navigate("/", { replace: true });
+		}
+	}, [location.pathname, navigate, search.isActive]);
+
+	const showClearButton = search.inputValue.length > 0;
+	const searchPlaceholder = search.isSearching
+		? "正在检索…"
+		: "搜索文件、课程、资源...";
 
 	return (
 		<header
@@ -81,26 +120,71 @@ export function TopBar() {
 						</span>
 						<span>{navLabel}</span>
 					</button>
-					<div role="search" aria-label="全局搜索" className="hidden md:block">
+					<form
+						role="search"
+						aria-label="全局搜索"
+						onSubmit={handleSearchSubmit}
+						className="hidden md:block"
+					>
 						<label className="flex items-center gap-2 border border-surface-divider bg-surface-base/20 px-3 py-2 text-sm text-foreground-muted shadow-[inset_0_0_0_1px_rgba(255,255,255,0.05)]">
 							<svg
 								className="h-4 w-4 text-accent-glow"
 								viewBox="0 0 24 24"
 								aria-hidden
 							>
-								<path
-									d="M11 4a7 7 0 105.196 11.804l3.5 3.5-.707.707-3.5-3.5A7 7 0 1111 4z"
-									fill="currentColor"
+								<circle
+									cx="10.5"
+									cy="10.5"
+									r="6.5"
+									fill="none"
+									stroke="currentColor"
+									strokeWidth="1.9"
+								/>
+								<line
+									x1="15.8"
+									y1="15.8"
+									x2="20.4"
+									y2="20.4"
+									stroke="currentColor"
+									strokeWidth="1.9"
+									strokeLinecap="round"
 								/>
 							</svg>
 							<input
 								type="search"
 								className="w-64 bg-transparent text-sm text-foreground-primary placeholder:text-foreground-muted focus:outline-none"
-								placeholder="搜索文件、课程、资源..."
+								placeholder={searchPlaceholder}
 								aria-label="搜索文件、课程、资源"
+								value={search.inputValue}
+								onChange={handleSearchChange}
+								autoComplete="off"
 							/>
+							<button
+								type="button"
+								onClick={handleSearchClear}
+								className={`transition-opacity duration-[var(--motion-medium)] ${
+									showClearButton
+										? "opacity-100"
+										: "opacity-0 pointer-events-none"
+								}`}
+								aria-label="清除搜索"
+							>
+								<svg
+									viewBox="0 0 24 24"
+									className="h-3.5 w-3.5 text-foreground-muted"
+									aria-hidden
+								>
+									<path
+										d="M18 6L6 18m0-12l12 12"
+										stroke="currentColor"
+										strokeWidth="1.7"
+										strokeLinecap="round"
+										strokeLinejoin="round"
+									/>
+								</svg>
+							</button>
 						</label>
-					</div>
+					</form>
 					<ThemeToggle />
 				</div>
 			</div>

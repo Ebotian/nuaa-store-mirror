@@ -9,6 +9,7 @@ import { createPortal } from "react-dom";
 import { useLocation, useNavigate } from "react-router-dom";
 
 import { mockAdapter } from "@services/adapters";
+import { useSearch } from "@app/providers/SearchProvider";
 
 type CatNode = {
 	id: string;
@@ -53,6 +54,27 @@ function createBadgeLabel(name: string, fallback: string) {
 	return hasNonAscii ? label : label.toUpperCase();
 }
 
+function filterCategoriesBySet(nodes: CatNode[], allowed: Set<string>) {
+	const prune = (list: CatNode[]): CatNode[] => {
+		return list
+			.map((node) => {
+				const prunedChildren = node.children?.length
+					? prune(node.children)
+					: [];
+				if (!allowed.has(node.id) && prunedChildren.length === 0) {
+					return null;
+				}
+				return {
+					...node,
+					children: prunedChildren,
+				};
+			})
+			.filter(Boolean) as CatNode[];
+	};
+	if (!allowed.size) return [];
+	return prune(nodes);
+}
+
 function NavBadge({
 	label,
 	className = "h-12 w-full",
@@ -89,6 +111,8 @@ export function Sidebar() {
 	const [expanded, setExpanded] = useState<Record<string, boolean>>({});
 	const navigate = useNavigate();
 	const location = useLocation();
+	const search = useSearch();
+	const searchActive = search.isActive;
 
 	useEffect(() => {
 		let mounted = true;
@@ -200,6 +224,15 @@ export function Sidebar() {
 		return null;
 	}, [location.pathname]);
 
+	const filteredCategories = useMemo(() => {
+		if (!searchActive) return categories;
+		if (!search.matchedCategoryIds.size) return [] as CatNode[];
+		return filterCategoriesBySet(categories, search.matchedCategoryIds);
+	}, [categories, search.matchedCategoryIds, searchActive]);
+
+	const visibleCategories = searchActive ? filteredCategories : categories;
+	const hasSearchMatches = searchActive ? visibleCategories.length > 0 : true;
+
 	const parentMap = useMemo(() => {
 		const map = new Map<string, string | null>();
 		const walk = (nodes: CatNode[], parent: string | null) => {
@@ -210,9 +243,9 @@ export function Sidebar() {
 				}
 			});
 		};
-		walk(categories, null);
+		walk(visibleCategories, null);
 		return map;
-	}, [categories]);
+	}, [visibleCategories]);
 
 	const activeTrail = useMemo(() => {
 		const set = new Set<string>();
@@ -233,7 +266,7 @@ export function Sidebar() {
 			activeTrail.forEach((id) => {
 				if (next[id]) return;
 				// only expand if node actually has children
-				const nodeHasChildren = categories.some((root) => {
+				const nodeHasChildren = visibleCategories.some((root) => {
 					const stack: CatNode[] = [root];
 					while (stack.length) {
 						const node = stack.pop()!;
@@ -250,7 +283,7 @@ export function Sidebar() {
 			});
 			return mutated ? next : prev;
 		});
-	}, [activeTrail, categories]);
+	}, [activeTrail, visibleCategories]);
 
 	const toggleNode = useCallback((id: string) => {
 		setExpanded((prev) => ({ ...prev, [id]: !prev[id] }));
@@ -258,17 +291,23 @@ export function Sidebar() {
 
 	const goToCategory = useCallback(
 		(id: string) => {
+			if (searchActive) {
+				search.setActiveCategoryFilter(id);
+			}
 			navigate(`/categories/${encodeURIComponent(id)}`);
 			setDrawerOpen(false);
 		},
-		[navigate]
+		[navigate, search, searchActive]
 	);
 
 	const goHome = useCallback(() => {
+		if (searchActive) {
+			search.clearSearch();
+		}
 		navigate("/");
 		setDrawerOpen(false);
 		setExpanded({});
-	}, [navigate]);
+	}, [navigate, search, searchActive]);
 
 	const closeDrawer = useCallback(() => setDrawerOpen(false), []);
 
@@ -291,6 +330,8 @@ export function Sidebar() {
 			? "opacity-60 scale-y-100"
 			: "opacity-0 scale-y-0";
 		const badgeLabel = createBadgeLabel(node.name, node.id);
+		const isFilterTarget =
+			searchActive && search.activeCategoryFilter === node.id;
 
 		return (
 			<div key={node.id} className="flex flex-col">
@@ -354,6 +395,8 @@ export function Sidebar() {
 								: inTrail
 								? "border-accent-focus/40 bg-accent-focus/8 text-foreground-primary/90"
 								: "text-foreground-subtle"
+						} ${
+							isFilterTarget ? "ring-1 ring-inset ring-accent-focus/65" : ""
 						}`}
 					>
 						<NavBadge label={badgeLabel} />
@@ -396,10 +439,28 @@ export function Sidebar() {
 				>
 					<NavBadge label="HQ" />
 				</button>
+				{searchActive ? (
+					<div className="flex items-center justify-between gap-3 rounded-lg border border-accent-focus/35 bg-accent-focus/10 px-3 py-2 text-[0.6rem] uppercase tracking-[0.3em] text-foreground-primary">
+						<span className="truncate">
+							筛选 · {search.query || search.inputValue}
+						</span>
+						<button
+							type="button"
+							onClick={search.clearSearch}
+							className="text-[0.55rem] uppercase tracking-[0.35em] text-foreground-muted transition hover:text-foreground-primary"
+						>
+							清除
+						</button>
+					</div>
+				) : null}
 				<div className="flex flex-col gap-2">
-					{categories.map((c) => (
-						<CategoryItem key={c.id} node={c} />
-					))}
+					{searchActive && !hasSearchMatches ? (
+						<div className="rounded border border-surface-divider/50 bg-surface-base/15 px-3 py-4 text-center text-[0.65rem] uppercase tracking-[0.35em] text-foreground-muted">
+							无匹配分类
+						</div>
+					) : (
+						visibleCategories.map((c) => <CategoryItem key={c.id} node={c} />)
+					)}
 				</div>
 			</nav>
 		);

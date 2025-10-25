@@ -148,6 +148,8 @@ export type FileItem = {
 	downloadUrl?: string | null;
 	supportsPreview?: boolean;
 	previewKind?: "image" | "text";
+	categoryId?: string | null;
+	digest?: string | null;
 };
 
 const normalizeFileItem = (raw: unknown): FileItem => {
@@ -158,6 +160,12 @@ const normalizeFileItem = (raw: unknown): FileItem => {
 	const id = String(record.id ?? record.path ?? "");
 	const name = record.name ? String(record.name) : null;
 	const path = record.path ? String(record.path) : id;
+	const categoryId =
+		record.categoryId && typeof record.categoryId === "string"
+			? (record.categoryId as string)
+			: record.category && typeof record.category === "string"
+			? (record.category as string)
+			: null;
 	const extension = record.extension
 		? toExtension(String(record.extension))
 		: record.ext
@@ -187,6 +195,12 @@ const normalizeFileItem = (raw: unknown): FileItem => {
 		record.modifiedAt && typeof record.modifiedAt === "string"
 			? (record.modifiedAt as string)
 			: null;
+	const digest =
+		record.digest && typeof record.digest === "string"
+			? (record.digest as string)
+			: record.summary && typeof record.summary === "string"
+			? (record.summary as string)
+			: null;
 	return {
 		id,
 		name,
@@ -205,6 +219,8 @@ const normalizeFileItem = (raw: unknown): FileItem => {
 		downloadUrl,
 		supportsPreview: !!previewKind,
 		previewKind: previewKind ?? undefined,
+		categoryId,
+		digest,
 	};
 };
 

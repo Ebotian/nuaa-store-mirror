@@ -7,12 +7,14 @@ import { composeProviders } from "./composeProviders";
 import { MotionProvider } from "./MotionProvider";
 import { ThemeProvider } from "./ThemeProvider";
 import { AdaptersProvider } from "./AdaptersProvider";
+import { SearchProvider } from "./SearchProvider";
 
 const Providers = composeProviders(
 	ThemeProvider,
 	MotionProvider,
 	AdaptersProvider,
-	QueryProvider
+	QueryProvider,
+	SearchProvider
 );
 
 export function AppProviders({ children }: PropsWithChildren) {
