@@ -7,11 +7,14 @@
 
 - 预览如下
 
+> 搬运者注：github markdown 不支持 iframe的渲染，所以要看就只能点上面链接，没有预览  ╮(╯▽╰)╭
+
+<!-- 
 </br>
 
 <figure><div style="position:relative;display:flex;justify-content:center;align-self:center;width:672px;max-width:100%;flex-direction:column;height:613px"><iframe class="notion-asset-object-fit" src="https://map.nuaa.edu.cn/" title="iframe embed" frameborder="0" allowfullscreen="" loading="lazy" scrolling="auto" data-ruffle-polyfilled=""></iframe></div></figure>
 
-</br>
+</br> -->
 
 ### 2.渠道二
 
