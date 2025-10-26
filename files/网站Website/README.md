@@ -1,6 +1,7 @@
 # 网站
 
-### [NUAA 爱的分享站](https://nuaa.fenxiang.love/)
+## [SurviveSJTU](https://survivesjtu.gitbook.io/survivesjtumanual/)
+## [NUAA 爱的分享站](https://nuaa.fenxiang.love/)
 ## [NUAA Guide-南京航空航天大学指南](https://nuaaguide.online/)
 ## [沙漠东诊疗手册-MSDManuals](https://www.msdmanuals.cn/)
 ## [中国医药信息查询平台-China Medical Information Platform](https://www.dayi.org.cn/)
