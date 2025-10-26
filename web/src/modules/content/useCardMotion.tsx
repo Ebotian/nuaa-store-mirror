@@ -1,4 +1,4 @@
-import { useCallback, useMemo } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useMotion } from "@/app/providers/MotionProvider";
 
 /**
@@ -9,48 +9,67 @@ import { useMotion } from "@/app/providers/MotionProvider";
  */
 export function useCardMotion() {
 	const { parallaxEnabled } = useMotion();
+	const [pointerFine, setPointerFine] = useState(false);
+
+	useEffect(() => {
+		if (typeof window === "undefined") {
+			return;
+		}
+		const media = window.matchMedia("(pointer: fine)");
+		const update = () => setPointerFine(media.matches);
+		update();
+		media.addEventListener("change", update);
+		return () => media.removeEventListener("change", update);
+	}, []);
+
+	const motionActive = parallaxEnabled && pointerFine;
 
 	const baseStyle = useMemo(() => {
-		if (!parallaxEnabled) {
-			return { transition: "none" } as const;
+		if (!motionActive) {
+			return {
+				opacity: 1,
+				transition: "opacity var(--motion-medium)",
+			} as const;
 		}
 
 		return {
 			transform: "translateZ(0)",
 			transition:
 				"transform var(--motion-medium), box-shadow var(--motion-medium), opacity var(--motion-medium)",
-			willChange: "transform, box-shadow, opacity",
 			opacity: 0,
 			transformOrigin: "center top",
 		} as const;
-	}, [parallaxEnabled]);
+	}, [motionActive]);
 
 	const handleMouseEnter = useCallback(
 		(e: React.MouseEvent<HTMLElement>) => {
-			if (!parallaxEnabled) return;
+			if (!motionActive) return;
 			const el = e.currentTarget as HTMLElement;
+			el.style.willChange = "transform, box-shadow, opacity";
 			el.style.transform = "translateY(-6px)";
 			el.style.boxShadow = "var(--shadow-glow)";
 			el.style.opacity = "1";
 		},
-		[parallaxEnabled]
+		[motionActive]
 	);
 
 	const handleMouseLeave = useCallback(
 		(e: React.MouseEvent<HTMLElement>) => {
-			if (!parallaxEnabled) return;
+			if (!motionActive) return;
 			const el = e.currentTarget as HTMLElement;
 			el.style.transform = "translateY(0)";
 			el.style.boxShadow = "var(--shadow-card)";
+			el.style.removeProperty("will-change");
 		},
-		[parallaxEnabled]
+		[motionActive]
 	);
 
 	const handleMount = useCallback(
 		(el: HTMLElement | null) => {
 			if (!el) return;
-			if (!parallaxEnabled) {
+			if (!motionActive) {
 				el.style.opacity = "1";
+				el.style.removeProperty("will-change");
 				return;
 			}
 			// trigger a short mount animation
@@ -59,7 +78,7 @@ export function useCardMotion() {
 				el.style.transform = "translateY(0)";
 			});
 		},
-		[parallaxEnabled]
+		[motionActive]
 	);
 
 	return {

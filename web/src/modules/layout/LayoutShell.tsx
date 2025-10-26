@@ -3,6 +3,22 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useLocation } from "react-router-dom";
 import { TopBar } from "./TopBar";
 import { Sidebar } from "./Sidebar";
+import { useFpsMeter } from "@/hooks/useFpsMeter";
+
+const DevFpsIndicator = import.meta.env.DEV
+	? function DevFpsIndicator() {
+			const fps = useFpsMeter(true);
+			if (fps <= 0) return null;
+			return (
+				<div className="fps-indicator" aria-live="polite">
+					<span className="fps-indicator__value">{fps}</span>
+					<span className="fps-indicator__label">FPS</span>
+				</div>
+			);
+	  }
+	: function DevFpsIndicator() {
+			return null;
+	  };
 
 type LayerState = "entering" | "entered" | "exiting";
 
@@ -93,61 +109,64 @@ export function LayoutShell({ children }: PropsWithChildren) {
 	);
 
 	return (
-		<div className="relative flex h-screen flex-col overflow-hidden bg-surface-base text-foreground-primary transition-colors duration-[var(--motion-medium)]">
-			<div
-				className="pointer-events-none absolute inset-0 opacity-70 mix-blend-soft-light layout-grid-overlay"
-				aria-hidden
-			/>
-			<div
-				className="pointer-events-none absolute inset-0 mix-blend-screen"
-				aria-hidden
-			>
-				<div className="absolute inset-0 layout-noise-overlay" />
-				<div className="absolute inset-0 layout-horizon-glow" />
-			</div>
-			<TopBar />
-			<div className="relative mx-auto flex w-full max-w-6xl flex-1 gap-6 px-6 py-8 min-h-0">
-				<Sidebar />
-				<main className="relative flex flex-1 flex-col overflow-hidden border border-surface-divider/70 bg-surface-elevated/75 shadow-vignette backdrop-blur-2xl">
-					<div
-						className="pointer-events-none absolute inset-0 border border-accent-glow/12 mix-blend-screen"
-						aria-hidden
-					/>
-					<div
-						className="pointer-events-none absolute inset-0 layout-grid-overlay opacity-20"
-						aria-hidden
-					/>
-					<div className="relative z-10 flex h-full min-h-0 flex-col">
-						<div className="app-scroll flex-1 overflow-y-auto px-8 py-10 pr-9">
-							<div className="content-stack">
-								{layers.map((layer) => {
-									const isActive = layer.key === activeKey;
-									const positionClass =
-										isActive && layer.state === "entered"
-											? "content-layer--relative"
-											: "content-layer--absolute";
-									const stateClass =
-										layer.state === "entering"
-											? "content-layer--entering"
-											: layer.state === "entered"
-											? "content-layer--entered"
-											: "content-layer--exiting";
-									return (
-										<div
-											key={layer.key}
-											className={`content-layer ${positionClass} ${stateClass}`.trim()}
-											data-page-key={layer.key}
-										>
-											<div className="min-h-full">{layer.node}</div>
-										</div>
-									);
-								})}
+		<>
+			<div className="relative flex h-screen flex-col overflow-hidden bg-surface-base text-foreground-primary transition-colors duration-[var(--motion-medium)]">
+				<div
+					className="pointer-events-none absolute inset-0 opacity-70 mix-blend-soft-light layout-grid-overlay"
+					aria-hidden
+				/>
+				<div
+					className="pointer-events-none absolute inset-0 mix-blend-screen"
+					aria-hidden
+				>
+					<div className="absolute inset-0 layout-noise-overlay" />
+					<div className="absolute inset-0 layout-horizon-glow" />
+				</div>
+				<TopBar />
+				<div className="relative mx-auto flex w-full max-w-6xl flex-1 gap-6 px-6 py-8 min-h-0">
+					<Sidebar />
+					<main className="relative flex flex-1 flex-col overflow-hidden border border-surface-divider/70 bg-surface-elevated/75 shadow-vignette backdrop-blur-2xl">
+						<div
+							className="pointer-events-none absolute inset-0 border border-accent-glow/12 mix-blend-screen"
+							aria-hidden
+						/>
+						<div
+							className="pointer-events-none absolute inset-0 layout-grid-overlay opacity-20"
+							aria-hidden
+						/>
+						<div className="relative z-10 flex h-full min-h-0 flex-col">
+							<div className="app-scroll flex-1 overflow-y-auto px-8 py-10 pr-9">
+								<div className="content-stack">
+									{layers.map((layer) => {
+										const isActive = layer.key === activeKey;
+										const positionClass =
+											isActive && layer.state === "entered"
+												? "content-layer--relative"
+												: "content-layer--absolute";
+										const stateClass =
+											layer.state === "entering"
+												? "content-layer--entering"
+												: layer.state === "entered"
+												? "content-layer--entered"
+												: "content-layer--exiting";
+										return (
+											<div
+												key={layer.key}
+												className={`content-layer ${positionClass} ${stateClass}`.trim()}
+												data-page-key={layer.key}
+											>
+												<div className="min-h-full">{layer.node}</div>
+											</div>
+										);
+									})}
+								</div>
 							</div>
 						</div>
-					</div>
-				</main>
+					</main>
+				</div>
 			</div>
-		</div>
+			<DevFpsIndicator />
+		</>
 	);
 }
 
