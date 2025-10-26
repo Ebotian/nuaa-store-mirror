@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-26T06:38:23.919Z",
+  "generatedAt": "2025-10-26T06:43:20.733Z",
   "files": [
     {
       "id": "教程Guide/README.md",
@@ -9664,6 +9664,6 @@
     "totalFiles": 957,
     "totalCategories": 405,
     "ignoredPaths": 405,
-    "processingTimeMs": 225
+    "processingTimeMs": 215
   }
 }
