@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-25T23:09:51.582Z",
+  "generatedAt": "2025-10-26T06:38:23.919Z",
   "files": [
     {
       "id": "教程Guide/README.md",
@@ -254,6 +254,16 @@
       "mime": "text/plain",
       "size": 0,
       "modifiedAt": "2025-10-25T08:04:23.121Z"
+    },
+    {
+      "id": "课程Course/材料力学/答案/材料力学校题答案（未整理图片版）.zip",
+      "name": "材料力学校题答案（未整理图片版）.zip",
+      "path": "课程Course/材料力学/答案/材料力学校题答案（未整理图片版）.zip",
+      "categoryId": "课程Course/材料力学/答案",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 25337082,
+      "modifiedAt": "2025-10-26T06:00:46.543Z"
     },
     {
       "id": "课程Course/材料力学/试卷/材料力学20春.pdf",
@@ -696,6 +706,376 @@
       "modifiedAt": "2025-10-25T08:04:21.453Z"
     },
     {
+      "id": "课程Course/大学物理/实验/超声声速的测量.zip",
+      "name": "超声声速的测量.zip",
+      "path": "课程Course/大学物理/实验/超声声速的测量.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 229029,
+      "modifiedAt": "2025-10-26T05:59:07.953Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/超声声速的测量2.zip",
+      "name": "超声声速的测量2.zip",
+      "path": "课程Course/大学物理/实验/超声声速的测量2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 949449,
+      "modifiedAt": "2025-10-26T06:00:06.639Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/磁阻传感器与地磁场测量1.zip",
+      "name": "磁阻传感器与地磁场测量1.zip",
+      "path": "课程Course/大学物理/实验/磁阻传感器与地磁场测量1.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 298713,
+      "modifiedAt": "2025-10-26T05:59:11.829Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/磁阻传感器与地磁场测量2.zip",
+      "name": "磁阻传感器与地磁场测量2.zip",
+      "path": "课程Course/大学物理/实验/磁阻传感器与地磁场测量2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 869398,
+      "modifiedAt": "2025-10-26T06:00:29.999Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/电位差计的原理及应用.zip",
+      "name": "电位差计的原理及应用.zip",
+      "path": "课程Course/大学物理/实验/电位差计的原理及应用.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 548855,
+      "modifiedAt": "2025-10-26T06:00:30.838Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/电位差计的原理及应用2.zip",
+      "name": "电位差计的原理及应用2.zip",
+      "path": "课程Course/大学物理/实验/电位差计的原理及应用2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 808240,
+      "modifiedAt": "2025-10-26T06:00:13.138Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/动态法测金属的杨氏模量1.zip",
+      "name": "动态法测金属的杨氏模量1.zip",
+      "path": "课程Course/大学物理/实验/动态法测金属的杨氏模量1.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 494107,
+      "modifiedAt": "2025-10-26T05:59:29.182Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/动态法测金属的杨氏模量2.zip",
+      "name": "动态法测金属的杨氏模量2.zip",
+      "path": "课程Course/大学物理/实验/动态法测金属的杨氏模量2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 668194,
+      "modifiedAt": "2025-10-26T05:59:50.352Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/动态法测金属的杨氏模量3.zip",
+      "name": "动态法测金属的杨氏模量3.zip",
+      "path": "课程Course/大学物理/实验/动态法测金属的杨氏模量3.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 509491,
+      "modifiedAt": "2025-10-26T05:59:09.887Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/动态法测金属的杨氏模量4.zip",
+      "name": "动态法测金属的杨氏模量4.zip",
+      "path": "课程Course/大学物理/实验/动态法测金属的杨氏模量4.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 719431,
+      "modifiedAt": "2025-10-26T06:00:35.852Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/分光计的调节.zip",
+      "name": "分光计的调节.zip",
+      "path": "课程Course/大学物理/实验/分光计的调节.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 277248,
+      "modifiedAt": "2025-10-26T05:59:05.690Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/光电效应.zip",
+      "name": "光电效应.zip",
+      "path": "课程Course/大学物理/实验/光电效应.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 1332516,
+      "modifiedAt": "2025-10-26T05:59:30.979Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/惠斯通电桥测电阻.zip",
+      "name": "惠斯通电桥测电阻.zip",
+      "path": "课程Course/大学物理/实验/惠斯通电桥测电阻.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 932821,
+      "modifiedAt": "2025-10-26T05:59:26.917Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/霍尔效应法测磁场.zip",
+      "name": "霍尔效应法测磁场.zip",
+      "path": "课程Course/大学物理/实验/霍尔效应法测磁场.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 651690,
+      "modifiedAt": "2025-10-26T05:59:41.377Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/霍尔效应法测磁场2.zip",
+      "name": "霍尔效应法测磁场2.zip",
+      "path": "课程Course/大学物理/实验/霍尔效应法测磁场2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 1911148,
+      "modifiedAt": "2025-10-26T06:00:02.112Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/拉伸法测金属丝的杨氏模量.zip",
+      "name": "拉伸法测金属丝的杨氏模量.zip",
+      "path": "课程Course/大学物理/实验/拉伸法测金属丝的杨氏模量.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 1349021,
+      "modifiedAt": "2025-10-26T05:59:49.298Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/落球法.zip",
+      "name": "落球法.zip",
+      "path": "课程Course/大学物理/实验/落球法.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 472858,
+      "modifiedAt": "2025-10-26T05:59:38.472Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/迈克尔孙干涉仪.zip",
+      "name": "迈克尔孙干涉仪.zip",
+      "path": "课程Course/大学物理/实验/迈克尔孙干涉仪.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 557208,
+      "modifiedAt": "2025-10-26T06:00:07.163Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/迈克尔孙干涉仪2.zip",
+      "name": "迈克尔孙干涉仪2.zip",
+      "path": "课程Course/大学物理/实验/迈克尔孙干涉仪2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 494662,
+      "modifiedAt": "2025-10-26T06:00:32.641Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/密立根油滴实验.zip",
+      "name": "密立根油滴实验.zip",
+      "path": "课程Course/大学物理/实验/密立根油滴实验.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 1084683,
+      "modifiedAt": "2025-10-26T05:59:20.173Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/牛顿环.zip",
+      "name": "牛顿环.zip",
+      "path": "课程Course/大学物理/实验/牛顿环.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 472421,
+      "modifiedAt": "2025-10-26T05:59:19.722Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/扭摆法测量物体的转动惯量.zip",
+      "name": "扭摆法测量物体的转动惯量.zip",
+      "path": "课程Course/大学物理/实验/扭摆法测量物体的转动惯量.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 641941,
+      "modifiedAt": "2025-10-26T05:59:36.018Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/扭摆法测物体的转动惯量2.zip",
+      "name": "扭摆法测物体的转动惯量2.zip",
+      "path": "课程Course/大学物理/实验/扭摆法测物体的转动惯量2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 359061,
+      "modifiedAt": "2025-10-26T05:59:11.971Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/声速测量.zip",
+      "name": "声速测量.zip",
+      "path": "课程Course/大学物理/实验/声速测量.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 1014427,
+      "modifiedAt": "2025-10-26T05:59:03.809Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/示波器.zip",
+      "name": "示波器.zip",
+      "path": "课程Course/大学物理/实验/示波器.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 477704,
+      "modifiedAt": "2025-10-26T05:59:12.835Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/示波器的调节与使用.zip",
+      "name": "示波器的调节与使用.zip",
+      "path": "课程Course/大学物理/实验/示波器的调节与使用.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 408805,
+      "modifiedAt": "2025-10-26T06:00:01.942Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/双臂电桥测电阻.zip",
+      "name": "双臂电桥测电阻.zip",
+      "path": "课程Course/大学物理/实验/双臂电桥测电阻.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 1074419,
+      "modifiedAt": "2025-10-26T06:00:31.613Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/铁磁材料磁化特性研究.zip",
+      "name": "铁磁材料磁化特性研究.zip",
+      "path": "课程Course/大学物理/实验/铁磁材料磁化特性研究.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 530589,
+      "modifiedAt": "2025-10-26T05:59:45.530Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/铁磁材料磁化特性研究2.zip",
+      "name": "铁磁材料磁化特性研究2.zip",
+      "path": "课程Course/大学物理/实验/铁磁材料磁化特性研究2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 802014,
+      "modifiedAt": "2025-10-26T05:59:26.109Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/稳态法测物体的导热系数.zip",
+      "name": "稳态法测物体的导热系数.zip",
+      "path": "课程Course/大学物理/实验/稳态法测物体的导热系数.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 689803,
+      "modifiedAt": "2025-10-26T06:00:31.919Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/稳态法测物体的导热系数2.zip",
+      "name": "稳态法测物体的导热系数2.zip",
+      "path": "课程Course/大学物理/实验/稳态法测物体的导热系数2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 621018,
+      "modifiedAt": "2025-10-26T05:59:22.610Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/用单摆测量重力加速度.zip",
+      "name": "用单摆测量重力加速度.zip",
+      "path": "课程Course/大学物理/实验/用单摆测量重力加速度.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 357088,
+      "modifiedAt": "2025-10-26T05:59:31.865Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/用电位差计校准毫安表.zip",
+      "name": "用电位差计校准毫安表.zip",
+      "path": "课程Course/大学物理/实验/用电位差计校准毫安表.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 517343,
+      "modifiedAt": "2025-10-26T05:59:48.516Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/用电位差计校准毫安表2.zip",
+      "name": "用电位差计校准毫安表2.zip",
+      "path": "课程Course/大学物理/实验/用电位差计校准毫安表2.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 4647956,
+      "modifiedAt": "2025-10-26T05:59:12.812Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/用分光计测量棱镜材料折射率.zip",
+      "name": "用分光计测量棱镜材料折射率.zip",
+      "path": "课程Course/大学物理/实验/用分光计测量棱镜材料折射率.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 146660,
+      "modifiedAt": "2025-10-26T06:00:30.448Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/用牛顿环测定透镜的曲率半径.zip",
+      "name": "用牛顿环测定透镜的曲率半径.zip",
+      "path": "课程Course/大学物理/实验/用牛顿环测定透镜的曲率半径.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 533607,
+      "modifiedAt": "2025-10-26T05:59:08.623Z"
+    },
+    {
+      "id": "课程Course/大学物理/实验/转动惯量的测量.zip",
+      "name": "转动惯量的测量.zip",
+      "path": "课程Course/大学物理/实验/转动惯量的测量.zip",
+      "categoryId": "课程Course/大学物理/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 999949,
+      "modifiedAt": "2025-10-26T06:00:18.843Z"
+    },
+    {
       "id": "课程Course/大学物理/试卷/大物上20.pdf",
       "name": "大物上20.pdf",
       "path": "课程Course/大学物理/试卷/大物上20.pdf",
@@ -956,6 +1336,46 @@
       "modifiedAt": "2025-10-25T08:04:24.094Z"
     },
     {
+      "id": "课程Course/电工与电子技术/试卷/电工与电子技术2019年下册试题.pdf",
+      "name": "电工与电子技术2019年下册试题.pdf",
+      "path": "课程Course/电工与电子技术/试卷/电工与电子技术2019年下册试题.pdf",
+      "categoryId": "课程Course/电工与电子技术/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 901735,
+      "modifiedAt": "2025-10-26T06:00:48.911Z"
+    },
+    {
+      "id": "课程Course/电工与电子技术/试卷/电工与电子技术2020年上册试题.pdf",
+      "name": "电工与电子技术2020年上册试题.pdf",
+      "path": "课程Course/电工与电子技术/试卷/电工与电子技术2020年上册试题.pdf",
+      "categoryId": "课程Course/电工与电子技术/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 8606883,
+      "modifiedAt": "2025-10-26T06:00:54.170Z"
+    },
+    {
+      "id": "课程Course/电工与电子技术/试卷/电工与电子技术2020年A卷试题.docx",
+      "name": "电工与电子技术2020年A卷试题.docx",
+      "path": "课程Course/电工与电子技术/试卷/电工与电子技术2020年A卷试题.docx",
+      "categoryId": "课程Course/电工与电子技术/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 909310,
+      "modifiedAt": "2025-10-26T05:59:07.788Z"
+    },
+    {
+      "id": "课程Course/电工与电子技术/试卷/电工与电子技术2022年下册试题.pdf",
+      "name": "电工与电子技术2022年下册试题.pdf",
+      "path": "课程Course/电工与电子技术/试卷/电工与电子技术2022年下册试题.pdf",
+      "categoryId": "课程Course/电工与电子技术/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 2107494,
+      "modifiedAt": "2025-10-26T06:00:41.557Z"
+    },
+    {
       "id": "课程Course/电工与电子技术/试卷/电工与电子技术上19.pdf",
       "name": "电工与电子技术上19.pdf",
       "path": "课程Course/电工与电子技术/试卷/电工与电子技术上19.pdf",
@@ -1106,6 +1526,36 @@
       "modifiedAt": "2025-10-25T08:04:24.101Z"
     },
     {
+      "id": "课程Course/电机实验/实验/变压器.zip",
+      "name": "变压器.zip",
+      "path": "课程Course/电机实验/实验/变压器.zip",
+      "categoryId": "课程Course/电机实验/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 398958,
+      "modifiedAt": "2025-10-26T06:00:37.728Z"
+    },
+    {
+      "id": "课程Course/电机实验/实验/电机.zip",
+      "name": "电机.zip",
+      "path": "课程Course/电机实验/实验/电机.zip",
+      "categoryId": "课程Course/电机实验/实验",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 101194,
+      "modifiedAt": "2025-10-26T05:59:35.253Z"
+    },
+    {
+      "id": "课程Course/电机实验/实验/同步电机实验.xlsx",
+      "name": "同步电机实验.xlsx",
+      "path": "课程Course/电机实验/实验/同步电机实验.xlsx",
+      "categoryId": "课程Course/电机实验/实验",
+      "ext": ".xlsx",
+      "mime": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "size": 35346,
+      "modifiedAt": "2025-10-26T06:00:31.250Z"
+    },
+    {
       "id": "课程Course/电机学/上次更新：2023-11-1.txt",
       "name": "上次更新：2023-11-1.txt",
       "path": "课程Course/电机学/上次更新：2023-11-1.txt",
@@ -1204,6 +1654,16 @@
       "mime": "text/plain",
       "size": 0,
       "modifiedAt": "2025-10-25T08:04:23.987Z"
+    },
+    {
+      "id": "课程Course/电力电子技术/答案/电力电子技术习题答案.pdf",
+      "name": "电力电子技术习题答案.pdf",
+      "path": "课程Course/电力电子技术/答案/电力电子技术习题答案.pdf",
+      "categoryId": "课程Course/电力电子技术/答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 3367806,
+      "modifiedAt": "2025-10-26T06:00:06.708Z"
     },
     {
       "id": "课程Course/电力电子技术/试卷/电力电子技术18.pdf",
@@ -1626,6 +2086,46 @@
       "modifiedAt": "2025-10-25T08:04:21.375Z"
     },
     {
+      "id": "课程Course/复变函数/答案/复变函数课后答案(第四－六章).pdf",
+      "name": "复变函数课后答案(第四－六章).pdf",
+      "path": "课程Course/复变函数/答案/复变函数课后答案(第四－六章).pdf",
+      "categoryId": "课程Course/复变函数/答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1681154,
+      "modifiedAt": "2025-10-26T05:59:50.124Z"
+    },
+    {
+      "id": "课程Course/复变函数/答案/复变函数课后答案(第一－三章).pdf",
+      "name": "复变函数课后答案(第一－三章).pdf",
+      "path": "课程Course/复变函数/答案/复变函数课后答案(第一－三章).pdf",
+      "categoryId": "课程Course/复变函数/答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1361132,
+      "modifiedAt": "2025-10-26T05:59:50.549Z"
+    },
+    {
+      "id": "课程Course/复变函数/试卷/2020年复变函数.pdf",
+      "name": "2020年复变函数.pdf",
+      "path": "课程Course/复变函数/试卷/2020年复变函数.pdf",
+      "categoryId": "课程Course/复变函数/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 502733,
+      "modifiedAt": "2025-10-26T05:59:07.413Z"
+    },
+    {
+      "id": "课程Course/复变函数/试卷/2021年复变函数.pdf",
+      "name": "2021年复变函数.pdf",
+      "path": "课程Course/复变函数/试卷/2021年复变函数.pdf",
+      "categoryId": "课程Course/复变函数/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 923052,
+      "modifiedAt": "2025-10-26T05:59:23.143Z"
+    },
+    {
       "id": "课程Course/复变函数/试卷/复变函数20.pdf",
       "name": "复变函数20.pdf",
       "path": "课程Course/复变函数/试卷/复变函数20.pdf",
@@ -1664,6 +2164,16 @@
       "mime": "application/pdf",
       "size": 1396914,
       "modifiedAt": "2025-10-25T08:04:21.399Z"
+    },
+    {
+      "id": "课程Course/复变函数/资料/复变函数教材.pdf",
+      "name": "复变函数教材.pdf",
+      "path": "课程Course/复变函数/资料/复变函数教材.pdf",
+      "categoryId": "课程Course/复变函数/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 3279045,
+      "modifiedAt": "2025-10-26T05:59:20.743Z"
     },
     {
       "id": "课程Course/复变函数/资料/复变函数知识点与部分习题解答.pdf",
@@ -1714,6 +2224,16 @@
       "mime": "text/plain",
       "size": 0,
       "modifiedAt": "2025-10-25T08:04:23.390Z"
+    },
+    {
+      "id": "课程Course/概率论与数理统计/答案/概率论与数理统计习题解答(第二版).pdf",
+      "name": "概率论与数理统计习题解答(第二版).pdf",
+      "path": "课程Course/概率论与数理统计/答案/概率论与数理统计习题解答(第二版).pdf",
+      "categoryId": "课程Course/概率论与数理统计/答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 8571024,
+      "modifiedAt": "2025-10-26T06:00:18.516Z"
     },
     {
       "id": "课程Course/概率论与数理统计/试卷/概率论20AB.pdf",
@@ -2096,6 +2616,286 @@
       "modifiedAt": "2025-10-25T08:04:26.891Z"
     },
     {
+      "id": "课程Course/高等数学/试卷/高等数学I2015年上册期中试题.docx",
+      "name": "高等数学I2015年上册期中试题.docx",
+      "path": "课程Course/高等数学/试卷/高等数学I2015年上册期中试题.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 2246262,
+      "modifiedAt": "2025-10-26T05:59:19.105Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2015年下册期中试题.pdf",
+      "name": "高等数学I2015年下册期中试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2015年下册期中试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1295271,
+      "modifiedAt": "2025-10-26T06:00:01.704Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2017年上册期末A卷试题.pdf",
+      "name": "高等数学I2017年上册期末A卷试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2017年上册期末A卷试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 132744,
+      "modifiedAt": "2025-10-26T06:00:40.719Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2017年上册期末B卷试题.pdf",
+      "name": "高等数学I2017年上册期末B卷试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2017年上册期末B卷试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 134436,
+      "modifiedAt": "2025-10-26T06:00:48.883Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2017年上册期中试题.docx",
+      "name": "高等数学I2017年上册期中试题.docx",
+      "path": "课程Course/高等数学/试卷/高等数学I2017年上册期中试题.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 2325582,
+      "modifiedAt": "2025-10-26T06:00:34.887Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2018年下册期中试题.pdf",
+      "name": "高等数学I2018年下册期中试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2018年下册期中试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1359874,
+      "modifiedAt": "2025-10-26T05:59:34.970Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2019年上册期中A卷试题.docx",
+      "name": "高等数学I2019年上册期中A卷试题.docx",
+      "path": "课程Course/高等数学/试卷/高等数学I2019年上册期中A卷试题.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 1948247,
+      "modifiedAt": "2025-10-26T06:00:41.926Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2019年上册期中B卷试题.docx",
+      "name": "高等数学I2019年上册期中B卷试题.docx",
+      "path": "课程Course/高等数学/试卷/高等数学I2019年上册期中B卷试题.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 371819,
+      "modifiedAt": "2025-10-26T05:59:13.646Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2019年下册期末试题.pdf",
+      "name": "高等数学I2019年下册期末试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2019年下册期末试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 686283,
+      "modifiedAt": "2025-10-26T05:59:28.720Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2019年下册期中试题.pdf",
+      "name": "高等数学I2019年下册期中试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2019年下册期中试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1868054,
+      "modifiedAt": "2025-10-26T05:59:16.320Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2020年上册期末B卷试题.docx",
+      "name": "高等数学I2020年上册期末B卷试题.docx",
+      "path": "课程Course/高等数学/试卷/高等数学I2020年上册期末B卷试题.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 1501439,
+      "modifiedAt": "2025-10-26T05:59:37.252Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2020年上册期中A卷试题.pdf",
+      "name": "高等数学I2020年上册期中A卷试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2020年上册期中A卷试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 922483,
+      "modifiedAt": "2025-10-26T05:59:22.560Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2020年上册期中B卷试题.docx",
+      "name": "高等数学I2020年上册期中B卷试题.docx",
+      "path": "课程Course/高等数学/试卷/高等数学I2020年上册期中B卷试题.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 202987,
+      "modifiedAt": "2025-10-26T06:00:20.559Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2021年上册期末A卷试题.docx",
+      "name": "高等数学I2021年上册期末A卷试题.docx",
+      "path": "课程Course/高等数学/试卷/高等数学I2021年上册期末A卷试题.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 25865,
+      "modifiedAt": "2025-10-26T06:00:04.682Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2021年上册期末B卷试题.pdf",
+      "name": "高等数学I2021年上册期末B卷试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2021年上册期末B卷试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 4628985,
+      "modifiedAt": "2025-10-26T06:00:04.288Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2021上册期中A卷试题.pdf",
+      "name": "高等数学I2021上册期中A卷试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2021上册期中A卷试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 165380,
+      "modifiedAt": "2025-10-26T05:59:03.242Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2022年上册期末试题.docx",
+      "name": "高等数学I2022年上册期末试题.docx",
+      "path": "课程Course/高等数学/试卷/高等数学I2022年上册期末试题.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 258704,
+      "modifiedAt": "2025-10-26T05:59:49.434Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2023年上册期末.pdf",
+      "name": "高等数学I2023年上册期末.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学I2023年上册期末.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1502475,
+      "modifiedAt": "2025-10-26T06:00:32.729Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学I2024年上学期期末.docx",
+      "name": "高等数学I2024年上学期期末.docx",
+      "path": "课程Course/高等数学/试卷/高等数学I2024年上学期期末.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 65619,
+      "modifiedAt": "2025-10-26T06:00:24.382Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学II2018年上册期末B卷试题.pdf",
+      "name": "高等数学II2018年上册期末B卷试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学II2018年上册期末B卷试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 3492388,
+      "modifiedAt": "2025-10-26T06:00:36.940Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学II2019年上册期末试题.pdf",
+      "name": "高等数学II2019年上册期末试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学II2019年上册期末试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 202854,
+      "modifiedAt": "2025-10-26T06:00:48.121Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学II2019年下册期末试题.doc",
+      "name": "高等数学II2019年下册期末试题.doc",
+      "path": "课程Course/高等数学/试卷/高等数学II2019年下册期末试题.doc",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 230912,
+      "modifiedAt": "2025-10-26T05:59:16.408Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学II2019年下册期中B卷试题.docx",
+      "name": "高等数学II2019年下册期中B卷试题.docx",
+      "path": "课程Course/高等数学/试卷/高等数学II2019年下册期中B卷试题.docx",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 4437575,
+      "modifiedAt": "2025-10-26T05:59:25.765Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学II2020年上册期末.pdf",
+      "name": "高等数学II2020年上册期末.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学II2020年上册期末.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1208094,
+      "modifiedAt": "2025-10-26T05:59:09.016Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学II2020年上册期末考试B卷.pdf",
+      "name": "高等数学II2020年上册期末考试B卷.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学II2020年上册期末考试B卷.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1547077,
+      "modifiedAt": "2025-10-26T06:00:49.720Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学II2020年下册期末试题.pdf",
+      "name": "高等数学II2020年下册期末试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学II2020年下册期末试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1323049,
+      "modifiedAt": "2025-10-26T06:00:00.866Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学II2022年上册期末.pdf",
+      "name": "高等数学II2022年上册期末.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学II2022年上册期末.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1173279,
+      "modifiedAt": "2025-10-26T05:59:47.183Z"
+    },
+    {
+      "id": "课程Course/高等数学/试卷/高等数学II2022年下册期末试题.pdf",
+      "name": "高等数学II2022年下册期末试题.pdf",
+      "path": "课程Course/高等数学/试卷/高等数学II2022年下册期末试题.pdf",
+      "categoryId": "课程Course/高等数学/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 4291579,
+      "modifiedAt": "2025-10-26T05:59:33.315Z"
+    },
+    {
       "id": "课程Course/高等数学/试卷/高数上20期末.pdf",
       "name": "高数上20期末.pdf",
       "path": "课程Course/高等数学/试卷/高数上20期末.pdf",
@@ -2426,6 +3226,26 @@
       "modifiedAt": "2025-10-25T08:04:27.297Z"
     },
     {
+      "id": "课程Course/高等数学/作业/高等数学习题集上册.pdf",
+      "name": "高等数学习题集上册.pdf",
+      "path": "课程Course/高等数学/作业/高等数学习题集上册.pdf",
+      "categoryId": "课程Course/高等数学/作业",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1137182,
+      "modifiedAt": "2025-10-26T05:59:04.565Z"
+    },
+    {
+      "id": "课程Course/高等数学/作业/高等数学习题集下册.pdf",
+      "name": "高等数学习题集下册.pdf",
+      "path": "课程Course/高等数学/作业/高等数学习题集下册.pdf",
+      "categoryId": "课程Course/高等数学/作业",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1937497,
+      "modifiedAt": "2025-10-26T05:59:56.978Z"
+    },
+    {
       "id": "课程Course/工程材料学/上次更新：2024-1-4.txt",
       "name": "上次更新：2024-1-4.txt",
       "path": "课程Course/工程材料学/上次更新：2024-1-4.txt",
@@ -2696,6 +3516,16 @@
       "modifiedAt": "2025-10-25T08:04:21.887Z"
     },
     {
+      "id": "课程Course/工程图学/答案/工图作业答案.zip",
+      "name": "工图作业答案.zip",
+      "path": "课程Course/工程图学/答案/工图作业答案.zip",
+      "categoryId": "课程Course/工程图学/答案",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 15001555,
+      "modifiedAt": "2025-10-26T06:00:06.151Z"
+    },
+    {
       "id": "课程Course/工程图学/试卷/工程图学上19AB.pdf",
       "name": "工程图学上19AB.pdf",
       "path": "课程Course/工程图学/试卷/工程图学上19AB.pdf",
@@ -2766,6 +3596,96 @@
       "modifiedAt": "2025-10-25T08:04:21.867Z"
     },
     {
+      "id": "课程Course/工科数学分析/答案/工科数学分析2013A答案.doc",
+      "name": "工科数学分析2013A答案.doc",
+      "path": "课程Course/工科数学分析/答案/工科数学分析2013A答案.doc",
+      "categoryId": "课程Course/工科数学分析/答案",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 208384,
+      "modifiedAt": "2025-10-26T05:59:34.419Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/答案/工科数学分析2014A答案.doc",
+      "name": "工科数学分析2014A答案.doc",
+      "path": "课程Course/工科数学分析/答案/工科数学分析2014A答案.doc",
+      "categoryId": "课程Course/工科数学分析/答案",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 154112,
+      "modifiedAt": "2025-10-26T06:00:44.077Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/答案/工科数学分析2015A答案.doc",
+      "name": "工科数学分析2015A答案.doc",
+      "path": "课程Course/工科数学分析/答案/工科数学分析2015A答案.doc",
+      "categoryId": "课程Course/工科数学分析/答案",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 141410,
+      "modifiedAt": "2025-10-26T06:00:41.231Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/答案/工科数学分析2015B答案.doc",
+      "name": "工科数学分析2015B答案.doc",
+      "path": "课程Course/工科数学分析/答案/工科数学分析2015B答案.doc",
+      "categoryId": "课程Course/工科数学分析/答案",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 157934,
+      "modifiedAt": "2025-10-26T06:00:51.930Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/答案/工科数学分析2016A答案.doc",
+      "name": "工科数学分析2016A答案.doc",
+      "path": "课程Course/工科数学分析/答案/工科数学分析2016A答案.doc",
+      "categoryId": "课程Course/工科数学分析/答案",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 217690,
+      "modifiedAt": "2025-10-26T05:59:03.226Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/答案/工科数学分析2016B答案.doc",
+      "name": "工科数学分析2016B答案.doc",
+      "path": "课程Course/工科数学分析/答案/工科数学分析2016B答案.doc",
+      "categoryId": "课程Course/工科数学分析/答案",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 225580,
+      "modifiedAt": "2025-10-26T05:59:57.064Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/答案/工科数学分析2017A答案.doc",
+      "name": "工科数学分析2017A答案.doc",
+      "path": "课程Course/工科数学分析/答案/工科数学分析2017A答案.doc",
+      "categoryId": "课程Course/工科数学分析/答案",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 139264,
+      "modifiedAt": "2025-10-26T05:59:49.543Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/答案/工科数学分析2018A答案.doc",
+      "name": "工科数学分析2018A答案.doc",
+      "path": "课程Course/工科数学分析/答案/工科数学分析2018A答案.doc",
+      "categoryId": "课程Course/工科数学分析/答案",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 228352,
+      "modifiedAt": "2025-10-26T05:59:58.003Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/答案/工数练习册答案.zip",
+      "name": "工数练习册答案.zip",
+      "path": "课程Course/工科数学分析/答案/工数练习册答案.zip",
+      "categoryId": "课程Course/工科数学分析/答案",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 84424536,
+      "modifiedAt": "2025-10-26T06:00:30.895Z"
+    },
+    {
       "id": "课程Course/工科数学分析/试卷/2024南京航空航天大学航空学院《工科数学分析A(2)》期末模拟题.pdf",
       "name": "2024南京航空航天大学航空学院《工科数学分析A(2)》期末模拟题.pdf",
       "path": "课程Course/工科数学分析/试卷/2024南京航空航天大学航空学院《工科数学分析A(2)》期末模拟题.pdf",
@@ -2796,6 +3716,86 @@
       "modifiedAt": "2025-10-25T08:04:21.878Z"
     },
     {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析2013A.doc",
+      "name": "工科数学分析2013A.doc",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析2013A.doc",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 250368,
+      "modifiedAt": "2025-10-26T06:00:19.782Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析2014A.doc",
+      "name": "工科数学分析2014A.doc",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析2014A.doc",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 228352,
+      "modifiedAt": "2025-10-26T05:59:50.844Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析2015A.doc",
+      "name": "工科数学分析2015A.doc",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析2015A.doc",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 252928,
+      "modifiedAt": "2025-10-26T06:00:35.509Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析2015B.doc",
+      "name": "工科数学分析2015B.doc",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析2015B.doc",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 251904,
+      "modifiedAt": "2025-10-26T06:00:32.031Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析2016A.doc",
+      "name": "工科数学分析2016A.doc",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析2016A.doc",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 198656,
+      "modifiedAt": "2025-10-26T06:00:41.379Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析2016B.doc",
+      "name": "工科数学分析2016B.doc",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析2016B.doc",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 200192,
+      "modifiedAt": "2025-10-26T06:00:02.733Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析2017A.doc",
+      "name": "工科数学分析2017A.doc",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析2017A.doc",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 238592,
+      "modifiedAt": "2025-10-26T05:59:36.817Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析2018A.doc",
+      "name": "工科数学分析2018A.doc",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析2018A.doc",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 193024,
+      "modifiedAt": "2025-10-26T06:00:16.883Z"
+    },
+    {
       "id": "课程Course/工科数学分析/试卷/工科数学分析上22.pdf",
       "name": "工科数学分析上22.pdf",
       "path": "课程Course/工科数学分析/试卷/工科数学分析上22.pdf",
@@ -2804,6 +3804,26 @@
       "mime": "application/pdf",
       "size": 620828,
       "modifiedAt": "2025-10-25T08:04:21.880Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析下19AB.pdf",
+      "name": "工科数学分析下19AB.pdf",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析下19AB.pdf",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 796887,
+      "modifiedAt": "2025-10-26T05:59:55.615Z"
+    },
+    {
+      "id": "课程Course/工科数学分析/试卷/工科数学分析下期中19.pdf",
+      "name": "工科数学分析下期中19.pdf",
+      "path": "课程Course/工科数学分析/试卷/工科数学分析下期中19.pdf",
+      "categoryId": "课程Course/工科数学分析/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 702781,
+      "modifiedAt": "2025-10-26T06:00:38.174Z"
     },
     {
       "id": "课程Course/功率变换器计算机仿真与设计/上次更新：2023-11-1.txt",
@@ -2916,6 +3936,16 @@
       "modifiedAt": "2025-10-25T08:04:25.197Z"
     },
     {
+      "id": "课程Course/航空航天概论/题库/航概18院题库.pdf",
+      "name": "航概18院题库.pdf",
+      "path": "课程Course/航空航天概论/题库/航概18院题库.pdf",
+      "categoryId": "课程Course/航空航天概论/题库",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 3730514,
+      "modifiedAt": "2025-10-26T05:59:19.722Z"
+    },
+    {
       "id": "课程Course/航空航天概论/资料/航概知识点.pdf",
       "name": "航概知识点.pdf",
       "path": "课程Course/航空航天概论/资料/航概知识点.pdf",
@@ -2944,6 +3974,16 @@
       "mime": "text/plain",
       "size": 0,
       "modifiedAt": "2025-10-25T08:04:25.199Z"
+    },
+    {
+      "id": "课程Course/航空航天类专业导论/题库/导论题库（227题完整版）.docx",
+      "name": "导论题库（227题完整版）.docx",
+      "path": "课程Course/航空航天类专业导论/题库/导论题库（227题完整版）.docx",
+      "categoryId": "课程Course/航空航天类专业导论/题库",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 55179,
+      "modifiedAt": "2025-10-26T05:59:47.894Z"
     },
     {
       "id": "课程Course/航空航天类专业导论/资料/《航空航天类专业导论》讲义.pdf",
@@ -3224,6 +4264,36 @@
       "mime": "text/plain",
       "size": 0,
       "modifiedAt": "2025-10-25T08:04:22.834Z"
+    },
+    {
+      "id": "课程Course/机械原理/课设/机械原理课程设计牛头刨床1.zip",
+      "name": "机械原理课程设计牛头刨床1.zip",
+      "path": "课程Course/机械原理/课设/机械原理课程设计牛头刨床1.zip",
+      "categoryId": "课程Course/机械原理/课设",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 2051739,
+      "modifiedAt": "2025-10-26T05:59:29.830Z"
+    },
+    {
+      "id": "课程Course/机械原理/课设/机械原理课程设计牛头刨床2.zip",
+      "name": "机械原理课程设计牛头刨床2.zip",
+      "path": "课程Course/机械原理/课设/机械原理课程设计牛头刨床2.zip",
+      "categoryId": "课程Course/机械原理/课设",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 406972,
+      "modifiedAt": "2025-10-26T06:00:52.771Z"
+    },
+    {
+      "id": "课程Course/机械原理/课设/机械原理课程设计牛头刨床4.zip",
+      "name": "机械原理课程设计牛头刨床4.zip",
+      "path": "课程Course/机械原理/课设/机械原理课程设计牛头刨床4.zip",
+      "categoryId": "课程Course/机械原理/课设",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 3906898,
+      "modifiedAt": "2025-10-26T05:59:06.382Z"
     },
     {
       "id": "课程Course/机械原理/实验报告/动平衡.pdf",
@@ -3606,6 +4676,16 @@
       "modifiedAt": "2025-10-25T08:04:25.945Z"
     },
     {
+      "id": "课程Course/计算机软件技术基础/试卷/2018年计算机软件技术基础试题.pdf",
+      "name": "2018年计算机软件技术基础试题.pdf",
+      "path": "课程Course/计算机软件技术基础/试卷/2018年计算机软件技术基础试题.pdf",
+      "categoryId": "课程Course/计算机软件技术基础/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 6345985,
+      "modifiedAt": "2025-10-26T05:59:36.099Z"
+    },
+    {
       "id": "课程Course/计算机软件技术基础/试卷/计算机软件技术基础18.pdf",
       "name": "计算机软件技术基础18.pdf",
       "path": "课程Course/计算机软件技术基础/试卷/计算机软件技术基础18.pdf",
@@ -3614,6 +4694,46 @@
       "mime": "application/pdf",
       "size": 5348751,
       "modifiedAt": "2025-10-25T08:04:25.987Z"
+    },
+    {
+      "id": "课程Course/计算机软件技术基础/资料/计算机软件技术基础复习提纲1.pdf",
+      "name": "计算机软件技术基础复习提纲1.pdf",
+      "path": "课程Course/计算机软件技术基础/资料/计算机软件技术基础复习提纲1.pdf",
+      "categoryId": "课程Course/计算机软件技术基础/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 488020,
+      "modifiedAt": "2025-10-26T06:00:52.380Z"
+    },
+    {
+      "id": "课程Course/计算机软件技术基础/资料/计算机软件技术基础复习提纲2.doc",
+      "name": "计算机软件技术基础复习提纲2.doc",
+      "path": "课程Course/计算机软件技术基础/资料/计算机软件技术基础复习提纲2.doc",
+      "categoryId": "课程Course/计算机软件技术基础/资料",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 660480,
+      "modifiedAt": "2025-10-26T05:59:40.243Z"
+    },
+    {
+      "id": "课程Course/计算机软件技术基础/资料/计算机软件技术基础复习提纲3.pdf",
+      "name": "计算机软件技术基础复习提纲3.pdf",
+      "path": "课程Course/计算机软件技术基础/资料/计算机软件技术基础复习提纲3.pdf",
+      "categoryId": "课程Course/计算机软件技术基础/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 336953,
+      "modifiedAt": "2025-10-26T06:00:38.822Z"
+    },
+    {
+      "id": "课程Course/计算机软件技术基础/资料/计算机软件技术基础复习提纲4.docx",
+      "name": "计算机软件技术基础复习提纲4.docx",
+      "path": "课程Course/计算机软件技术基础/资料/计算机软件技术基础复习提纲4.docx",
+      "categoryId": "课程Course/计算机软件技术基础/资料",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 23241844,
+      "modifiedAt": "2025-10-26T05:59:41.555Z"
     },
     {
       "id": "课程Course/计算机硬件技术基础/上次更新：2023-11-1.txt",
@@ -3694,6 +4814,26 @@
       "mime": "application/pdf",
       "size": 2846640,
       "modifiedAt": "2025-10-25T08:04:25.945Z"
+    },
+    {
+      "id": "课程Course/计算机组成原理/试卷/计算机组成原理2023年试卷.zip",
+      "name": "计算机组成原理2023年试卷.zip",
+      "path": "课程Course/计算机组成原理/试卷/计算机组成原理2023年试卷.zip",
+      "categoryId": "课程Course/计算机组成原理/试卷",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 2865655,
+      "modifiedAt": "2025-10-26T05:59:37.331Z"
+    },
+    {
+      "id": "课程Course/计算机组成原理/试卷/计算机组成原理2024年试卷.zip",
+      "name": "计算机组成原理2024年试卷.zip",
+      "path": "课程Course/计算机组成原理/试卷/计算机组成原理2024年试卷.zip",
+      "categoryId": "课程Course/计算机组成原理/试卷",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 4042923,
+      "modifiedAt": "2025-10-26T05:59:12.359Z"
     },
     {
       "id": "课程Course/计算力学/上次更新：2024-12-11.txt",
@@ -4006,6 +5146,26 @@
       "modifiedAt": "2025-10-25T08:04:25.320Z"
     },
     {
+      "id": "课程Course/金工实习/题库/金工实习题库.pdf",
+      "name": "金工实习题库.pdf",
+      "path": "课程Course/金工实习/题库/金工实习题库.pdf",
+      "categoryId": "课程Course/金工实习/题库",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 2436766,
+      "modifiedAt": "2025-10-26T05:59:28.204Z"
+    },
+    {
+      "id": "课程Course/金工实习/作业/学习通作业.pdf",
+      "name": "学习通作业.pdf",
+      "path": "课程Course/金工实习/作业/学习通作业.pdf",
+      "categoryId": "课程Course/金工实习/作业",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1272949,
+      "modifiedAt": "2025-10-26T05:59:13.639Z"
+    },
+    {
       "id": "课程Course/金属材料/上次更新：2024-7-10.txt",
       "name": "上次更新：2024-7-10.txt",
       "path": "课程Course/金属材料/上次更新：2024-7-10.txt",
@@ -4044,6 +5204,16 @@
       "mime": "application/pdf",
       "size": 3997978,
       "modifiedAt": "2025-10-25T08:04:21.160Z"
+    },
+    {
+      "id": "课程Course/军事理论/题库/军理题库2.pdf",
+      "name": "军理题库2.pdf",
+      "path": "课程Course/军事理论/题库/军理题库2.pdf",
+      "categoryId": "课程Course/军事理论/题库",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1234140,
+      "modifiedAt": "2025-10-26T05:59:59.193Z"
     },
     {
       "id": "课程Course/军事理论/资料/2024题库.docx",
@@ -4316,6 +5486,16 @@
       "modifiedAt": "2025-10-25T08:04:23.843Z"
     },
     {
+      "id": "课程Course/理论力学/答案/理论力学习题答案.pdf",
+      "name": "理论力学习题答案.pdf",
+      "path": "课程Course/理论力学/答案/理论力学习题答案.pdf",
+      "categoryId": "课程Course/理论力学/答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 5827815,
+      "modifiedAt": "2025-10-26T05:59:05.159Z"
+    },
+    {
       "id": "课程Course/理论力学/试卷/理论力学20(带填空).pdf",
       "name": "理论力学20(带填空).pdf",
       "path": "课程Course/理论力学/试卷/理论力学20(带填空).pdf",
@@ -4436,6 +5616,16 @@
       "modifiedAt": "2025-10-25T08:04:23.965Z"
     },
     {
+      "id": "课程Course/理论力学/资料/理论力学19.pdf",
+      "name": "理论力学19.pdf",
+      "path": "课程Course/理论力学/资料/理论力学19.pdf",
+      "categoryId": "课程Course/理论力学/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 8026363,
+      "modifiedAt": "2025-10-26T05:59:08.305Z"
+    },
+    {
       "id": "课程Course/流体力学/上次更新：2024-11-8.txt",
       "name": "上次更新：2024-11-8.txt",
       "path": "课程Course/流体力学/上次更新：2024-11-8.txt",
@@ -4514,6 +5704,56 @@
       "mime": "application/pdf",
       "size": 4934691,
       "modifiedAt": "2025-10-25T08:04:26.811Z"
+    },
+    {
+      "id": "课程Course/马克思主义基本原理/试卷/马原试题.docx",
+      "name": "马原试题.docx",
+      "path": "课程Course/马克思主义基本原理/试卷/马原试题.docx",
+      "categoryId": "课程Course/马克思主义基本原理/试卷",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 36785,
+      "modifiedAt": "2025-10-26T05:59:09.594Z"
+    },
+    {
+      "id": "课程Course/马克思主义基本原理/题库/辨析题.doc",
+      "name": "辨析题.doc",
+      "path": "课程Course/马克思主义基本原理/题库/辨析题.doc",
+      "categoryId": "课程Course/马克思主义基本原理/题库",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 65024,
+      "modifiedAt": "2025-10-26T06:00:17.436Z"
+    },
+    {
+      "id": "课程Course/马克思主义基本原理/题库/马原练习题.pdf",
+      "name": "马原练习题.pdf",
+      "path": "课程Course/马克思主义基本原理/题库/马原练习题.pdf",
+      "categoryId": "课程Course/马克思主义基本原理/题库",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 4352336,
+      "modifiedAt": "2025-10-26T06:00:01.860Z"
+    },
+    {
+      "id": "课程Course/马克思主义基本原理/题库/选择题.docx",
+      "name": "选择题.docx",
+      "path": "课程Course/马克思主义基本原理/题库/选择题.docx",
+      "categoryId": "课程Course/马克思主义基本原理/题库",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 45215,
+      "modifiedAt": "2025-10-26T06:00:37.485Z"
+    },
+    {
+      "id": "课程Course/马克思主义基本原理/资料/《马克思主义基本原理概论》教材重点.pdf",
+      "name": "《马克思主义基本原理概论》教材重点.pdf",
+      "path": "课程Course/马克思主义基本原理/资料/《马克思主义基本原理概论》教材重点.pdf",
+      "categoryId": "课程Course/马克思主义基本原理/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1814253,
+      "modifiedAt": "2025-10-26T05:59:45.762Z"
     },
     {
       "id": "课程Course/马克思主义基本原理/资料/《马原》精简知识点.pdf",
@@ -4616,6 +5856,16 @@
       "modifiedAt": "2025-10-25T08:04:26.832Z"
     },
     {
+      "id": "课程Course/马克思主义基本原理/资料/马原知识点（2021版）.pdf",
+      "name": "马原知识点（2021版）.pdf",
+      "path": "课程Course/马克思主义基本原理/资料/马原知识点（2021版）.pdf",
+      "categoryId": "课程Course/马克思主义基本原理/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1007111,
+      "modifiedAt": "2025-10-26T06:00:36.666Z"
+    },
+    {
       "id": "课程Course/马克思主义基本原理/资料/马原重点.pdf",
       "name": "马原重点.pdf",
       "path": "课程Course/马克思主义基本原理/资料/马原重点.pdf",
@@ -4624,6 +5874,16 @@
       "mime": "application/pdf",
       "size": 9995610,
       "modifiedAt": "2025-10-25T08:04:26.838Z"
+    },
+    {
+      "id": "课程Course/马克思主义基本原理/资料/马原重点笔记.pdf",
+      "name": "马原重点笔记.pdf",
+      "path": "课程Course/马克思主义基本原理/资料/马原重点笔记.pdf",
+      "categoryId": "课程Course/马克思主义基本原理/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 9752334,
+      "modifiedAt": "2025-10-26T05:59:19.267Z"
     },
     {
       "id": "课程Course/马克思主义基本原理/资料/毛泽东选集.docx",
@@ -4976,6 +6236,66 @@
       "modifiedAt": "2025-10-25T08:04:21.021Z"
     },
     {
+      "id": "课程Course/入党积极分子/题库/党课题库2.docx",
+      "name": "党课题库2.docx",
+      "path": "课程Course/入党积极分子/题库/党课题库2.docx",
+      "categoryId": "课程Course/入党积极分子/题库",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 882334,
+      "modifiedAt": "2025-10-26T05:59:23.765Z"
+    },
+    {
+      "id": "课程Course/入党积极分子/资料/党课-第1章.docx",
+      "name": "党课-第1章.docx",
+      "path": "课程Course/入党积极分子/资料/党课-第1章.docx",
+      "categoryId": "课程Course/入党积极分子/资料",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 246114,
+      "modifiedAt": "2025-10-26T06:00:04.025Z"
+    },
+    {
+      "id": "课程Course/入党积极分子/资料/党课-第3章.docx",
+      "name": "党课-第3章.docx",
+      "path": "课程Course/入党积极分子/资料/党课-第3章.docx",
+      "categoryId": "课程Course/入党积极分子/资料",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 98623,
+      "modifiedAt": "2025-10-26T05:59:44.880Z"
+    },
+    {
+      "id": "课程Course/入党积极分子/资料/党课-第6章.docx",
+      "name": "党课-第6章.docx",
+      "path": "课程Course/入党积极分子/资料/党课-第6章.docx",
+      "categoryId": "课程Course/入党积极分子/资料",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 102383,
+      "modifiedAt": "2025-10-26T05:59:48.596Z"
+    },
+    {
+      "id": "课程Course/入党积极分子/资料/党课-选修2.docx",
+      "name": "党课-选修2.docx",
+      "path": "课程Course/入党积极分子/资料/党课-选修2.docx",
+      "categoryId": "课程Course/入党积极分子/资料",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 95406,
+      "modifiedAt": "2025-10-26T06:00:50.930Z"
+    },
+    {
+      "id": "课程Course/入党积极分子/资料/党课-综合测试.docx",
+      "name": "党课-综合测试.docx",
+      "path": "课程Course/入党积极分子/资料/党课-综合测试.docx",
+      "categoryId": "课程Course/入党积极分子/资料",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 383859,
+      "modifiedAt": "2025-10-26T06:00:43.105Z"
+    },
+    {
       "id": "课程Course/软件技术基础/上次更新：2024-7-10.txt",
       "name": "上次更新：2024-7-10.txt",
       "path": "课程Course/软件技术基础/上次更新：2024-7-10.txt",
@@ -5324,6 +6644,16 @@
       "mime": "text/plain",
       "size": 0,
       "modifiedAt": "2025-10-25T08:04:22.495Z"
+    },
+    {
+      "id": "课程Course/数字电路与逻辑设计/试卷/数电试卷.zip",
+      "name": "数电试卷.zip",
+      "path": "课程Course/数字电路与逻辑设计/试卷/数电试卷.zip",
+      "categoryId": "课程Course/数字电路与逻辑设计/试卷",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 3992519,
+      "modifiedAt": "2025-10-26T06:00:07.147Z"
     },
     {
       "id": "课程Course/数字电路与逻辑设计/试卷/数字电路与逻辑设计19.pdf",
@@ -5946,6 +7276,26 @@
       "modifiedAt": "2025-10-25T08:04:24.563Z"
     },
     {
+      "id": "课程Course/现代电子技术基础（模拟部分）/答案/模电习题解答.pdf",
+      "name": "模电习题解答.pdf",
+      "path": "课程Course/现代电子技术基础（模拟部分）/答案/模电习题解答.pdf",
+      "categoryId": "课程Course/现代电子技术基础（模拟部分）/答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 17156523,
+      "modifiedAt": "2025-10-26T06:00:14.514Z"
+    },
+    {
+      "id": "课程Course/现代电子技术基础（模拟部分）/试卷/考试题目.zip",
+      "name": "考试题目.zip",
+      "path": "课程Course/现代电子技术基础（模拟部分）/试卷/考试题目.zip",
+      "categoryId": "课程Course/现代电子技术基础（模拟部分）/试卷",
+      "ext": ".zip",
+      "mime": "application/zip",
+      "size": 19286933,
+      "modifiedAt": "2025-10-26T05:59:54.186Z"
+    },
+    {
       "id": "课程Course/现代控制理论/上次更新：2024-7-11.txt",
       "name": "上次更新：2024-7-11.txt",
       "path": "课程Course/现代控制理论/上次更新：2024-7-11.txt",
@@ -6016,6 +7366,16 @@
       "modifiedAt": "2025-10-25T08:04:24.576Z"
     },
     {
+      "id": "课程Course/线性代数/答案/线性代数习题集答案.pdf",
+      "name": "线性代数习题集答案.pdf",
+      "path": "课程Course/线性代数/答案/线性代数习题集答案.pdf",
+      "categoryId": "课程Course/线性代数/答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 319819,
+      "modifiedAt": "2025-10-26T06:00:25.484Z"
+    },
+    {
       "id": "课程Course/线性代数/试卷/线代20AB.pdf",
       "name": "线代20AB.pdf",
       "path": "课程Course/线性代数/试卷/线代20AB.pdf",
@@ -6084,6 +7444,56 @@
       "mime": "application/pdf",
       "size": 6891079,
       "modifiedAt": "2025-10-25T08:04:24.649Z"
+    },
+    {
+      "id": "课程Course/线性代数/试卷/线性代数2019年试题.pdf",
+      "name": "线性代数2019年试题.pdf",
+      "path": "课程Course/线性代数/试卷/线性代数2019年试题.pdf",
+      "categoryId": "课程Course/线性代数/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 5921092,
+      "modifiedAt": "2025-10-26T05:59:57.642Z"
+    },
+    {
+      "id": "课程Course/线性代数/试卷/线性代数2019年A卷试题.pdf",
+      "name": "线性代数2019年A卷试题.pdf",
+      "path": "课程Course/线性代数/试卷/线性代数2019年A卷试题.pdf",
+      "categoryId": "课程Course/线性代数/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 3808163,
+      "modifiedAt": "2025-10-26T05:59:26.715Z"
+    },
+    {
+      "id": "课程Course/线性代数/试卷/线性代数2020年A卷试题.pdf",
+      "name": "线性代数2020年A卷试题.pdf",
+      "path": "课程Course/线性代数/试卷/线性代数2020年A卷试题.pdf",
+      "categoryId": "课程Course/线性代数/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 955372,
+      "modifiedAt": "2025-10-26T05:59:40.653Z"
+    },
+    {
+      "id": "课程Course/线性代数/试卷/线性代数2021年试题.pdf",
+      "name": "线性代数2021年试题.pdf",
+      "path": "课程Course/线性代数/试卷/线性代数2021年试题.pdf",
+      "categoryId": "课程Course/线性代数/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 634814,
+      "modifiedAt": "2025-10-26T05:59:49.275Z"
+    },
+    {
+      "id": "课程Course/线性代数/作业/线性代数作业集.doc",
+      "name": "线性代数作业集.doc",
+      "path": "课程Course/线性代数/作业/线性代数作业集.doc",
+      "categoryId": "课程Course/线性代数/作业",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 3736064,
+      "modifiedAt": "2025-10-26T06:00:23.882Z"
     },
     {
       "id": "课程Course/项目管理/上次更新：2024-7-11.txt",
@@ -6694,6 +8104,108 @@
       "mime": "application/pdf",
       "size": 10264627,
       "modifiedAt": "2025-10-25T08:04:20.906Z"
+    },
+    {
+      "id": "课程Course/DSP实用技术/实验/DSP实用技术实验报告格式.doc",
+      "name": "DSP实用技术实验报告格式.doc",
+      "path": "课程Course/DSP实用技术/实验/DSP实用技术实验报告格式.doc",
+      "categoryId": "课程Course/DSP实用技术/实验",
+      "ext": ".doc",
+      "mime": "application/msword",
+      "size": 351744,
+      "modifiedAt": "2025-10-26T06:00:47.567Z"
+    },
+    {
+      "id": "课程Course/DSP实用技术/试卷/DSP实用技术2018年试卷.pdf",
+      "name": "DSP实用技术2018年试卷.pdf",
+      "path": "课程Course/DSP实用技术/试卷/DSP实用技术2018年试卷.pdf",
+      "categoryId": "课程Course/DSP实用技术/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 11938769,
+      "modifiedAt": "2025-10-26T06:00:34.479Z"
+    },
+    {
+      "id": "课程Course/PLC/实验/实验四 变频器PID控制.docx",
+      "name": "实验四 变频器PID控制.docx",
+      "path": "课程Course/PLC/实验/实验四 变频器PID控制.docx",
+      "categoryId": "课程Course/PLC/实验",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 16076,
+      "modifiedAt": "2025-10-26T06:00:18.973Z"
+    },
+    {
+      "id": "课程Course/PLC/实验/实验一 平台安装测试.docx",
+      "name": "实验一 平台安装测试.docx",
+      "path": "课程Course/PLC/实验/实验一 平台安装测试.docx",
+      "categoryId": "课程Course/PLC/实验",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 42415,
+      "modifiedAt": "2025-10-26T05:59:54.745Z"
+    },
+    {
+      "id": "课程Course/PLC/实验/PLC实验三实验报告.docx",
+      "name": "PLC实验三实验报告.docx",
+      "path": "课程Course/PLC/实验/PLC实验三实验报告.docx",
+      "categoryId": "课程Course/PLC/实验",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 193062,
+      "modifiedAt": "2025-10-26T05:59:34.185Z"
+    },
+    {
+      "id": "课程Course/PLC/资料/GX Works2入门指南（简单工程篇）.pdf",
+      "name": "GX Works2入门指南（简单工程篇）.pdf",
+      "path": "课程Course/PLC/资料/GX Works2入门指南（简单工程篇）.pdf",
+      "categoryId": "课程Course/PLC/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 9713512,
+      "modifiedAt": "2025-10-26T06:02:16.048Z"
+    },
+    {
+      "id": "课程Course/PLC/资料/plc.txt",
+      "name": "plc.txt",
+      "path": "课程Course/PLC/资料/plc.txt",
+      "categoryId": "课程Course/PLC/资料",
+      "ext": ".txt",
+      "mime": "text/plain",
+      "size": 350,
+      "modifiedAt": "2025-10-26T05:59:42.108Z",
+      "title": "c是计数器",
+      "digest": "c是计数器 K是十进制数，如K100为100 KnX位阻元件 前缀DE是浮点数运算，DEADD浮点数加法，必须是浮点数相加 [MOVP K314 D0]：上升沿的时候把314送给D0 [= K5 D0]————(Y0000)，输入的时候输入LD= K5 D0 BIN是二进制转换指令，将BCD转换成二进制 ZCP是区间比较指令 转移指令[TRAN]"
+    },
+    {
+      "id": "课程Course/PLC/资料/PLC控制程序精编108例.pdf",
+      "name": "PLC控制程序精编108例.pdf",
+      "path": "课程Course/PLC/资料/PLC控制程序精编108例.pdf",
+      "categoryId": "课程Course/PLC/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 8727326,
+      "modifiedAt": "2025-10-26T06:00:01.038Z"
+    },
+    {
+      "id": "课程Course/PLC/资料/PLC梯形图复习.pdf",
+      "name": "PLC梯形图复习.pdf",
+      "path": "课程Course/PLC/资料/PLC梯形图复习.pdf",
+      "categoryId": "课程Course/PLC/资料",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 1003372,
+      "modifiedAt": "2025-10-26T06:00:05.363Z"
+    },
+    {
+      "id": "课程Course/PLC/资料/SFC设计流程.docx",
+      "name": "SFC设计流程.docx",
+      "path": "课程Course/PLC/资料/SFC设计流程.docx",
+      "categoryId": "课程Course/PLC/资料",
+      "ext": ".docx",
+      "mime": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "size": 108041,
+      "modifiedAt": "2025-10-26T06:00:49.710Z"
     },
     {
       "id": "课程Course/Python 语言程序设计/上次更新：2024-8-31.txt",
@@ -7878,10 +9390,10 @@
       "categoryId": "网站Website/此网站制作者",
       "ext": ".md",
       "mime": "text/markdown",
-      "size": 42,
-      "modifiedAt": "2025-10-25T20:16:46.183Z",
-      "title": "制作人: ebit:https://github.com/Ebotian",
-      "digest": "制作人: ebit:https://github.com/Ebotian"
+      "size": 272,
+      "modifiedAt": "2025-10-26T04:28:59.456Z",
+      "title": "制作人: ebit",
+      "digest": "制作人: ebit 有任何资料补充,错误指正,网站修改建议,请联系我: - 尽量用邮箱: yiboxiaotian@nuaa.edu.cn - QQ: 3095016460 本人更新频率大约为每周一次 --- 再次感谢所有在这过程中放下无私分享资源的前辈和朋友们!"
     },
     {
       "id": "新生荐读/README.md",
@@ -8149,9 +9661,9 @@
     }
   ],
   "stats": {
-    "totalFiles": 806,
-    "totalCategories": 370,
-    "ignoredPaths": 370,
-    "processingTimeMs": 355
+    "totalFiles": 957,
+    "totalCategories": 405,
+    "ignoredPaths": 405,
+    "processingTimeMs": 225
   }
 }

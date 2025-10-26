@@ -14,7 +14,7 @@
     "path": "课程Course",
     "parentId": null,
     "depth": 0,
-    "childrenCount": 139,
+    "childrenCount": 145,
     "fileCount": 0
   },
   {
@@ -167,7 +167,7 @@
     "path": "课程Course/材料力学",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 3,
+    "childrenCount": 4,
     "fileCount": 1
   },
   {
@@ -239,7 +239,7 @@
     "path": "课程Course/大学物理",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 2,
+    "childrenCount": 3,
     "fileCount": 1
   },
   {
@@ -270,6 +270,15 @@
     "fileCount": 1
   },
   {
+    "id": "课程Course/电机实验",
+    "name": "电机实验",
+    "path": "课程Course/电机实验",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 1,
+    "fileCount": 0
+  },
+  {
     "id": "课程Course/电机学",
     "name": "电机学",
     "path": "课程Course/电机学",
@@ -293,7 +302,7 @@
     "path": "课程Course/电力电子技术",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 1,
+    "childrenCount": 2,
     "fileCount": 1
   },
   {
@@ -410,7 +419,7 @@
     "path": "课程Course/复变函数",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 2,
+    "childrenCount": 3,
     "fileCount": 1
   },
   {
@@ -428,7 +437,7 @@
     "path": "课程Course/概率论与数理统计",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 2,
+    "childrenCount": 3,
     "fileCount": 1
   },
   {
@@ -455,7 +464,7 @@
     "path": "课程Course/高等数学",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 2,
+    "childrenCount": 3,
     "fileCount": 1
   },
   {
@@ -518,7 +527,7 @@
     "path": "课程Course/工程图学",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 1,
+    "childrenCount": 2,
     "fileCount": 1
   },
   {
@@ -527,7 +536,7 @@
     "path": "课程Course/工科数学分析",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 1,
+    "childrenCount": 2,
     "fileCount": 1
   },
   {
@@ -554,7 +563,7 @@
     "path": "课程Course/航空航天概论",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 2,
+    "childrenCount": 3,
     "fileCount": 1
   },
   {
@@ -563,7 +572,7 @@
     "path": "课程Course/航空航天类专业导论",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 1,
+    "childrenCount": 2,
     "fileCount": 1
   },
   {
@@ -626,7 +635,7 @@
     "path": "课程Course/机械原理",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 4,
+    "childrenCount": 5,
     "fileCount": 1
   },
   {
@@ -689,7 +698,7 @@
     "path": "课程Course/计算机软件技术基础",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 1,
+    "childrenCount": 2,
     "fileCount": 1
   },
   {
@@ -810,6 +819,15 @@
     "fileCount": 1
   },
   {
+    "id": "课程Course/金工实习",
+    "name": "金工实习",
+    "path": "课程Course/金工实习",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 0
+  },
+  {
     "id": "课程Course/金属材料",
     "name": "金属材料",
     "path": "课程Course/金属材料",
@@ -824,7 +842,7 @@
     "path": "课程Course/军事理论",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 2,
+    "childrenCount": 3,
     "fileCount": 1
   },
   {
@@ -878,7 +896,7 @@
     "path": "课程Course/理论力学",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 1,
+    "childrenCount": 3,
     "fileCount": 1
   },
   {
@@ -896,7 +914,7 @@
     "path": "课程Course/马克思主义基本原理",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 2,
+    "childrenCount": 3,
     "fileCount": 1
   },
   {
@@ -970,6 +988,15 @@
     "depth": 1,
     "childrenCount": 1,
     "fileCount": 1
+  },
+  {
+    "id": "课程Course/入党积极分子",
+    "name": "入党积极分子",
+    "path": "课程Course/入党积极分子",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 0
   },
   {
     "id": "课程Course/软件技术基础",
@@ -1242,6 +1269,15 @@
     "fileCount": 1
   },
   {
+    "id": "课程Course/现代电子技术基础（模拟部分）",
+    "name": "现代电子技术基础（模拟部分）",
+    "path": "课程Course/现代电子技术基础（模拟部分）",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 0
+  },
+  {
     "id": "课程Course/现代控制理论",
     "name": "现代控制理论",
     "path": "课程Course/现代控制理论",
@@ -1256,7 +1292,7 @@
     "path": "课程Course/线性代数",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 1,
+    "childrenCount": 3,
     "fileCount": 1
   },
   {
@@ -1375,6 +1411,24 @@
     "depth": 1,
     "childrenCount": 3,
     "fileCount": 1
+  },
+  {
+    "id": "课程Course/DSP实用技术",
+    "name": "DSP实用技术",
+    "path": "课程Course/DSP实用技术",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 0
+  },
+  {
+    "id": "课程Course/PLC",
+    "name": "PLC",
+    "path": "课程Course/PLC",
+    "parentId": "课程Course",
+    "depth": 1,
+    "childrenCount": 2,
+    "fileCount": 0
   },
   {
     "id": "课程Course/Python 语言程序设计",
@@ -1710,6 +1764,15 @@
     "fileCount": 1
   },
   {
+    "id": "课程Course/材料力学/答案",
+    "name": "答案",
+    "path": "课程Course/材料力学/答案",
+    "parentId": "课程Course/材料力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
     "id": "课程Course/材料力学/试卷",
     "name": "试卷",
     "path": "课程Course/材料力学/试卷",
@@ -1809,6 +1872,15 @@
     "fileCount": 1
   },
   {
+    "id": "课程Course/大学物理/实验",
+    "name": "实验",
+    "path": "课程Course/大学物理/实验",
+    "parentId": "课程Course/大学物理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 37
+  },
+  {
     "id": "课程Course/大学物理/试卷",
     "name": "试卷",
     "path": "课程Course/大学物理/试卷",
@@ -1851,7 +1923,7 @@
     "parentId": "课程Course/电工与电子技术",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 13
+    "fileCount": 17
   },
   {
     "id": "课程Course/电工与电子技术/习题",
@@ -1861,6 +1933,15 @@
     "depth": 2,
     "childrenCount": 0,
     "fileCount": 2
+  },
+  {
+    "id": "课程Course/电机实验/实验",
+    "name": "实验",
+    "path": "课程Course/电机实验/实验",
+    "parentId": "课程Course/电机实验",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
   },
   {
     "id": "课程Course/电机学/课设",
@@ -1888,6 +1969,15 @@
     "depth": 2,
     "childrenCount": 0,
     "fileCount": 2
+  },
+  {
+    "id": "课程Course/电力电子技术/答案",
+    "name": "答案",
+    "path": "课程Course/电力电子技术/答案",
+    "parentId": "课程Course/电力电子技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
   },
   {
     "id": "课程Course/电力电子技术/试卷",
@@ -2007,13 +2097,22 @@
     "fileCount": 1
   },
   {
+    "id": "课程Course/复变函数/答案",
+    "name": "答案",
+    "path": "课程Course/复变函数/答案",
+    "parentId": "课程Course/复变函数",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
+  },
+  {
     "id": "课程Course/复变函数/试卷",
     "name": "试卷",
     "path": "课程Course/复变函数/试卷",
     "parentId": "课程Course/复变函数",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 4
+    "fileCount": 6
   },
   {
     "id": "课程Course/复变函数/资料",
@@ -2022,7 +2121,7 @@
     "parentId": "课程Course/复变函数",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 1
+    "fileCount": 2
   },
   {
     "id": "课程Course/复合材料力学/试卷",
@@ -2032,6 +2131,15 @@
     "depth": 2,
     "childrenCount": 0,
     "fileCount": 2
+  },
+  {
+    "id": "课程Course/概率论与数理统计/答案",
+    "name": "答案",
+    "path": "课程Course/概率论与数理统计/答案",
+    "parentId": "课程Course/概率论与数理统计",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
   },
   {
     "id": "课程Course/概率论与数理统计/试卷",
@@ -2085,7 +2193,16 @@
     "parentId": "课程Course/高等数学",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 33
+    "fileCount": 61
+  },
+  {
+    "id": "课程Course/高等数学/作业",
+    "name": "作业",
+    "path": "课程Course/高等数学/作业",
+    "parentId": "课程Course/高等数学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 2
   },
   {
     "id": "课程Course/工程材料学/试卷",
@@ -2151,6 +2268,15 @@
     "fileCount": 1
   },
   {
+    "id": "课程Course/工程图学/答案",
+    "name": "答案",
+    "path": "课程Course/工程图学/答案",
+    "parentId": "课程Course/工程图学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
     "id": "课程Course/工程图学/试卷",
     "name": "试卷",
     "path": "课程Course/工程图学/试卷",
@@ -2160,13 +2286,22 @@
     "fileCount": 6
   },
   {
+    "id": "课程Course/工科数学分析/答案",
+    "name": "答案",
+    "path": "课程Course/工科数学分析/答案",
+    "parentId": "课程Course/工科数学分析",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 9
+  },
+  {
     "id": "课程Course/工科数学分析/试卷",
     "name": "试卷",
     "path": "课程Course/工科数学分析/试卷",
     "parentId": "课程Course/工科数学分析",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 4
+    "fileCount": 14
   },
   {
     "id": "课程Course/功率变换器计算机仿真与设计/试卷",
@@ -2196,6 +2331,15 @@
     "fileCount": 4
   },
   {
+    "id": "课程Course/航空航天概论/题库",
+    "name": "题库",
+    "path": "课程Course/航空航天概论/题库",
+    "parentId": "课程Course/航空航天概论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
     "id": "课程Course/航空航天概论/资料",
     "name": "资料",
     "path": "课程Course/航空航天概论/资料",
@@ -2203,6 +2347,15 @@
     "depth": 2,
     "childrenCount": 0,
     "fileCount": 2
+  },
+  {
+    "id": "课程Course/航空航天类专业导论/题库",
+    "name": "题库",
+    "path": "课程Course/航空航天类专业导论/题库",
+    "parentId": "课程Course/航空航天类专业导论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
   },
   {
     "id": "课程Course/航空航天类专业导论/资料",
@@ -2284,6 +2437,15 @@
     "depth": 2,
     "childrenCount": 0,
     "fileCount": 2
+  },
+  {
+    "id": "课程Course/机械原理/课设",
+    "name": "课设",
+    "path": "课程Course/机械原理/课设",
+    "parentId": "课程Course/机械原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
   },
   {
     "id": "课程Course/机械原理/实验报告",
@@ -2418,7 +2580,16 @@
     "parentId": "课程Course/计算机软件技术基础",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 1
+    "fileCount": 2
+  },
+  {
+    "id": "课程Course/计算机软件技术基础/资料",
+    "name": "资料",
+    "path": "课程Course/计算机软件技术基础/资料",
+    "parentId": "课程Course/计算机软件技术基础",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 4
   },
   {
     "id": "课程Course/计算机硬件技术基础/试卷",
@@ -2436,7 +2607,7 @@
     "parentId": "课程Course/计算机组成原理",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 2
+    "fileCount": 4
   },
   {
     "id": "课程Course/计算力学/资料",
@@ -2547,6 +2718,24 @@
     "fileCount": 2
   },
   {
+    "id": "课程Course/金工实习/题库",
+    "name": "题库",
+    "path": "课程Course/金工实习/题库",
+    "parentId": "课程Course/金工实习",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/金工实习/作业",
+    "name": "作业",
+    "path": "课程Course/金工实习/作业",
+    "parentId": "课程Course/金工实习",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
     "id": "课程Course/金属材料/试卷",
     "name": "试卷",
     "path": "课程Course/金属材料/试卷",
@@ -2559,6 +2748,15 @@
     "id": "课程Course/军事理论/试卷",
     "name": "试卷",
     "path": "课程Course/军事理论/试卷",
+    "parentId": "课程Course/军事理论",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/军事理论/题库",
+    "name": "题库",
+    "path": "课程Course/军事理论/题库",
     "parentId": "课程Course/军事理论",
     "depth": 2,
     "childrenCount": 0,
@@ -2628,6 +2826,15 @@
     "fileCount": 1
   },
   {
+    "id": "课程Course/理论力学/答案",
+    "name": "答案",
+    "path": "课程Course/理论力学/答案",
+    "parentId": "课程Course/理论力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
     "id": "课程Course/理论力学/试卷",
     "name": "试卷",
     "path": "课程Course/理论力学/试卷",
@@ -2635,6 +2842,15 @@
     "depth": 2,
     "childrenCount": 0,
     "fileCount": 12
+  },
+  {
+    "id": "课程Course/理论力学/资料",
+    "name": "资料",
+    "path": "课程Course/理论力学/资料",
+    "parentId": "课程Course/理论力学",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
   },
   {
     "id": "课程Course/流体力学/试卷",
@@ -2661,7 +2877,16 @@
     "parentId": "课程Course/马克思主义基本原理",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 4
+    "fileCount": 5
+  },
+  {
+    "id": "课程Course/马克思主义基本原理/题库",
+    "name": "题库",
+    "path": "课程Course/马克思主义基本原理/题库",
+    "parentId": "课程Course/马克思主义基本原理",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
   },
   {
     "id": "课程Course/马克思主义基本原理/资料",
@@ -2670,7 +2895,7 @@
     "parentId": "课程Course/马克思主义基本原理",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 13
+    "fileCount": 16
   },
   {
     "id": "课程Course/毛泽东思想和中国特色社会主义理论体系概论/试卷",
@@ -2752,6 +2977,24 @@
     "depth": 2,
     "childrenCount": 0,
     "fileCount": 1
+  },
+  {
+    "id": "课程Course/入党积极分子/题库",
+    "name": "题库",
+    "path": "课程Course/入党积极分子/题库",
+    "parentId": "课程Course/入党积极分子",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/入党积极分子/资料",
+    "name": "资料",
+    "path": "课程Course/入党积极分子/资料",
+    "parentId": "课程Course/入党积极分子",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
   },
   {
     "id": "课程Course/软件技术基础/试卷",
@@ -2859,7 +3102,7 @@
     "parentId": "课程Course/数字电路与逻辑设计",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 4
+    "fileCount": 5
   },
   {
     "id": "课程Course/数字电子技术/试卷",
@@ -3042,6 +3285,24 @@
     "fileCount": 1
   },
   {
+    "id": "课程Course/现代电子技术基础（模拟部分）/答案",
+    "name": "答案",
+    "path": "课程Course/现代电子技术基础（模拟部分）/答案",
+    "parentId": "课程Course/现代电子技术基础（模拟部分）",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/现代电子技术基础（模拟部分）/试卷",
+    "name": "试卷",
+    "path": "课程Course/现代电子技术基础（模拟部分）/试卷",
+    "parentId": "课程Course/现代电子技术基础（模拟部分）",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
     "id": "课程Course/现代控制理论/试卷",
     "name": "试卷",
     "path": "课程Course/现代控制理论/试卷",
@@ -3051,13 +3312,31 @@
     "fileCount": 5
   },
   {
+    "id": "课程Course/线性代数/答案",
+    "name": "答案",
+    "path": "课程Course/线性代数/答案",
+    "parentId": "课程Course/线性代数",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
     "id": "课程Course/线性代数/试卷",
     "name": "试卷",
     "path": "课程Course/线性代数/试卷",
     "parentId": "课程Course/线性代数",
     "depth": 2,
     "childrenCount": 0,
-    "fileCount": 7
+    "fileCount": 11
+  },
+  {
+    "id": "课程Course/线性代数/作业",
+    "name": "作业",
+    "path": "课程Course/线性代数/作业",
+    "parentId": "课程Course/线性代数",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
   },
   {
     "id": "课程Course/项目管理/试卷",
@@ -3220,6 +3499,42 @@
     "depth": 2,
     "childrenCount": 0,
     "fileCount": 1
+  },
+  {
+    "id": "课程Course/DSP实用技术/实验",
+    "name": "实验",
+    "path": "课程Course/DSP实用技术/实验",
+    "parentId": "课程Course/DSP实用技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/DSP实用技术/试卷",
+    "name": "试卷",
+    "path": "课程Course/DSP实用技术/试卷",
+    "parentId": "课程Course/DSP实用技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "课程Course/PLC/实验",
+    "name": "实验",
+    "path": "课程Course/PLC/实验",
+    "parentId": "课程Course/PLC",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 3
+  },
+  {
+    "id": "课程Course/PLC/资料",
+    "name": "资料",
+    "path": "课程Course/PLC/资料",
+    "parentId": "课程Course/PLC",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 5
   },
   {
     "id": "课程Course/Python 语言程序设计/课设",
