@@ -3,13 +3,8 @@
 <!--more-->
 ## 立即使用
 
-点击下方按钮访问龙猫代跑平台：
-<div class="service-link">
-    <a href="https://www.nuaaguide.shop/" target="_blank" class="service-button">
-        龙猫，启动！
-    </a>
-</div>
-
+访问龙猫代跑平台网站：
+https://www.nuaaguide.shop/
 
 ## 什么是龙猫代跑？
 
