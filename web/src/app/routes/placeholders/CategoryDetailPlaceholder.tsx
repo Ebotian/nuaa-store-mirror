@@ -240,12 +240,6 @@ export default function CategoryDetailRoute() {
 						<h1 className="text-2xl font-semibold text-foreground-primary">
 							{category.name}
 						</h1>
-						<p className="text-sm text-foreground-muted">
-							路径：
-							<span className="font-mono text-foreground-primary/90">
-								{category.path}
-							</span>
-						</p>
 					</header>
 					<div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
 						<div className="group relative overflow-hidden border border-surface-divider/60 bg-surface-base/10 px-4 py-5 transition hover:border-accent-focus/50 hover:bg-accent-focus/5">
