@@ -8,7 +8,7 @@ export default function RecentFiles() {
 			</h2>
 
 			<h4 className="mb-4 text-lg font-semibold text-foreground-primary">
-				一些话语
+				注意查看各目录下README.md文件
 			</h4>
 
 			<ul className="list-disc space-y-2 pl-6 text-sm text-foreground-muted">
