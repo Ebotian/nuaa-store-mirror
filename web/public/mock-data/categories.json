@@ -5,7 +5,7 @@
     "path": "教程Guide",
     "parentId": null,
     "depth": 0,
-    "childrenCount": 6,
+    "childrenCount": 7,
     "fileCount": 1
   },
   {
@@ -84,6 +84,15 @@
     "id": "教程Guide/开通、报停校园网",
     "name": "开通、报停校园网",
     "path": "教程Guide/开通、报停校园网",
+    "parentId": "教程Guide",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 1
+  },
+  {
+    "id": "教程Guide/龙猫跑步",
+    "name": "龙猫跑步",
+    "path": "教程Guide/龙猫跑步",
     "parentId": "教程Guide",
     "depth": 1,
     "childrenCount": 0,

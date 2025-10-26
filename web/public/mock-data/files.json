@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-26T06:43:20.733Z",
+  "generatedAt": "2025-10-26T08:51:41.235Z",
   "files": [
     {
       "id": "教程Guide/README.md",
@@ -24,6 +24,18 @@
       "modifiedAt": "2025-10-25T08:04:20.749Z",
       "title": "# 开通报停校园网",
       "digest": "# 开通报停校园网 上次更新：2024-8-31 >校园网是由学校官方管理运营的，有任何使用上的问题都可以咨询 ``025-84890123`` # 〇、充值网费 i 南航 → 校园卡 → 缴费大厅 → 校园网费 确保余额大于 0.66元 (校园网按天扣费，0.66元/天) # 一、开通网络 [校园网用户自助服务系统 ↗︎](http://fuwu.nuaa.edu.cn/) ，使用 i 南航 账号密码登陆 电脑端，点击 **服务** 手机端，点击 **更多** ，点击 *…"
+    },
+    {
+      "id": "教程Guide/龙猫跑步/longmao-delivery.md",
+      "name": "longmao-delivery.md",
+      "path": "教程Guide/龙猫跑步/longmao-delivery.md",
+      "categoryId": "教程Guide/龙猫跑步",
+      "ext": ".md",
+      "mime": "text/markdown",
+      "size": 1242,
+      "modifiedAt": "2025-10-26T08:50:02.310Z",
+      "title": "免费的龙猫校园代跑。",
+      "digest": "免费的龙猫校园代跑。 <!--more--> ## 立即使用 点击下方按钮访问龙猫代跑平台： <div class=\"service-link\"> <a href=\"https://www.nuaaguide.shop/\" target=\"_blank\" class=\"service-button\"> 龙猫，启动！ </a> </div> ## 什么是龙猫代跑？ 龙猫代跑：龙猫跑步费时费力，不如直接扫码完成。 ## 已经有类似产品了，为什么还要做？ 刷龙猫本可以免费，却有人…"
     },
     {
       "id": "教程Guide/屏蔽CSDN网站/1.png",
@@ -9390,10 +9402,10 @@
       "categoryId": "网站Website/此网站制作者",
       "ext": ".md",
       "mime": "text/markdown",
-      "size": 272,
-      "modifiedAt": "2025-10-26T04:28:59.456Z",
+      "size": 266,
+      "modifiedAt": "2025-10-26T08:03:39.502Z",
       "title": "制作人: ebit",
-      "digest": "制作人: ebit 有任何资料补充,错误指正,网站修改建议,请联系我: - 尽量用邮箱: yiboxiaotian@nuaa.edu.cn - QQ: 3095016460 本人更新频率大约为每周一次 --- 再次感谢所有在这过程中放下无私分享资源的前辈和朋友们!"
+      "digest": "制作人: ebit 有任何资料补充,错误指正,网站修改建议,请联系我: - 尽量用邮箱: yiboxiaotian@nuaa.edu.cn - QQ: 3095016460 本人更新频率大约为每周一次 --- 再次感谢所有在这过程中无私分享资源的前辈和朋友们!"
     },
     {
       "id": "新生荐读/README.md",
@@ -9661,9 +9673,9 @@
     }
   ],
   "stats": {
-    "totalFiles": 957,
-    "totalCategories": 405,
-    "ignoredPaths": 405,
-    "processingTimeMs": 215
+    "totalFiles": 958,
+    "totalCategories": 406,
+    "ignoredPaths": 406,
+    "processingTimeMs": 370
   }
 }
