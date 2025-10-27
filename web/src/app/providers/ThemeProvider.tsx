@@ -1,25 +1,13 @@
 import type { PropsWithChildren } from "react";
-import {
-	createContext,
-	useCallback,
-	useEffect,
-	useMemo,
-	useState,
-	useRef,
-} from "react";
+import { useCallback, useEffect, useMemo, useState, useRef } from "react";
 
 import type { ThemeMode } from "@themes";
 import { tokensToCssVariables } from "@themes";
 
+import { ThemeContext, type ThemeContextValue } from "./ThemeContext";
+
 const STORAGE_KEY = "nuaa-theme-mode";
 const DEFAULT_MODE: ThemeMode = "light";
-
-export type ThemeContextValue = {
-	mode: ThemeMode;
-	setMode: (mode: ThemeMode) => void;
-	toggleMode: () => void;
-};
-export const ThemeContext = createContext<ThemeContextValue | null>(null);
 
 function resolveInitialMode(): ThemeMode {
 	if (typeof window === "undefined") {

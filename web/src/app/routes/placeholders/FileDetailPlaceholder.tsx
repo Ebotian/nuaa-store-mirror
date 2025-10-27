@@ -151,10 +151,14 @@ export function FileDetailPlaceholder() {
 	const markdownComponents = useMemo(
 		() =>
 			({
-				a: ({ node: _node, ...props }) => (
-					<a {...props} target="_blank" rel="noreferrer" />
-				),
-				img: ({ node: _node, ...props }) => <img loading="lazy" {...props} />,
+				a: ({ node, ...props }) => {
+					void node;
+					return <a {...props} target="_blank" rel="noreferrer" />;
+				},
+				img: ({ node, ...props }) => {
+					void node;
+					return <img loading="lazy" {...props} />;
+				},
 			} satisfies Components),
 		[]
 	);

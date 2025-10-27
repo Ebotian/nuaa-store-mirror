@@ -32,6 +32,13 @@ export function TopBar() {
 
 	const handleNavOpen = useCallback(() => fireNavigationOpenEvent(), []);
 
+	const handleHomeClick = useCallback(() => {
+		if (search.isActive) {
+			search.clearSearch();
+		}
+		navigate("/");
+	}, [navigate, search]);
+
 	const handleSearchSubmit = useCallback(
 		(event: React.FormEvent<HTMLFormElement>) => {
 			event.preventDefault();
@@ -144,7 +151,12 @@ export function TopBar() {
 			<div className="relative mx-auto flex w-full max-w-6xl flex-col gap-3 px-6 md:gap-4">
 				<div className="flex flex-wrap items-center justify-between gap-3">
 					<div className="flex items-center gap-3">
-						<div className="relative flex h-12 w-12 items-center justify-center border border-accent-focus/30 bg-accent-glow/15 text-[0.55rem] font-semibold uppercase tracking-[0.4em] text-foreground-muted">
+						<button
+							type="button"
+							onClick={handleHomeClick}
+							className="relative flex h-12 w-12 items-center justify-center border border-accent-focus/30 bg-accent-glow/15 text-[0.55rem] font-semibold uppercase tracking-[0.4em] text-foreground-muted transition-colors duration-[var(--motion-medium)] hover:border-accent-focus/50 hover:bg-accent-glow/25 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-focus"
+							aria-label="返回主页"
+						>
 							<span
 								className="absolute inset-0 border border-surface-divider/40"
 								aria-hidden
@@ -152,7 +164,7 @@ export function TopBar() {
 							<span className="relative font-mono text-[0.65rem] text-accent-focus">
 								NUAA-0321
 							</span>
-						</div>
+						</button>
 						<div className="flex flex-col">
 							<span className="text-xs font-semibold uppercase tracking-[0.42em] text-foreground-subtle">
 								nuaa store mirror

@@ -1,4 +1,4 @@
-import type { PropsWithChildren, ReactNode } from "react";
+import type { PropsWithChildren } from "react";
 import { useState } from "react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
@@ -24,10 +24,6 @@ export function AppProviders({ children }: PropsWithChildren) {
 export function WithAppProviders({ children }: PropsWithChildren) {
 	return <AppProviders>{children}</AppProviders>;
 }
-
-export const withAppProviders = (node: ReactNode) => (
-	<AppProviders>{node}</AppProviders>
-);
 
 function QueryProvider({ children }: PropsWithChildren) {
 	const [client] = useState(

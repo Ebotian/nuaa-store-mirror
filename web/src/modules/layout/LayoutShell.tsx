@@ -40,9 +40,11 @@ export function LayoutShell({ children }: PropsWithChildren) {
 	);
 
 	useEffect(() => {
+		const entering = enteringRefs.current;
+		const exiting = exitingRefs.current;
 		return () => {
-			enteringRefs.current.forEach((rafId) => cancelAnimationFrame(rafId));
-			exitingRefs.current.forEach((timerId) => clearTimeout(timerId));
+			entering.forEach((rafId) => cancelAnimationFrame(rafId));
+			exiting.forEach((timerId) => clearTimeout(timerId));
 		};
 	}, []);
 
