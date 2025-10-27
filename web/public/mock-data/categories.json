@@ -32,7 +32,7 @@
     "path": "其它Other",
     "parentId": null,
     "depth": 0,
-    "childrenCount": 10,
+    "childrenCount": 11,
     "fileCount": 0
   },
   {
@@ -1492,6 +1492,15 @@
     "depth": 1,
     "childrenCount": 1,
     "fileCount": 2
+  },
+  {
+    "id": "其它Other/南航试卷模板",
+    "name": "南航试卷模板",
+    "path": "其它Other/南航试卷模板",
+    "parentId": "其它Other",
+    "depth": 1,
+    "childrenCount": 0,
+    "fileCount": 4
   },
   {
     "id": "其它Other/入党积极分子",

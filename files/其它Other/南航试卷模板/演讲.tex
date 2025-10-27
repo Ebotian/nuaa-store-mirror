@@ -1,0 +1,126 @@
+\documentclass[fontset = none]{beamer}
+\usetheme{Madrid}
+\useoutertheme{smoothbars}
+\def\mathfamilydefault{\rmdefault}
+\usepackage{fontspec}
+\usepackage[fontset=windowsnew]{ctex}
+\usepackage{amsmath}
+\setmainfont{Times New Roman}
+
+\definecolor{uibblue}{HTML}{262686}
+\definecolor{uibgreen}{HTML}{006000}
+\author{032150115易博天}
+\institute[NUAA]{南京航空航天大学自动化学院\item
+\texttt{yiboxiaotian@nuaa.edu.cn}}
+
+\begin{document}
+\begin{frame}
+    \title{\TeX 简介及使用入门}
+    \author{032150115易博天}
+    \institute[NUAA]{南京航空航天大学自动化学院\item
+        \texttt{yiboxiaotian@nuaa.edu.cn}}
+    \date{\today}
+    \titlepage
+\end{frame}
+
+\section{WHAT\&WHY}
+\begin{frame}{\TeX}
+    \TeX是由 Donald E. Knuth[2] 编写的计算机语言，用于文章和数学公
+    式的排版。1977 年 Knuth 开始编写 \TeX排版系统引擎的时候，是为了探索
+    当时正开始进入出版工业的数字印刷设备的潜力。他特别希望能因此扭转
+    那种排版质量下降的趋势，使自己写的书和文章免受其害。我们现在使用
+    的 \TeX 系统是在 1982 年发布的，1989 年又略作改进，增进了对 8 字节字
+    b符和多语言的支持。\TeX以具有优异的稳定性，可以在各种不同类型的计
+    算机上运行，以及几乎没有错误而著称。 \TeX 的版本号不断趋近于\(\pi\)，现
+    在为3.141592
+\end{frame}
+\begin{frame}{\LaTeX}
+    \LaTeX 是一个宏包（就像一个头文件），其目的是使作者能够利用一个预先定义好的专业页
+    面设置，从而得以高质量地排版和打印他们的作品。\LaTeX 最早是由 Leslie
+    Lamport[1] 编写的，并使用 \TeX 作为其排版系统引擎。\item
+    1994 年， Frank Mittelbach 领导的 \LaTeX 3 小组对 \LaTeX 宏包进行了
+    更新，作了一些被期望已久的改进，并且将 \LaTeX 2.09 发布以来数年间出
+    现的各种不同的补丁重新统一了起来。这个新版本被称作 \LaTeX \(2\epsilon\)，以示
+    和旧版本相区别。这也是现在普遍在用的版本。
+\end{frame}
+\begin{frame}
+    比喻：出版的第一步是作者将他们的手稿交给出版公司，然后由图书设计者
+    来决定整本书的版面形式（包括栏宽、字体、标题前后的间距……）。图
+    书设计者会把他的排版说明写进手稿里，一起交给排版者，排版者最后根
+    据这些说明完成这本书的排版工作。在这里， \LaTeX就像那个设计者，而 \TeX就像那个排版者\item
+    当然也不用太在意这些
+\end{frame}
+\begin{frame}{WHY}
+    \begin{itemize}
+        \item 跨平台，免费，开源
+        \item 对数学公式最好的显示，清晰准确
+        \item 只用关注逻辑结构，不用自己排版，方便省事%%可以从PPT上举例，对比传统从空白开始的PPT
+        \item 国际公认的专业排版标准，美观大方
+        \item 广泛的西文期刊接收甚或只接收 TeX 格式的投稿
+    \end{itemize}
+\end{frame}
+\begin{frame}{Weakness}
+    \begin{itemize}
+        \item 需要一定精力学习计算机和英语%%以及逻辑
+        \item 图文混合排版能力较弱
+        \item 特效少，不适合一些场合%%比如宣传南航美食
+        \item 大多数电脑上没有创作环境%%比如在打印店里就改不了
+        \item 大多数人不会，不便于交流
+    \end{itemize}
+\end{frame}
+\section{HOW}
+\begin{frame}{Preparation}
+    由于跨平台免费开源的特性，每个人都可以选择自己的编写环境，这里仅以我个人为例
+    \begin{itemize}
+        \item 在win10平台上安装texlive2022，以vscode作为前端写tex文件（事实上我把几乎所有编程类文件都集成在vscode里写了）
+        \item 安装步骤：1.下载texlive. 2.下载vscode 3.下载vscode插件
+        \item texlive下载地址https://tug.org/texlive/acquire-netinstall.html
+        \item vscode下载地址https://code.visualstudio.com/download
+        \item 可以现场说明一下我安装的插件。事实上这些也不是必要的，判断标准有且只有一个，能跑就行。
+    \end{itemize}
+\end{frame}
+\begin{frame}{Code}
+    \TeX引擎能做很多事，这里给出几个典型应用,我将分别举出这些应用中的一例来分析它的不同使用办法
+    \begin{itemize}
+        \item 论文
+        \item 试卷、作业、笔记
+        \item 报告、PPT
+        \item 简历
+        \item 和MD、HTML的联系
+    \end{itemize}
+\end{frame}
+\begin{frame}{Article}
+    这里以IEEE给出的一个模板为例
+    \\见IEEE文件夹
+\end{frame}
+\begin{frame}{Examination}
+    这里以我自己仿的两份卷子为例
+    \\见Study文件夹
+\end{frame}
+\begin{frame}{PPT}
+    大家应该一直有看吧，现在可以重新看看？
+    \\来分析一下我自己的编程结构
+    \\双击可以到达对应代码位置，实现可视化效果(大概位置)
+\end{frame}
+\begin{frame}{CV/Resume}
+    这里以moderncv给出的一个模板为例
+\end{frame}
+\begin{frame}{MD/HTML}
+    这里以ppt开始的颜色设置和用到数学模式的MD为例
+    \\见test2文件夹
+    \\三种标记语言里，HTML最通用，但是太繁琐了，MD开放自由，能输入tex语法的公式，又有HTML的花样，tex严谨规范，但是兼容性总是有些问题。所以还是看情况使用吧
+    %%但我最喜欢我的纸和笔
+\end{frame}
+\section{Conclusion\&Thanks}
+\begin{frame}{Conclusion}
+    \begin{itemize}
+        \item \TeX{}很好看，免费开源，值得信赖，适合做认真严谨的工作，而且做的很好。但是别的场合用它就有些力不从心了吧。一个写好的模板会很方便使用，因为只用关心内容，格式什么的，交给tex就好啦。
+        \item \TeX{}是一种标记语言，它的源文件有三种语句，分别是命令、注释和数据，文件主要由两部分组成，前言和正文部分，以begin{document}为分界
+        \item 它在很多场合都有应用，主要可以通过最开始的documentclass分析，可以通过具体的class了解对应的用法。%%就像CV或者exam类那样
+        \item 照着模板分析可以粗略达到可视化的效果。
+    \end{itemize}
+\end{frame}
+\begin{frame}{Thanks}
+    \textbf{Thanks!}
+\end{frame}
+\end{document}

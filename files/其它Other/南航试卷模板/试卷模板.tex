@@ -1,0 +1,129 @@
+\documentclass[a4paper]{article}
+% 文档类型为 article，可按需改为 book、report 等
+\usepackage[margin=1in]{geometry} % 边距与原模板一致
+\usepackage{ctex} % 支持中文排版
+\usepackage{multirow} % 复用原表格的多行功能
+\usepackage{enumitem} % 控制题目编号格式
+\usepackage{amsmath, amssymb} % 支持数学公式
+\renewcommand{\baselinestretch}{2} % 行距与原模板保持两倍行距
+
+%==================
+% 自定义命令，方便后续维护
+%==================
+\newcommand{\ExamTitle}{南\(\hspace{0.1em}\)京\(\hspace{0.1em}\)航\(\hspace{0.1em}\)空\(\hspace{0.1em}\)航\(\hspace{0.1em}\)天\(\hspace{0.1em}\)大\(\hspace{0.1em}\)学}
+\newcommand{\ExamCourse}{《课程名称》考试试题}
+\newcommand{\AcademicYear}{二〇二四\(\hspace{0.2em}\)\(\sim\)\(\hspace{0.2em}\)二〇二五学年}
+\newcommand{\Semester}{第\uppercase\expandafter{\romannumeral1}学期}
+\newcommand{\ExamDate}{2025年6月25日}
+\newcommand{\PaperType}{A}
+\newcommand{\PaperCode}{2025A01}
+
+\title{\vspace{-3cm}\kaishu \zihao{-1}{\ExamTitle}}
+\author{\vspace{-3cm}}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-2cm}
+
+%==================
+% 考试抬头信息表
+%==================
+\begin{table}[!htbp]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+        \hline
+        \multicolumn{12}{|c|}{\multirow{2}*{\(\hspace{1.8em}\)\AcademicYear\(\hspace{0.5em}\)\Semester\(\hspace{0.4em}\)\kaishu \zihao{-3}{\ExamCourse\(\hspace{1.8em}\)}}}\\
+        \multicolumn{12}{|c|}{}\\
+        \multicolumn{12}{|c|}{考试日期:\(\hspace{0.4em}\)\ExamDate\(\hspace{2em}\)试卷类型：\PaperType\(\hspace{2em}\)试卷代号:\(\hspace{0.4em}\)\PaperCode}\\
+        \hline
+        \multicolumn{12}{|c|}{\textbf{班号}\(\hspace{7em}\)\textbf{学号}\(\hspace{7em}\)\textbf{姓名}}\\
+        \hline
+        \textbf{题号}&\textbf{一}&\textbf{二}&\textbf{三}&\textbf{四}&\textbf{五}&\textbf{六}&\textbf{七}&\textbf{八}&\textbf{九}&\textbf{十}&\textbf{总分}\\
+        \hline
+        \textbf{得分}& & & & & & & & & & & \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{flushleft}
+
+%==================
+% 填写说明与公式编写指导
+%==================
+\textbf{填写说明：}
+\begin{itemize}
+    \item 请在每道题后预留的横线或空白处书写答案，保持工整。
+    \item 选择题建议使用 `\verb|\begin{enumerate}[label=\Alph*.]|` 环境展示选项，答案可在题目右侧标注 `\underline{\hspace{1.5cm}}`。
+    \item 主观题空白区可根据答题需要调整 `\verb|\vspace{Xem}|` 的高度。
+    \item 若需插入图形，可使用 `\verb|\includegraphics|` 或 `tikz`，但请注意排版整洁。
+\end{itemize}
+
+\textbf{公式编写指导：}
+\begin{itemize}
+    \item 行内公式使用 `\verb|\( ... \)|`，如 \( e^{i\pi}+1=0 \)。
+    \item 行间公式使用 `\verb|\[ ... \]|` 或 `\verb|equation|` 环境，例如：
+    \[
+        \int_a^b f(x)\,\mathrm{d}x = F(b) - F(a).
+    \]
+    \item 常用命令：分数 `\verb|\frac{a}{b}|`，根号 `\verb|\sqrt[n]{x}|`，求和 `\verb|\sum_{k=1}^{n} a_k|`，积分 `\verb|\int_{\alpha}^{\beta}|`。
+    \item 对复数函数或矢量可使用 `\verb|\mathbf{z}|`、`\verb|\vec{v}|` 等命令，确保语义清晰。
+\end{itemize}
+
+%==================
+% 第一部分：选择题
+%==================
+\textbf{一、选择题（共\underline{\hspace{1cm}}题，每题\underline{\hspace{1cm}}分，共\underline{\hspace{1cm}}分）}
+\begin{enumerate}[label=\arabic*.]
+    \item （示例）函数 \( f(z) = |z|^2 \) 在复平面上是解析函数吗？\\
+    \textbf{选项：}
+    \begin{enumerate}[label=\Alph*.]
+        \item 是
+        \item 否
+        \item 在实轴上解析
+        \item 在虚轴上解析
+    \end{enumerate}
+    答案：\underline{\hspace{1.5cm}}\hfill 分值：\underline{\hspace{1cm}}
+
+    %\item 在此处复制并修改题目内容，注意保持格式一致
+\end{enumerate}
+
+\vspace{2em}
+
+%==================
+% 第二部分：填空题
+%==================
+\textbf{二、填空题（共\underline{\hspace{1cm}}题，每题\underline{\hspace{1cm}}分，共\underline{\hspace{1cm}}分）}
+\begin{enumerate}[label=\arabic*.]
+    \item 例：\( \frac{i}{1+i} + \frac{-1+i}{i} = \)\underline{\hspace{3cm}}
+    \item 例：函数 \( z^3 + 8 = 0 \) 的全部根为 \underline{\hspace{5cm}}
+    % 根据需要继续添加题目模板
+\end{enumerate}
+
+\vspace{3em}
+
+%==================
+% 第三部分：大题（综合题）
+%==================
+\textbf{三、大题（共\underline{\hspace{1cm}}题，总分\underline{\hspace{1cm}}分）}
+
+% 建议每题使用小标题或括号区分
+\textbf{第\underline{\hspace{1cm}}题}\quad（题型示例：证明题/计算题/综合题）
+\begin{enumerate}[label=(\arabic*)]
+    \item 例题：若 \( f(z) = u(x,y) + iv(x,y) \) 为解析函数，证明 \( u_x \) 与 \( u_y \) 为调和函数。
+    \item 说明：可根据题目数量复制本环境，修改题干与空白高度。
+\end{enumerate}
+\vspace{15em}
+
+\textbf{第\underline{\hspace{1cm}}题}\quad（题型示例：计算题）
+\begin{enumerate}[label=(\arabic*)]
+    \item 示例：计算 \( \oint_C \frac{z^3}{z^2+1}\,\mathrm{d}z \)，其中 \( C \) 为正向圆周 \( |z-i| = \frac{1}{2} \)。
+\end{enumerate}
+\vspace{18em}
+
+% 根据需要复制更多大题模板
+
+\textbf{附加题或说明：}若需设置附加题，请复制上述结构，并在评分表中新增列或在此处备注评分方式。
+
+\end{flushleft}
+\end{document}

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-27T02:06:18.872Z",
+  "generatedAt": "2025-10-27T02:40:38.303Z",
   "files": [
     {
       "id": "教程Guide/README.md",
@@ -2128,16 +2128,6 @@
       "modifiedAt": "2025-10-26T05:59:07.413Z"
     },
     {
-      "id": "课程Course/复变函数/试卷/2021年复变函数.pdf",
-      "name": "2021年复变函数.pdf",
-      "path": "课程Course/复变函数/试卷/2021年复变函数.pdf",
-      "categoryId": "课程Course/复变函数/试卷",
-      "ext": ".pdf",
-      "mime": "application/pdf",
-      "size": 923052,
-      "modifiedAt": "2025-10-26T05:59:23.143Z"
-    },
-    {
       "id": "课程Course/复变函数/试卷/复变函数20.pdf",
       "name": "复变函数20.pdf",
       "path": "课程Course/复变函数/试卷/复变函数20.pdf",
@@ -2148,26 +2138,6 @@
       "modifiedAt": "2025-10-25T08:04:21.376Z"
     },
     {
-      "id": "课程Course/复变函数/试卷/复变函数21.pdf",
-      "name": "复变函数21.pdf",
-      "path": "课程Course/复变函数/试卷/复变函数21.pdf",
-      "categoryId": "课程Course/复变函数/试卷",
-      "ext": ".pdf",
-      "mime": "application/pdf",
-      "size": 3482843,
-      "modifiedAt": "2025-10-25T08:04:21.385Z"
-    },
-    {
-      "id": "课程Course/复变函数/试卷/复变函数22秋.pdf",
-      "name": "复变函数22秋.pdf",
-      "path": "课程Course/复变函数/试卷/复变函数22秋.pdf",
-      "categoryId": "课程Course/复变函数/试卷",
-      "ext": ".pdf",
-      "mime": "application/pdf",
-      "size": 3762432,
-      "modifiedAt": "2025-10-25T08:04:21.395Z"
-    },
-    {
       "id": "课程Course/复变函数/试卷/复变函数模拟题解析.pdf",
       "name": "复变函数模拟题解析.pdf",
       "path": "课程Course/复变函数/试卷/复变函数模拟题解析.pdf",
@@ -2176,6 +2146,36 @@
       "mime": "application/pdf",
       "size": 1396914,
       "modifiedAt": "2025-10-25T08:04:21.399Z"
+    },
+    {
+      "id": "课程Course/复变函数/试卷/complex2019.pdf",
+      "name": "complex2019.pdf",
+      "path": "课程Course/复变函数/试卷/complex2019.pdf",
+      "categoryId": "课程Course/复变函数/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 56233,
+      "modifiedAt": "2025-10-27T02:14:37.580Z"
+    },
+    {
+      "id": "课程Course/复变函数/试卷/complex2021.pdf",
+      "name": "complex2021.pdf",
+      "path": "课程Course/复变函数/试卷/complex2021.pdf",
+      "categoryId": "课程Course/复变函数/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 63412,
+      "modifiedAt": "2025-10-27T02:15:02.462Z"
+    },
+    {
+      "id": "课程Course/复变函数/试卷/complex2022.pdf",
+      "name": "complex2022.pdf",
+      "path": "课程Course/复变函数/试卷/complex2022.pdf",
+      "categoryId": "课程Course/复变函数/试卷",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 54658,
+      "modifiedAt": "2025-10-27T02:15:33.199Z"
     },
     {
       "id": "课程Course/复变函数/资料/复变函数教材.pdf",
@@ -8710,6 +8710,48 @@
       "modifiedAt": "2025-10-25T08:04:20.729Z"
     },
     {
+      "id": "其它Other/南航试卷模板/使用说明.md",
+      "name": "使用说明.md",
+      "path": "其它Other/南航试卷模板/使用说明.md",
+      "categoryId": "其它Other/南航试卷模板",
+      "ext": ".md",
+      "mime": "text/markdown",
+      "size": 4485,
+      "modifiedAt": "2025-10-27T02:39:48.167Z",
+      "title": "# 南航试卷模板与演示稿使用说明",
+      "digest": "# 南航试卷模板与演示稿使用说明 > 来自网站制作者 ebit ## 模板概览 仓库当前提供两类 LaTeX 模板： - `试卷模板.tex`：基于 `article` 文档类，用于排版考试/作业试卷。 - `演讲.tex`：基于 `beamer` 的 Madrid 主题，用于制作演示文稿。 两套模板均已配置好中文环境（`ctex`）和常用数学宏包，可直接在 XeLaTeX 或 LuaLaTeX 下编译。 --- ## 使用前准备 1. 安装完整的 TeX 发行版（推荐 T…"
+    },
+    {
+      "id": "其它Other/南航试卷模板/试卷模板.pdf",
+      "name": "试卷模板.pdf",
+      "path": "其它Other/南航试卷模板/试卷模板.pdf",
+      "categoryId": "其它Other/南航试卷模板",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 99738,
+      "modifiedAt": "2025-10-27T02:31:08.309Z"
+    },
+    {
+      "id": "其它Other/南航试卷模板/试卷模板.tex",
+      "name": "试卷模板.tex",
+      "path": "其它Other/南航试卷模板/试卷模板.tex",
+      "categoryId": "其它Other/南航试卷模板",
+      "ext": ".tex",
+      "mime": "application/x-tex",
+      "size": 5502,
+      "modifiedAt": "2025-10-27T02:29:12.653Z"
+    },
+    {
+      "id": "其它Other/南航试卷模板/演讲.tex",
+      "name": "演讲.tex",
+      "path": "其它Other/南航试卷模板/演讲.tex",
+      "categoryId": "其它Other/南航试卷模板",
+      "ext": ".tex",
+      "mime": "application/x-tex",
+      "size": 6394,
+      "modifiedAt": "2025-10-27T02:33:25.088Z"
+    },
+    {
       "id": "其它Other/入党积极分子/测试题整理.docx",
       "name": "测试题整理.docx",
       "path": "其它Other/入党积极分子/测试题整理.docx",
@@ -9773,9 +9815,9 @@
     }
   ],
   "stats": {
-    "totalFiles": 968,
-    "totalCategories": 407,
-    "ignoredPaths": 407,
-    "processingTimeMs": 354
+    "totalFiles": 972,
+    "totalCategories": 408,
+    "ignoredPaths": 408,
+    "processingTimeMs": 369
   }
 }
