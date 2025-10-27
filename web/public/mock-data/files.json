@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-27T02:40:38.303Z",
+  "generatedAt": "2025-10-27T02:46:57.340Z",
   "files": [
     {
       "id": "教程Guide/README.md",
@@ -8710,6 +8710,17 @@
       "modifiedAt": "2025-10-25T08:04:20.729Z"
     },
     {
+      "id": "其它Other/南航试卷模板/其他latex模板.md",
+      "name": "其他latex模板.md",
+      "path": "其它Other/南航试卷模板/其他latex模板.md",
+      "categoryId": "其它Other/南航试卷模板",
+      "ext": ".md",
+      "mime": "text/markdown",
+      "size": 261,
+      "modifiedAt": "2025-10-27T02:45:45.623Z",
+      "digest": "- 南航本科、硕士、博士学位论文 LaTeX 模板 [https://github.com/nuaatug/nuaathesis](https://github.com/nuaatug/nuaathesis) - 南京航空航天大学幻灯片模板 [https://github.com/nuaa803/nuaa-slides](https://github.com/nuaa803/nuaa-slides)"
+    },
+    {
       "id": "其它Other/南航试卷模板/使用说明.md",
       "name": "使用说明.md",
       "path": "其它Other/南航试卷模板/使用说明.md",
@@ -9815,9 +9826,9 @@
     }
   ],
   "stats": {
-    "totalFiles": 972,
+    "totalFiles": 973,
     "totalCategories": 408,
     "ignoredPaths": 408,
-    "processingTimeMs": 369
+    "processingTimeMs": 376
   }
 }
