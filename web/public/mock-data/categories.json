@@ -977,8 +977,8 @@
     "path": "课程Course/模拟电子技术",
     "parentId": "课程Course",
     "depth": 1,
-    "childrenCount": 1,
-    "fileCount": 1
+    "childrenCount": 2,
+    "fileCount": 0
   },
   {
     "id": "课程Course/燃烧室原理",
@@ -2959,6 +2959,15 @@
     "depth": 2,
     "childrenCount": 0,
     "fileCount": 1
+  },
+  {
+    "id": "课程Course/模拟电子技术/笔记习题和答案",
+    "name": "笔记习题和答案",
+    "path": "课程Course/模拟电子技术/笔记习题和答案",
+    "parentId": "课程Course/模拟电子技术",
+    "depth": 2,
+    "childrenCount": 0,
+    "fileCount": 11
   },
   {
     "id": "课程Course/模拟电子技术/试卷",

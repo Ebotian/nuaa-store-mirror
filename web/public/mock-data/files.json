@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2025-10-26T08:51:41.235Z",
+  "generatedAt": "2025-10-27T02:06:18.872Z",
   "files": [
     {
       "id": "教程Guide/README.md",
@@ -32,10 +32,10 @@
       "categoryId": "教程Guide/龙猫跑步",
       "ext": ".md",
       "mime": "text/markdown",
-      "size": 1242,
-      "modifiedAt": "2025-10-26T08:50:02.310Z",
+      "size": 1105,
+      "modifiedAt": "2025-10-26T08:56:41.441Z",
       "title": "免费的龙猫校园代跑。",
-      "digest": "免费的龙猫校园代跑。 <!--more--> ## 立即使用 点击下方按钮访问龙猫代跑平台： <div class=\"service-link\"> <a href=\"https://www.nuaaguide.shop/\" target=\"_blank\" class=\"service-button\"> 龙猫，启动！ </a> </div> ## 什么是龙猫代跑？ 龙猫代跑：龙猫跑步费时费力，不如直接扫码完成。 ## 已经有类似产品了，为什么还要做？ 刷龙猫本可以免费，却有人…"
+      "digest": "免费的龙猫校园代跑。 <!--more--> ## 立即使用 访问龙猫代跑平台网站： https://www.nuaaguide.shop/ ## 什么是龙猫代跑？ 龙猫代跑：龙猫跑步费时费力，不如直接扫码完成。 ## 已经有类似产品了，为什么还要做？ 刷龙猫本可以免费，却有人利用此技术不断收割同学们。特此推出。大家可以分享给自己的同学。 ## 如何使用 进入网页--扫码登录--确认个人信息--选择路线--开跑--等待--返回app查看结果 ## 注意 有时候在维护，可能失…"
     },
     {
       "id": "教程Guide/屏蔽CSDN网站/1.png",
@@ -6158,14 +6158,114 @@
       "modifiedAt": "2025-10-25T08:04:23.693Z"
     },
     {
-      "id": "课程Course/模拟电子技术/上次更新：2024-7-10.txt",
-      "name": "上次更新：2024-7-10.txt",
-      "path": "课程Course/模拟电子技术/上次更新：2024-7-10.txt",
-      "categoryId": "课程Course/模拟电子技术",
-      "ext": ".txt",
-      "mime": "text/plain",
-      "size": 0,
-      "modifiedAt": "2025-10-25T08:04:23.570Z"
+      "id": "课程Course/模拟电子技术/笔记习题和答案/复习笔记+题目解答.pdf",
+      "name": "复习笔记+题目解答.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/复习笔记+题目解答.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 5343287,
+      "modifiedAt": "2025-10-27T01:58:17.721Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电第八章.pdf",
+      "name": "模电第八章.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电第八章.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 159082,
+      "modifiedAt": "2025-10-27T01:59:00.235Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电第二章.pdf",
+      "name": "模电第二章.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电第二章.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 166358,
+      "modifiedAt": "2025-10-27T01:58:27.643Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电第六章.pdf",
+      "name": "模电第六章.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电第六章.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 231617,
+      "modifiedAt": "2025-10-27T01:58:44.859Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电第七章.pdf",
+      "name": "模电第七章.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电第七章.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 244141,
+      "modifiedAt": "2025-10-27T01:58:49.398Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电第三章.pdf",
+      "name": "模电第三章.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电第三章.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 282908,
+      "modifiedAt": "2025-10-27T01:58:31.043Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电第四章.pdf",
+      "name": "模电第四章.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电第四章.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 328427,
+      "modifiedAt": "2025-10-27T01:58:36.226Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电第五章.pdf",
+      "name": "模电第五章.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电第五章.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 312866,
+      "modifiedAt": "2025-10-27T01:58:40.798Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电第一章.pdf",
+      "name": "模电第一章.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电第一章.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 258078,
+      "modifiedAt": "2025-10-27T01:58:22.956Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电习题答案.pdf",
+      "name": "模电习题答案.pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电习题答案.pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 8795268,
+      "modifiedAt": "2025-10-27T01:59:10.025Z"
+    },
+    {
+      "id": "课程Course/模拟电子技术/笔记习题和答案/模电习题答案（新）(1).pdf",
+      "name": "模电习题答案（新）(1).pdf",
+      "path": "课程Course/模拟电子技术/笔记习题和答案/模电习题答案（新）(1).pdf",
+      "categoryId": "课程Course/模拟电子技术/笔记习题和答案",
+      "ext": ".pdf",
+      "mime": "application/pdf",
+      "size": 10947857,
+      "modifiedAt": "2025-10-27T01:59:20.443Z"
     },
     {
       "id": "课程Course/模拟电子技术/试卷/模拟电子技术21.pdf",
@@ -9390,22 +9490,22 @@
       "categoryId": "网站Website",
       "ext": ".md",
       "mime": "text/markdown",
-      "size": 723,
-      "modifiedAt": "2025-10-25T08:04:20.751Z",
+      "size": 921,
+      "modifiedAt": "2025-10-26T11:41:18.250Z",
       "title": "# 网站",
-      "digest": "# 网站 ## [沙漠东诊疗手册-MSDManuals](https://www.msdmanuals.cn/) ## [中国医药信息查询平台-China Medical Information Platform](https://www.dayi.org.cn/) ## [KnowSex-性教育站](https://knowsex.net/) ## [LKs 网站推荐合集-LKs Site Collection](https://lkssite.vip/) ## [CS …"
+      "digest": "# 网站 ## [SurviveSJTU](https://survivesjtu.gitbook.io/survivesjtumanual/) ## [NUAA 爱的分享站](https://nuaa.fenxiang.love/) ## [NUAA Guide-南京航空航天大学指南](https://nuaaguide.online/) ## [沙漠东诊疗手册-MSDManuals](https://www.msdmanuals.cn/) ## [中国医药信息查询平台-…"
     },
     {
-      "id": "网站Website/此网站制作者/ebotian.md",
-      "name": "ebotian.md",
-      "path": "网站Website/此网站制作者/ebotian.md",
+      "id": "网站Website/此网站制作者/贡献者.md",
+      "name": "贡献者.md",
+      "path": "网站Website/此网站制作者/贡献者.md",
       "categoryId": "网站Website/此网站制作者",
       "ext": ".md",
       "mime": "text/markdown",
-      "size": 266,
-      "modifiedAt": "2025-10-26T08:03:39.502Z",
+      "size": 333,
+      "modifiedAt": "2025-10-27T02:05:31.519Z",
       "title": "制作人: ebit",
-      "digest": "制作人: ebit 有任何资料补充,错误指正,网站修改建议,请联系我: - 尽量用邮箱: yiboxiaotian@nuaa.edu.cn - QQ: 3095016460 本人更新频率大约为每周一次 --- 再次感谢所有在这过程中无私分享资源的前辈和朋友们!"
+      "digest": "制作人: ebit 有任何资料补充,错误指正,网站修改建议,请联系我: - 尽量用邮箱: `yiboxiaotian@nuaa.edu.cn` - QQ: `3095016460` 本人更新频率大约为每周一次 --- 再次感谢所有在这过程中无私分享资源的前辈和朋友们! ## 感谢来自id:lsldhd的同学提供的部分网站资源!"
     },
     {
       "id": "新生荐读/README.md",
@@ -9673,9 +9773,9 @@
     }
   ],
   "stats": {
-    "totalFiles": 958,
-    "totalCategories": 406,
-    "ignoredPaths": 406,
-    "processingTimeMs": 370
+    "totalFiles": 968,
+    "totalCategories": 407,
+    "ignoredPaths": 407,
+    "processingTimeMs": 354
   }
 }
