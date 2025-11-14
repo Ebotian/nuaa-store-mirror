@@ -161,9 +161,11 @@ export function TopBar() {
 								className="absolute inset-0 border border-surface-divider/40"
 								aria-hidden
 							/>
-							<span className="relative font-mono text-[0.65rem] text-accent-focus">
-								NUAA-0321
-							</span>
+							<img
+								src="/pataphysicslogo-ani.svg"
+								alt="NUAA-0321"
+								className="absolute inset-0 h-full w-full object-cover -z-10"
+							/>
 						</button>
 						<div className="flex flex-col">
 							<span className="text-xs font-semibold uppercase tracking-[0.42em] text-foreground-subtle">
